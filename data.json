@@ -1,0 +1,2545 @@
+[
+  {
+    "id": 1,
+    "title": "ビジネスメール作成（謝罪）",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはビジネスコミュニケーションのプロフェッショナルです。\n\n【目的・背景】\n[例: 納期遅延について取引先に謝罪する]\n\n【ターゲット】\n[例: 長年の取引先の担当者]\n\n【トーン・雰囲気】\n誠実で丁寧、かつプロフェッショナル\n\n【期待するアウトプット】\n・件名\n・本文（挨拶、謝罪、原因説明、対策、締め）\n・署名",
+    "category": "文章生成",
+    "tags": [
+      "メール文面",
+      "ビジネス",
+      "謝罪"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "ビジネスメール作成（依頼）",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはビジネスメールの専門家です。\n\n【目的・背景】\n[例: 新規プロジェクトへの協力を依頼する]\n\n【ターゲット】\n[例: 他部署のマネージャー]\n\n【トーン・雰囲気】\n丁寧かつ説得力のある\n\n【期待するアウトプット】\n・件名\n・本文（背景説明、依頼内容、メリット提示、締め切り）",
+    "category": "文章生成",
+    "tags": [
+      "メール文面",
+      "ビジネス",
+      "依頼"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "お礼メール作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは心のこもったコミュニケーションの専門家です。\n\n【目的・背景】\n[例: 面接後のお礼を伝える]\n\n【ターゲット】\n[例: 採用担当者]\n\n【トーン・雰囲気】\n温かみがあり、誠実\n\n【期待するアウトプット】\n・件名\n・本文（感謝、印象に残った点、意欲表明）",
+    "category": "文章生成",
+    "tags": [
+      "メール文面",
+      "お礼"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "業務マニュアル作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは業務プロセス設計の専門家です。\n\n【目的・背景】\n[例: 新入社員向けの経費精算手順書を作成する]\n\n【ターゲット】\n[例: 入社1ヶ月目の新入社員]\n\n【トーン・雰囲気】\n分かりやすく、ステップバイステップ\n\n【期待するアウトプット】\n・目次\n・各ステップの詳細手順（スクリーンショット挿入箇所の指示含む）\n・よくある質問（FAQ）\n・注意点",
+    "category": "文章生成",
+    "tags": [
+      "マニュアル作成",
+      "業務",
+      "手順書"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "製品操作マニュアル",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはテクニカルライターです。\n\n【目的・背景】\n[例: 家電製品の初期設定ガイドを作成する]\n\n【ターゲット】\n[例: テクノロジーに詳しくない高齢者]\n\n【トーン・雰囲気】\n簡潔で親切、専門用語を避ける\n\n【期待するアウトプット】\n・箱を開けてから使えるまでの手順\n・図解の挿入箇所指示\n・トラブルシューティング",
+    "category": "文章生成",
+    "tags": [
+      "マニュアル作成",
+      "製品",
+      "ガイド"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "プレゼン資料構成案",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはプレゼンテーションデザインの専門家です。\n\n【目的・背景】\n[例: 新規事業の提案を役員会で発表する]\n\n【ターゲット】\n[例: 経営層（意思決定者）]\n\n【トーン・雰囲気】\n論理的、説得力があり、データドリブン\n\n【期待するアウトプット】\n・スライド構成（10枚程度）\n・各スライドの見出しとキーメッセージ\n・ビジュアル候補の提案",
+    "category": "文章生成",
+    "tags": [
+      "資料作成",
+      "プレゼン",
+      "提案"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "企画書テンプレート",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは企画立案のプロフェッショナルです。\n\n【目的・背景】\n[例: 社内イベントの企画を上司に提案する]\n\n【ターゲット】\n[例: 部門長]\n\n【トーン・雰囲気】\n説得力があり、具体的で実行可能\n\n【期待するアウトプット】\n・企画概要\n・目的と期待効果\n・スケジュール案\n・予算概算\n・リスクと対策",
+    "category": "文章生成",
+    "tags": [
+      "資料作成",
+      "企画書",
+      "提案"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "報告書作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはビジネスレポートの専門家です。\n\n【目的・背景】\n[例: 四半期の営業成績を報告する]\n\n【ターゲット】\n[例: 経営陣]\n\n【トーン・雰囲気】\n客観的、簡潔、データに基づく\n\n【期待するアウトプット】\n・エグゼクティブサマリー\n・主要KPIの分析\n・課題と改善策\n・次期の展望",
+    "category": "文章生成",
+    "tags": [
+      "資料作成",
+      "報告書",
+      "分析"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "SEOブログ記事",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはSEOとコンテンツマーケティングの専門家です。\n\n【目的・背景】\n[例: 「在宅ワーク 効率化」で検索上位を狙う]\n\n【ターゲット】\n[例: 在宅勤務を始めたばかりの会社員]\n\n【トーン・雰囲気】\n親しみやすく、実用的\n\n【期待するアウトプット】\n・SEO最適化されたタイトル（H1）\n・メタディスクリプション\n・見出し構成（H2, H3）\n・本文（2000-3000文字）\n・CTAの提案",
+    "category": "文章生成",
+    "tags": [
+      "ブログ",
+      "SEO",
+      "コンテンツ"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "SNS投稿文作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはソーシャルメディアマーケターです。\n\n【目的・背景】\n[例: 新製品の認知度を上げたい]\n\n【ターゲット】\n[例: 20-30代の女性]\n\n【トーン・雰囲気】\nカジュアルで親しみやすい、絵文字適度に使用\n\n【期待するアウトプット】\n・Instagram用（画像キャプション、ハッシュタグ）\n・X(Twitter)用（140字以内）\n・投稿最適時間の提案",
+    "category": "文章生成",
+    "tags": [
+      "SNS",
+      "マーケティング",
+      "投稿"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "キャラクターデザイン（ファンタジー）",
+    "image": "https://placehold.co/600x400/2e1a1a/e9b645?text=Fantasy+Character",
+    "prompt": "【目的・背景】\nゲームやイラスト用のオリジナルキャラクター\n\n【キャラクター設定】\n種族: [例: エルフ、人間、獣人]\n職業: [例: 魔法使い、戦士、盗賊]\n性別・年齢: [例: 女性、20代]\n性格: [例: 勇敢、神秘的、陽気]\n\n【ビジュアルスタイル】\n[例: アニメスタイル、写実的、セルシェード]\n\n【構図・ポーズ】\n[例: 全身立ち絵、バストアップ、アクションポーズ]\n\n【サンプルプロンプト】\nfemale elf mage, long silver hair, glowing blue eyes, ornate robe, holding magical staff, forest background, fantasy art style, highly detailed, 8k",
+    "category": "画像生成",
+    "tags": [
+      "キャラクター",
+      "ファンタジー",
+      "ゲーム"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "キャラクターデザイン（現代）",
+    "image": "https://placehold.co/600x400/1a1a2e/e94560?text=Modern+Character",
+    "prompt": "【目的・背景】\n現代設定のキャラクターイラスト\n\n【キャラクター設定】\n職業: [例: 学生、会社員、アーティスト]\n性別・年齢: [例: 男性、30代]\nファッション: [例: カジュアル、ストリート、フォーマル]\n\n【ビジュアルスタイル】\n[例: リアル調、イラスト調、漫画風]\n\n【構図・ポーズ】\n[例: 日常シーン、ポートレート]\n\n【サンプルプロンプト】\nyoung japanese businessman, modern suit, confident smile, city background, professional photograph style, cinematic lighting",
+    "category": "画像生成",
+    "tags": [
+      "キャラクター",
+      "現代",
+      "リアル"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "風景イラスト（自然）",
+    "image": "https://placehold.co/600x400/228B22/ffffff?text=Nature+Landscape",
+    "prompt": "【目的・背景】\n背景素材、壁紙、コンセプトアート用\n\n【シーン設定】\n場所: [例: 山、海、森、草原]\n時間帯: [例: 朝焼け、昼、夕暮れ、夜]\n季節: [例: 春、夏、秋、冬]\n天気: [例: 晴れ、曇り、雨、雪]\n\n【ビジュアルスタイル】\n[例: 写真リアル、油絵風、ジブリ風、印象派]\n\n【サンプルプロンプト】\nbreathtaking mountain landscape, sunset, golden hour lighting, snow-capped peaks, pine forest, lake reflection, oil painting style, 8k resolution",
+    "category": "画像生成",
+    "tags": [
+      "風景",
+      "自然",
+      "背景"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "風景イラスト（都市）",
+    "image": "https://placehold.co/600x400/1a1a2e/e94560?text=Urban+Landscape",
+    "prompt": "【目的・背景】\n都市景観のコンセプトアート\n\n【シーン設定】\n都市タイプ: [例: 近未来、現代東京、レトロ欧州]\n時間帯: [例: 夜景、雨の日、霧]\n視点: [例: 俯瞰、ストリートレベル、屋上から]\n\n【ビジュアルスタイル】\n[例: サイバーパンク、写実的、アニメ背景]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k",
+    "category": "画像生成",
+    "tags": [
+      "風景",
+      "都市",
+      "SF"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "3Dオブジェクトデザイン",
+    "image": "https://placehold.co/600x400/4a4a4a/ffffff?text=3D+Object",
+    "prompt": "【目的・背景】\nゲームアセット、プロダクトビジュアライゼーション\n\n【オブジェクト】\n種類: [例: 武器、家具、乗り物、食品]\n詳細: [例: 中世の剣、モダンなソファ]\n\n【ビジュアルスタイル】\n[例: フォトリアル3D、ローポリ、スタイライズド]\n\n【ライティング・背景】\n[例: スタジオ照明、透明背景、環境光]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed",
+    "category": "画像生成",
+    "tags": [
+      "3D",
+      "オブジェクト",
+      "ゲーム"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "ロゴデザイン",
+    "image": "https://placehold.co/600x400/000000/ffffff?text=Logo+Design",
+    "prompt": "【目的・背景】\n企業・サービス・イベント用のロゴ\n\n【ブランド情報】\n名前: [例: TechNova]\n業種: [例: ITスタートアップ]\nブランドイメージ: [例: 革新的、信頼性、親しみやすい]\n\n【デザイン希望】\nタイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]\nカラー: [例: 青系、モノクロ、グラデーション]\nスタイル: [例: ミニマル、幾何学的、手書き風]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background",
+    "category": "画像生成",
+    "tags": [
+      "ロゴ",
+      "デザイン",
+      "ブランディング"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "アイコンセット",
+    "image": "https://placehold.co/600x400/6366f1/ffffff?text=Icon+Set",
+    "prompt": "【目的・背景】\nアプリ、Webサイト、プレゼン用のアイコン\n\n【アイコン内容】\nテーマ: [例: ビジネス、ヘルスケア、教育]\n必要なアイコン: [例: ホーム、設定、ユーザー、検索]\n\n【デザインスタイル】\n線の太さ: [例: 細い線、太い線、塗りつぶし]\n角: [例: 丸角、直角]\nカラー: [例: 単色、グラデーション、アクセントカラー]\n\n【サンプルプロンプト】\nflat design icon set, business theme, home settings user search icons, thin line style, rounded corners, blue color scheme, consistent style, vector",
+    "category": "画像生成",
+    "tags": [
+      "アイコン",
+      "UI",
+      "Webデザイン"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "食品・料理写真風",
+    "image": "https://placehold.co/600x400/8B4513/ffffff?text=Food+Photo",
+    "prompt": "【目的・背景】\nメニュー、広告、SNS投稿用の料理ビジュアル\n\n【料理情報】\n料理名: [例: パスタ、寿司、ケーキ]\nスタイル: [例: 和食、洋食、デザート]\n\n【撮影スタイル】\nアングル: [例: 真上(フラットレイ)、45度、接写]\nライティング: [例: 自然光、バックライト、ムーディ]\n背景・小物: [例: 木のテーブル、白皿、ハーブ添え]\n\n【サンプルプロンプト】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k",
+    "category": "画像生成",
+    "tags": [
+      "食品",
+      "写真",
+      "広告"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "インテリアデザイン",
+    "image": "https://placehold.co/600x400/DEB887/333333?text=Interior",
+    "prompt": "【目的・背景】\n住宅、オフィス、店舗のインテリア提案\n\n【空間情報】\n部屋タイプ: [例: リビング、寝室、オフィス]\nスタイル: [例: モダン、北欧、和モダン]\n広さ: [例: 20畳、コンパクト]\n\n【要素】\n家具: [例: ソファ、デスク、ベッド]\nカラーパレット: [例: ナチュラル、モノトーン、アクセントカラー]\n素材: [例: 木、コンクリート、ファブリック]\n\n【サンプルプロンプト】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k",
+    "category": "画像生成",
+    "tags": [
+      "インテリア",
+      "建築",
+      "デザイン"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "アニメ風イラスト",
+    "image": "https://placehold.co/600x400/FF69B4/ffffff?text=Anime+Style",
+    "prompt": "【目的・背景】\n同人誌、グッズ、アイコン用イラスト\n\n【キャラクター】\nタイプ: [例: 美少女、少年、デフォルメ]\n表情: [例: 笑顔、クール、照れ]\n服装: [例: 制服、ファンタジー衣装、私服]\n\n【スタイル・作画】\n参考作風: [例: 京アニ風、ufotable風、萌え系]\n塗り: [例: アニメ塗り、厚塗り、水彩]\n\n【サンプルプロンプト】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed",
+    "category": "画像生成",
+    "tags": [
+      "アニメ",
+      "イラスト",
+      "キャラクター"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Python: データ分析スクリプト",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは経験豊富なPythonエンジニアです。\n\n【目的・背景】\n[例: CSVファイルの売上データを分析し、月次レポートを自動生成したい]\n\n【開発環境】\nPython: [例: 3.11]\n使用ライブラリ: [例: pandas, matplotlib]\n\n【入力データ】\n[例: sales.csv - 日付、商品名、売上金額、個数のカラムを含む]\n\n【期待するアウトプット】\n・コード全体（コメント付き）\n・月別売上集計\n・グラフ出力（棒グラフ、折れ線グラフ）\n・エラーハンドリング",
+    "category": "コーディング",
+    "tags": [
+      "Python",
+      "データ分析",
+      "自動化"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Python: Webスクレイピング",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはWebスクレイピングの専門家です。\n\n【目的・背景】\n[例: ニュースサイトから最新記事のタイトルとURLを取得したい]\n\n【対象サイト】\n[例: 一般的なニュースサイト（robots.txtを遵守）]\n\n【技術要件】\nライブラリ: [例: requests, BeautifulSoup]\n注意点: [例: レート制限、User-Agent設定]\n\n【期待するアウトプット】\n・スクレイピングコード\n・データ保存（CSV/JSON）\n・エラー処理\n・法的注意事項のコメント",
+    "category": "コーディング",
+    "tags": [
+      "Python",
+      "スクレイピング",
+      "自動化"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "JavaScript: REST API実装",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはNode.js/Express開発者です。\n\n【目的・背景】\n[例: ユーザー管理のCRUD APIを構築したい]\n\n【技術スタック】\nフレームワーク: [例: Express.js]\nデータベース: [例: MongoDB, PostgreSQL]\n\n【エンドポイント】\n[例: GET /users, POST /users, PUT /users/:id, DELETE /users/:id]\n\n【期待するアウトプット】\n・ルーティング設定\n・コントローラー\n・バリデーション\n・エラーハンドリング\n・Swagger/OpenAPIドキュメント",
+    "category": "コーディング",
+    "tags": [
+      "JavaScript",
+      "API",
+      "バックエンド"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "React: UIコンポーネント",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはReactのフロントエンド専門家です。\n\n【目的・背景】\n[例: 再利用可能なモーダルコンポーネントを作成したい]\n\n【技術スタック】\nReact: [例: 18.x]\nスタイリング: [例: CSS Modules, Tailwind]\n状態管理: [例: useState, Zustand]\n\n【コンポーネント要件】\nprops: [例: isOpen, onClose, title, children]\n機能: [例: ESCキーで閉じる、外側クリックで閉じる]\n\n【期待するアウトプット】\n・TypeScript対応のコンポーネント\n・スタイル\n・使用例（ストーリー）\n・アクセシビリティ対応",
+    "category": "コーディング",
+    "tags": [
+      "React",
+      "フロントエンド",
+      "UI"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "SQL: 複雑なクエリ作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはデータベースエンジニアです。\n\n【目的・背景】\n[例: 顧客の購買履歴から優良顧客を抽出したい]\n\n【データベース】\n種類: [例: PostgreSQL, MySQL]\nテーブル構造: [例: customers, orders, products]\n\n【要件】\n抽出条件: [例: 過去1年で10万円以上購入した顧客]\n並び順: [例: 購入金額の降順]\n\n【期待するアウトプット】\n・SQLクエリ\n・インデックス推奨\n・実行計画の解説\n・パフォーマンス最適化のヒント",
+    "category": "コーディング",
+    "tags": [
+      "SQL",
+      "データベース",
+      "分析"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "HTML/CSS: レスポンシブレイアウト",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはCSS設計の専門家です。\n\n【目的・背景】\n[例: モバイルファーストのランディングページを作成したい]\n\n【レイアウト要件】\n構成: [例: ヘッダー、ヒーロー、特徴セクション、フッター]\nブレイクポイント: [例: 768px, 1024px]\n\n【デザイン仕様】\nカラー: [例: プライマリ #3B82F6]\nフォント: [例: Noto Sans JP]\n\n【期待するアウトプット】\n・セマンティックHTML\n・モダンCSS（Flexbox/Grid）\n・レスポンシブ対応\n・アクセシビリティ考慮",
+    "category": "コーディング",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Webサイト"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "TypeScript: 型定義設計",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはTypeScriptの型システム専門家です。\n\n【目的・背景】\n[例: ECサイトのドメインモデルの型を設計したい]\n\n【ドメイン】\nエンティティ: [例: User, Product, Order, Cart]\n関係性: [例: UserはOrdersを持つ、OrderはProductsを含む]\n\n【要件】\nユーティリティ型: [例: Partial, Pick, Omit の活用]\nジェネリクス: [例: APIレスポンス型]\n\n【期待するアウトプット】\n・interface/type定義\n・型ガード関数\n・Zodスキーマ（オプション）\n・使用例",
+    "category": "コーディング",
+    "tags": [
+      "TypeScript",
+      "型定義",
+      "設計"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Git: ワークフロー設計",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: チーム開発のブランチ戦略を確立したい]\n\n【チーム規模】\n人数: [例: 5名]\nリリース頻度: [例: 週1回]\n\n【要件】\nブランチモデル: [例: Git Flow, GitHub Flow]\nCI/CD: [例: GitHub Actions連携]\n\n【期待するアウトプット】\n・ブランチ命名規則\n・マージ戦略\n・コミットメッセージ規約\n・プルリクエストテンプレート",
+    "category": "コーディング",
+    "tags": [
+      "Git",
+      "DevOps",
+      "チーム開発"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Lo-Fi BGM（作業用）",
+    "image": "https://placehold.co/600x400/4B0082/ffffff?text=Lo-Fi",
+    "prompt": "【目的・背景】\n作業・勉強に集中するためのBGM\n\n【ムード・雰囲気】\n[例: 穏やか、ノスタルジック、雨の日]\n\n【楽器・サウンド】\nメイン: [例: ピアノ、ギター]\nサブ: [例: ソフトなドラム、環境音]\n\n【テンポ・長さ】\nBPM: [例: 70-85]\n長さ: [例: 3分]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",
+    "category": "音声・音楽生成",
+    "tags": [
+      "Lo-Fi",
+      "作業用",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "ゲームBGM（バトル）",
+    "image": "https://placehold.co/600x400/8B0000/ffffff?text=Battle+BGM",
+    "prompt": "【目的・背景】\nゲームのボス戦・バトルシーン用\n\n【ムード・雰囲気】\n[例: 激しい、緊迫感、壮大]\n\n【楽器・サウンド】\nメイン: [例: オーケストラ、エレキギター]\nパーカッション: [例: 激しいドラム、ティンパニ]\n\n【テンポ・長さ】\nBPM: [例: 140-180]\nループ対応: [例: はい]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ゲーム",
+      "バトル",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "ポッドキャスト用ジングル",
+    "image": "https://placehold.co/600x400/32CD32/ffffff?text=Podcast",
+    "prompt": "【目的・背景】\n番組のオープニング/エンディング用\n\n【ムード・雰囲気】\n[例: 明るい、プロフェッショナル、カジュアル]\n\n【番組ジャンル】\n[例: ビジネス、エンタメ、教育]\n\n【テンポ・長さ】\n長さ: [例: 5-10秒]\nBPM: [例: 110-130]\n\n【サンプルプロンプト】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ポッドキャスト",
+      "ジングル",
+      "短尺"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "リラクゼーション音楽",
+    "image": "https://placehold.co/600x400/2F4F4F/F0FFF0?text=Relaxing",
+    "prompt": "【目的・背景】\n瞑想、ヨガ、睡眠導入用\n\n【ムード・雰囲気】\n[例: 穏やか、神秘的、自然]\n\n【楽器・サウンド】\nメイン: [例: シンセパッド、ピアノ]\n環境音: [例: 波の音、鳥の声、風]\n\n【テンポ・長さ】\nBPM: [例: 50-70]\n長さ: [例: 10分]\n\n【サンプルプロンプト】\nambient meditation music, soft synthesizer pads, gentle piano, nature sounds, very slow tempo 55bpm, calming, healing frequencies, 432hz",
+    "category": "音声・音楽生成",
+    "tags": [
+      "リラクゼーション",
+      "瞑想",
+      "睡眠"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "製品プロモーション動画",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは動画プロデューサーです。\n\n【目的・背景】\n[例: 新発売のスマートウォッチのSNS広告動画]\n\n【ターゲット】\n[例: 20-30代の健康志向ビジネスパーソン]\n\n【動画仕様】\n長さ: [例: 30秒]\nアスペクト比: [例: 9:16（縦動画）]\nスタイル: [例: クリーン、ミニマル、ダイナミック]\n\n【シーン構成】\nイントロ: [例: 問題提起、日常シーン]\n本編: [例: 製品登場、機能紹介]\nアウトロ: [例: ロゴ、CTA]\n\n【サンプルプロンプト（シーン別）】\nScene 1: close-up of smartwatch on wrist, morning sunlight, person checking health stats\nScene 2: dynamic transition, product features appearing, sleek animation",
+    "category": "動画生成",
+    "tags": [
+      "プロモーション",
+      "広告",
+      "SNS"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "YouTube動画オープニング",
+    "image": null,
+    "prompt": "【目的・背景】\nチャンネルのブランディング用イントロ\n\n【チャンネルジャンル】\n[例: テック系、Vlog、ゲーム実況]\n\n【トーン・雰囲気】\n[例: クール、ポップ、プロフェッショナル]\n\n【動画仕様】\n長さ: [例: 5秒]\nロゴ/チャンネル名: [例: TechReview]\n\n【要素】\nモーション: [例: ロゴアニメーション、パーティクル]\nカラー: [例: ブランドカラー使用]\nサウンド: [例: ジングル連動]\n\n【サンプルプロンプト】\ndynamic youtube intro animation, logo reveal, particle effects, tech style, blue neon glow, fast paced, 5 seconds, 4k",
+    "category": "動画生成",
+    "tags": [
+      "YouTube",
+      "オープニング",
+      "ブランディング"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "ドキュメンタリー風映像",
+    "image": null,
+    "prompt": "【目的・背景】\nストーリーテリング、インタビュー素材\n\n【テーマ】\n[例: 職人の仕事、地域の歴史、自然環境]\n\n【ビジュアルスタイル】\nトーン: [例: シネマティック、ノスタルジック]\nカラーグレード: [例: フィルム風、ナチュラル]\n\n【カメラワーク】\n[例: ゆっくりしたパン、クローズアップ、インタビューショット]\n\n【サンプルプロンプト】\ndocumentary style footage, craftsman hands working, warm color grading, shallow depth of field, slow cinematic movements, natural lighting, film grain",
+    "category": "動画生成",
+    "tags": [
+      "ドキュメンタリー",
+      "撮影",
+      "映像"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "SNS用ショート動画",
+    "image": null,
+    "prompt": "【目的・背景】\nTikTok/Reels/Shorts用のエンゲージメント獲得\n\n【コンテンツタイプ】\n[例: ハウツー、Before/After、トレンド]\n\n【ターゲット】\n[例: Z世代]\n\n【動画仕様】\n長さ: [例: 15-60秒]\nアスペクト比: 9:16\n\n【要素】\nフック: [例: 最初の3秒で興味を引く]\nテンポ: [例: 速いカット]\nテキスト: [例: 字幕オーバーレイ]\n\n【サンプルプロンプト】\nvertical video, fast cuts, trendy transitions, bright colorful aesthetic, gen-z style, dynamic camera movement, text overlays, engaging hook",
+    "category": "動画生成",
+    "tags": [
+      "SNS",
+      "ショート",
+      "TikTok"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "議事録作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは会議ファシリテーターです。\n\n【目的・背景】\n[例: 部門ミーティングの議事録を作成する]\n\n【参加者】\n[例: マーケティング部 5名]\n\n【トーン・雰囲気】\n簡潔で正確、要点を押さえた\n\n【期待するアウトプット】\n・日時、場所、参加者\n・議題一覧\n・各議題の議論要約\n・決定事項\n・アクションアイテム（担当者、期限）",
+    "category": "文章生成",
+    "tags": [
+      "議事録",
+      "ビジネス",
+      "会議"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "製品説明文",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはコピーライターです。\n\n【目的・背景】\n[例: ECサイトの商品ページ用説明文を作成]\n\n【製品情報】\n名前: [例: ワイヤレスイヤホン XYZ]\n特徴: [例: ノイズキャンセリング、30時間再生]\n\n【ターゲット】\n[例: 20-40代の音楽好き]\n\n【トーン・雰囲気】\n魅力的で購買意欲を刺激する\n\n【期待するアウトプット】\n・キャッチコピー\n・製品概要（100文字）\n・詳細説明（300-500文字）\n・スペック表",
+    "category": "文章生成",
+    "tags": [
+      "製品説明",
+      "EC",
+      "マーケティング"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "プレスリリース作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは広報担当者です。\n\n【目的・背景】\n[例: 新サービスのローンチを発表する]\n\n【発表内容】\n[例: AIチャットボットサービス開始]\n\n【ターゲット】\n[例: IT系メディア、業界記者]\n\n【トーン・雰囲気】\n公式、信頼性がある、ニュース価値を伝える\n\n【期待するアウトプット】\n・タイトル\n・リード文（5W1H）\n・本文（背景、詳細、今後の展望）\n・会社概要\n・問い合わせ先",
+    "category": "文章生成",
+    "tags": [
+      "プレスリリース",
+      "広報",
+      "メディア"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "FAQ作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはカスタマーサポートの専門家です。\n\n【目的・背景】\n[例: 自社サービスのヘルプページ用FAQ]\n\n【サービス/製品】\n[例: サブスクリプション型動画配信サービス]\n\n【想定される質問カテゴリ】\n[例: 料金、使い方、解約、トラブル]\n\n【トーン・雰囲気】\n親切で分かりやすい\n\n【期待するアウトプット】\n・カテゴリ別Q&A（各5-10件）\n・回答は簡潔に（100文字以内）",
+    "category": "文章生成",
+    "tags": [
+      "FAQ",
+      "サポート",
+      "ヘルプ"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "求人票作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは採用担当者です。\n\n【目的・背景】\n[例: エンジニア採用の求人票を作成]\n\n【ポジション詳細】\n職種: [例: フロントエンドエンジニア]\n雇用形態: [例: 正社員]\n必須スキル: [例: React, TypeScript 3年以上]\n\n【企業の魅力】\n[例: フルリモート、フレックス制度]\n\n【トーン・雰囲気】\n魅力的で候補者を惹きつける\n\n【期待するアウトプット】\n・職種タイトル\n・仕事内容\n・応募条件\n・福利厚生\n・選考フロー",
+    "category": "文章生成",
+    "tags": [
+      "求人票",
+      "採用",
+      "HR"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "自己紹介文",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはパーソナルブランディングの専門家です。\n\n【目的・背景】\n[例: LinkedInプロフィール用の自己紹介]\n\n【基本情報】\n職業: [例: マーケティングマネージャー]\n経験年数: [例: 10年]\n強み: [例: データドリブンな戦略立案]\n\n【ターゲット】\n[例: 転職エージェント、採用担当者]\n\n【トーン・雰囲気】\nプロフェッショナルかつ人間味のある\n\n【期待するアウトプット】\n・キャッチフレーズ\n・経歴要約\n・実績ハイライト\n・価値観・目標",
+    "category": "文章生成",
+    "tags": [
+      "自己紹介",
+      "キャリア",
+      "プロフィール"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "レビュー返信",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはカスタマーサクセス担当です。\n\n【目的・背景】\n[例: 低評価レビューに誠実に返信する]\n\n【レビュー内容】\n[例: 配送が遅れた、商品に傷があった]\n\n【対象プラットフォーム】\n[例: Amazon、Googleマップ]\n\n【トーン・雰囲気】\n誠実、謝罪と感謝、建設的\n\n【期待するアウトプット】\n・お礼\n・問題への謝罪\n・改善策の提示\n・継続利用のお願い",
+    "category": "文章生成",
+    "tags": [
+      "レビュー",
+      "カスタマーサポート",
+      "返信"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "契約書ドラフト",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは法務アドバイザーです。\n\n【目的・背景】\n[例: フリーランス向け業務委託契約書のドラフト]\n\n【契約種類】\n[例: 業務委託契約、秘密保持契約、売買契約]\n\n【主要条件】\n[例: 期間、報酬、成果物の定義]\n\n【トーン・雰囲気】\n法的に正確、明確\n\n【期待するアウトプット】\n・契約書タイトル\n・当事者情報\n・目的条項\n・権利義務\n・期間・解除条項\n・署名欄\n\n※法的助言ではありません。専門家に確認してください。",
+    "category": "文章生成",
+    "tags": [
+      "契約書",
+      "法務",
+      "ビジネス"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "スピーチ原稿",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはスピーチライターです。\n\n【目的・背景】\n[例: 結婚式の友人代表スピーチ]\n\n【シチュエーション】\n場面: [例: 結婚式、入社式、卒業式]\n時間: [例: 5分程度]\n\n【話者情報】\n[例: 新郎の大学時代の友人]\n\n【トーン・雰囲気】\n感動的、ユーモア、心温まる\n\n【期待するアウトプット】\n・冒頭（自己紹介、関係性）\n・エピソード\n・メッセージ\n・締めの言葉",
+    "category": "文章生成",
+    "tags": [
+      "スピーチ",
+      "原稿",
+      "イベント"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "小説・ストーリー",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは小説家です。\n\n【目的・背景】\n[例: 短編小説のプロット作成]\n\n【ジャンル】\n[例: ミステリー、恋愛、SF、ファンタジー]\n\n【設定】\n舞台: [例: 近未来の東京]\n主人公: [例: 記憶を失った探偵]\n\n【トーン・雰囲気】\n[例: ダーク、コミカル、感動的]\n\n【期待するアウトプット】\n・あらすじ（200文字）\n・主要キャラクター紹介\n・起承転結の構成\n・冒頭シーン（500文字）",
+    "category": "文章生成",
+    "tags": [
+      "小説",
+      "ストーリー",
+      "クリエイティブ"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "ニュースレター",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはコンテンツマーケターです。\n\n【目的・背景】\n[例: 月次の顧客向けニュースレター]\n\n【配信対象】\n[例: 既存顧客500名]\n\n【含めるコンテンツ】\n[例: 新機能紹介、イベント告知、業界ニュース]\n\n【トーン・雰囲気】\n親しみやすく、価値を提供\n\n【期待するアウトプット】\n・件名（開封率を意識）\n・挨拶\n・各セクション（見出し+本文）\n・CTA\n・フッター",
+    "category": "文章生成",
+    "tags": [
+      "ニュースレター",
+      "メール",
+      "マーケティング"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "翻訳・ローカライズ",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはプロの翻訳者です。\n\n【目的・背景】\n[例: 日本語のWebサイトを英語にローカライズ]\n\n【原文】\n[翻訳したいテキストを貼り付け]\n\n【翻訳方向】\n[例: 日→英、英→日]\n\n【トーン・雰囲気】\n[例: フォーマル、カジュアル、技術的]\n\n【ターゲット】\n[例: アメリカ市場向け]\n\n【期待するアウトプット】\n・翻訳文\n・文化的に適切な表現への調整\n・意訳が必要な箇所の注釈",
+    "category": "文章生成",
+    "tags": [
+      "翻訳",
+      "ローカライズ",
+      "多言語"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "ポートレート写真風",
+    "image": "https://placehold.co/600x400/8B4513/ffffff?text=Portrait",
+    "prompt": "【目的・背景】\nプロフィール写真、広告素材\n\n【被写体】\n性別/年齢: [例: 30代女性]\n表情: [例: 自信に満ちた笑顔]\n服装: [例: ビジネスカジュアル]\n\n【撮影スタイル】\nライティング: [例: レンブラントライティング、自然光]\n背景: [例: スタジオグレー、屋外ボケ]\n構図: [例: バストアップ、3/4アングル]\n\n【サンプルプロンプト】\nprofessional headshot portrait, asian businesswoman, confident smile, soft studio lighting, blurred office background, 85mm lens, shallow depth of field, 8k",
+    "category": "画像生成",
+    "tags": [
+      "ポートレート",
+      "写真",
+      "プロフィール"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "商品撮影風",
+    "image": "https://placehold.co/600x400/ffffff/333333?text=Product",
+    "prompt": "【目的・背景】\nEC、広告用の商品ビジュアル\n\n【商品】\n種類: [例: 化粧品、電子機器、アパレル]\n特徴: [例: 高級感、ミニマル]\n\n【撮影スタイル】\n背景: [例: 白背景、グラデーション、生活シーン]\nライティング: [例: ソフトボックス、リムライト]\nアングル: [例: 正面、45度、俯瞰]\n\n【サンプルプロンプト】\nproduct photography, luxury perfume bottle, minimalist white background, studio lighting, reflections, glass material, commercial quality, 8k",
+    "category": "画像生成",
+    "tags": [
+      "商品",
+      "撮影",
+      "EC"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "建物・建築CG",
+    "image": "https://placehold.co/600x400/87CEEB/333333?text=Architecture",
+    "prompt": "【目的・背景】\n建築ビジュアライゼーション、不動産広告\n\n【建築物】\n種類: [例: モダン住宅、オフィスビル、商業施設]\nスタイル: [例: ミニマリスト、和風、未来的]\n\n【表現】\n時間帯: [例: 昼、夕暮れ、夜景]\nアングル: [例: 外観パース、インテリア、鳥瞰]\n環境: [例: 緑化、都市環境]\n\n【サンプルプロンプト】\narchitectural visualization, modern japanese house, minimalist design, large windows, wooden exterior, garden, sunset lighting, photorealistic render, 8k",
+    "category": "画像生成",
+    "tags": [
+      "建築",
+      "CG",
+      "不動産"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "抽象アート",
+    "image": "https://placehold.co/600x400/FF6B6B/ffffff?text=Abstract",
+    "prompt": "【目的・背景】\n壁紙、アート作品、装飾\n\n【コンセプト】\nテーマ: [例: 感情、自然、音楽]\nカラーパレット: [例: 暖色系、モノクロ、パステル]\n\n【スタイル】\n参考: [例: 抽象表現主義、幾何学的、流体アート]\nテクスチャ: [例: 油絵の質感、デジタルスムース]\n\n【サンプルプロンプト】\nabstract art, fluid paint strokes, vibrant colors, blue and gold, emotional expression, modern art gallery style, high resolution, artistic",
+    "category": "画像生成",
+    "tags": [
+      "アート",
+      "抽象",
+      "装飾"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "イラスト（絵本風）",
+    "image": "https://placehold.co/600x400/FFD700/333333?text=Storybook",
+    "prompt": "【目的・背景】\n絵本、児童向けコンテンツ\n\n【シーン】\n場面: [例: 森の動物たちのパーティー]\nキャラクター: [例: うさぎ、くま、小鳥]\n\n【スタイル】\n塗り: [例: 水彩、パステル、クレヨン風]\nタッチ: [例: 優しい、ほのぼの]\n\n【サンプルプロンプト】\nchildren's book illustration, cute forest animals having picnic, soft watercolor style, warm colors, whimsical, storybook art, gentle lighting",
+    "category": "画像生成",
+    "tags": [
+      "絵本",
+      "イラスト",
+      "児童"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "テクスチャ・パターン",
+    "image": "https://placehold.co/600x400/8FBC8F/ffffff?text=Texture",
+    "prompt": "【目的・背景】\nデザイン素材、背景、3Dテクスチャ\n\n【テクスチャ種類】\n素材: [例: 木目、大理石、布地、金属]\nパターン: [例: 幾何学、花柄、和風]\n\n【仕様】\nシームレス: [例: はい/いいえ]\n解像度: [例: 4K]\n\n【サンプルプロンプト】\nseamless wood texture, light oak grain, natural pattern, high resolution, tileable, 4k, PBR material ready",
+    "category": "画像生成",
+    "tags": [
+      "テクスチャ",
+      "パターン",
+      "素材"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "モックアップ用画像",
+    "image": "https://placehold.co/600x400/4169E1/ffffff?text=Mockup",
+    "prompt": "【目的・背景】\nデザイン提案、プレゼン用素材\n\n【モックアップ種類】\nデバイス: [例: iPhone、MacBook、ポスター]\nシーン: [例: デスク上、手持ち、壁掛け]\n\n【スタイル】\n環境: [例: オフィス、カフェ、ミニマル]\nアングル: [例: 正面、斜め、俯瞰]\n\n【サンプルプロンプト】\nmockup scene, iphone on wooden desk, minimal office environment, natural lighting, shallow depth of field, professional photography, 4k",
+    "category": "画像生成",
+    "tags": [
+      "モックアップ",
+      "デザイン",
+      "プレゼン"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "バナー・広告素材",
+    "image": "https://placehold.co/600x400/FF4500/ffffff?text=Banner",
+    "prompt": "【目的・背景】\nWeb広告、SNS広告のビジュアル\n\n【広告内容】\n商品/サービス: [例: フィットネスアプリ]\nメッセージ: [例: 30日間無料トライアル]\n\n【デザイン仕様】\nサイズ: [例: 1200x628（Facebook）]\nスタイル: [例: モダン、ポップ、高級感]\n\n【サンプルプロンプト】\nadvertising banner design, fitness app promotion, energetic person exercising, bold typography space, vibrant orange gradient, modern design, eye-catching",
+    "category": "画像生成",
+    "tags": [
+      "バナー",
+      "広告",
+      "マーケティング"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "マスコットキャラクター",
+    "image": "https://placehold.co/600x400/32CD32/ffffff?text=Mascot",
+    "prompt": "【目的・背景】\n企業/サービスのマスコット\n\n【キャラクター設定】\nモチーフ: [例: 動物、ロボット、食べ物]\n性格: [例: 元気、優しい、知的]\nブランドイメージ: [例: テック系、エコ、子供向け]\n\n【スタイル】\nデザイン: [例: シンプル、ディテール多め]\n用途: [例: 印刷物、アニメーション対応]\n\n【サンプルプロンプト】\nmascot character design, friendly robot, rounded shapes, blue and white colors, simple design, multiple expressions sheet, vector style, brand mascot",
+    "category": "画像生成",
+    "tags": [
+      "マスコット",
+      "キャラクター",
+      "ブランディング"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "SNS投稿用グラフィック",
+    "image": "https://placehold.co/600x400/E91E63/ffffff?text=Social",
+    "prompt": "【目的・背景】\nInstagram、X等のフィード投稿\n\n【コンテンツ】\n種類: [例: 名言、お知らせ、Tips]\nブランド: [例: ロゴ、カラー指定]\n\n【デザイン仕様】\nサイズ: [例: 1080x1080（Instagram正方形）]\nスタイル: [例: ミニマル、カラフル、エレガント]\n\n【サンプルプロンプト】\nsocial media post design, inspirational quote card, minimalist layout, soft pastel background, modern typography, instagram aesthetic, clean design",
+    "category": "画像生成",
+    "tags": [
+      "SNS",
+      "グラフィック",
+      "デザイン"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "コンセプトアート（SF）",
+    "image": "https://placehold.co/600x400/1a1a2e/00FF7F?text=Sci-Fi",
+    "prompt": "【目的・背景】\nゲーム、映画、小説のビジュアル開発\n\n【シーン設定】\n舞台: [例: 宇宙ステーション、火星コロニー]\n時代: [例: 2150年]\nテーマ: [例: 人類の宇宙進出]\n\n【スタイル】\n参考作品: [例: Blade Runner、Mass Effect]\n雰囲気: [例: ユートピア、ディストピア]\n\n【サンプルプロンプト】\nsci-fi concept art, futuristic space station interior, holographic displays, sleek design, ambient blue lighting, astronauts in background, cinematic composition, matte painting style, 8k",
+    "category": "画像生成",
+    "tags": [
+      "コンセプトアート",
+      "SF",
+      "ゲーム"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "コンセプトアート（ファンタジー）",
+    "image": "https://placehold.co/600x400/4B0082/FFD700?text=Fantasy",
+    "prompt": "【目的・背景】\nゲーム、TRPG、小説のビジュアル\n\n【シーン設定】\n舞台: [例: 魔法の王国、ダンジョン]\n要素: [例: ドラゴン、魔法使い、古代遺跡]\n\n【スタイル】\n参考: [例: ダークファンタジー、ハイファンタジー]\nアーティスト風: [例: Frank Frazetta風]\n\n【サンプルプロンプト】\nfantasy concept art, ancient dragon's lair, treasure hoard, dramatic lighting, volumetric fog, epic scale, digital painting, artstation trending, 8k",
+    "category": "画像生成",
+    "tags": [
+      "コンセプトアート",
+      "ファンタジー",
+      "ゲーム"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Python: 自動化スクリプト（ファイル操作）",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはPythonエンジニアです。\n\n【目的・背景】\n[例: フォルダ内のファイルを日付別に整理したい]\n\n【入力】\n対象: [例: ~/Downloads内のファイル]\n条件: [例: 拡張子、作成日]\n\n【処理内容】\n[例: 年月フォルダを作成し移動]\n\n【期待するアウトプット】\n・コード（コメント付き）\n・エラーハンドリング\n・ログ出力\n・ドライラン機能",
+    "category": "コーディング",
+    "tags": [
+      "Python",
+      "自動化",
+      "ファイル操作"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Python: API連携",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはバックエンドエンジニアです。\n\n【目的・背景】\n[例: OpenWeather APIから天気情報を取得]\n\n【API情報】\nサービス: [例: OpenWeather]\n認証: [例: APIキー]\n\n【処理内容】\n[例: 指定都市の天気を取得してJSON保存]\n\n【期待するアウトプット】\n・リクエスト処理\n・レスポンスパース\n・エラーハンドリング\n・レート制限考慮",
+    "category": "コーディング",
+    "tags": [
+      "Python",
+      "API",
+      "外部連携"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "JavaScript: DOM操作",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはフロントエンドエンジニアです。\n\n【目的・背景】\n[例: フォームの入力バリデーションを実装]\n\n【要件】\n対象要素: [例: メールアドレス、電話番号]\nバリデーション: [例: 必須、形式チェック]\n\n【UI要件】\nエラー表示: [例: 入力欄下に赤文字]\nリアルタイム: [例: 入力中にチェック]\n\n【期待するアウトプット】\n・バニラJS実装\n・HTML/CSS\n・アクセシビリティ対応",
+    "category": "コーディング",
+    "tags": [
+      "JavaScript",
+      "DOM",
+      "フロントエンド"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "React: カスタムフック",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはReact専門家です。\n\n【目的・背景】\n[例: API呼び出しを共通化するカスタムフック]\n\n【フック名】\n[例: useFetch, useLocalStorage]\n\n【機能要件】\n[例: ローディング状態、エラーハンドリング、キャッシュ]\n\n【期待するアウトプット】\n・TypeScript対応フック\n・使用例\n・テストコード\n・ドキュメント",
+    "category": "コーディング",
+    "tags": [
+      "React",
+      "フック",
+      "フロントエンド"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "CSS: アニメーション",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはCSSアニメーション専門家です。\n\n【目的・背景】\n[例: ボタンホバー時のエフェクト]\n\n【アニメーション種類】\n[例: フェード、スライド、バウンス、モーフィング]\n\n【仕様】\nトリガー: [例: ホバー、クリック、スクロール]\n速度: [例: 0.3秒]\nイージング: [例: ease-out]\n\n【期待するアウトプット】\n・CSS（@keyframes）\n・HTML構造\n・パフォーマンス考慮",
+    "category": "コーディング",
+    "tags": [
+      "CSS",
+      "アニメーション",
+      "UI"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Node.js: バッチ処理",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはバックエンドエンジニアです。\n\n【目的・背景】\n[例: 毎日深夜にデータベースのバックアップ]\n\n【処理内容】\n[例: DBダンプ、圧縮、S3アップロード]\n\n【スケジュール】\n[例: cron形式で指定]\n\n【期待するアウトプット】\n・スクリプト\n・ログ出力\n・エラー通知（Slack等）\n・リトライ処理",
+    "category": "コーディング",
+    "tags": [
+      "Node.js",
+      "バッチ",
+      "バックエンド"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "SQL: データ移行",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはDBAです。\n\n【目的・背景】\n[例: 旧テーブルから新テーブルへのデータ移行]\n\n【テーブル構造】\n移行元: [例: users_old (id, name, email)]\n移行先: [例: users (id, first_name, last_name, email)]\n\n【変換ルール】\n[例: nameをfirst_nameとlast_nameに分割]\n\n【期待するアウトプット】\n・移行SQL\n・データ検証クエリ\n・ロールバック手順",
+    "category": "コーディング",
+    "tags": [
+      "SQL",
+      "データ移行",
+      "DBA"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Docker: 開発環境構築",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: Node.js + PostgreSQL + Redisの開発環境]\n\n【技術スタック】\n言語/FW: [例: Node.js 20]\nDB: [例: PostgreSQL 15]\nその他: [例: Redis, Nginx]\n\n【期待するアウトプット】\n・Dockerfile\n・docker-compose.yml\n・.env.example\n・README（起動手順）",
+    "category": "コーディング",
+    "tags": [
+      "Docker",
+      "DevOps",
+      "環境構築"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "テスト: ユニットテスト",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはQAエンジニアです。\n\n【目的・背景】\n[例: ユーティリティ関数のテストを作成]\n\n【テスト対象】\n関数/クラス: [例: formatDate, validateEmail]\n言語: [例: JavaScript/TypeScript]\n\n【フレームワーク】\n[例: Jest, Vitest, pytest]\n\n【期待するアウトプット】\n・正常系テスト\n・異常系テスト\n・エッジケース\n・モック/スタブ使用例",
+    "category": "コーディング",
+    "tags": [
+      "テスト",
+      "ユニットテスト",
+      "QA"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "GitHub Actions: CI/CD",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: PRマージ時に自動テスト＆デプロイ]\n\n【パイプライン】\nトリガー: [例: push, pull_request]\nステップ: [例: lint, test, build, deploy]\n\n【デプロイ先】\n[例: Vercel, AWS, GCP]\n\n【期待するアウトプット】\n・.github/workflows/ci.yml\n・シークレット設定手順\n・バッジ埋め込みコード",
+    "category": "コーディング",
+    "tags": [
+      "GitHub Actions",
+      "CI/CD",
+      "DevOps"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "正規表現: パターン作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは正規表現の専門家です。\n\n【目的・背景】\n[例: 電話番号を抽出したい]\n\n【マッチ対象】\n形式: [例: 090-1234-5678, 0901234567]\n言語: [例: JavaScript, Python]\n\n【期待するアウトプット】\n・正規表現パターン\n・使用例コード\n・マッチ/非マッチ例\n・解説",
+    "category": "コーディング",
+    "tags": [
+      "正規表現",
+      "パターン",
+      "テキスト処理"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "アルゴリズム: 実装",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはアルゴリズムの専門家です。\n\n【目的・背景】\n[例: 面接対策でソートアルゴリズムを理解したい]\n\n【アルゴリズム】\n[例: クイックソート、二分探索、ダイクストラ]\n\n【言語】\n[例: Python, JavaScript]\n\n【期待するアウトプット】\n・実装コード\n・計算量（時間・空間）\n・動作原理の解説\n・使用場面",
+    "category": "コーディング",
+    "tags": [
+      "アルゴリズム",
+      "データ構造",
+      "学習"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "ゲームBGM（フィールド）",
+    "image": "https://placehold.co/600x400/228B22/ffffff?text=Field+BGM",
+    "prompt": "【目的・背景】\nRPG等のフィールドマップBGM\n\n【シーン】\n場所: [例: 草原、雪山、砂漠]\n雰囲気: [例: 冒険的、神秘的、穏やか]\n\n【楽器構成】\n[例: オーケストラ、民族楽器、シンセ]\n\n【仕様】\nBPM: [例: 80-120]\nループ: [例: 対応必須]\n\n【サンプルプロンプト】\nadventure RPG field music, orchestral, light percussion, hopeful melody, moderate tempo 100bpm, fantasy adventure theme, seamless loop",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ゲーム",
+      "フィールド",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "ゲームBGM（メニュー）",
+    "image": "https://placehold.co/600x400/4a4a4a/ffffff?text=Menu+BGM",
+    "prompt": "【目的・背景】\nゲームのタイトル画面、メニュー画面\n\n【雰囲気】\n[例: 荘厳、期待感、ノスタルジック]\n\n【楽器構成】\n[例: ピアノ、ストリングス、アンビエント]\n\n【仕様】\nBPM: [例: 60-80]\nループ: [例: 対応]\n\n【サンプルプロンプト】\ngame menu music, ambient piano, soft strings, peaceful atmosphere, slow tempo 70bpm, title screen theme, ethereal, loop ready",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ゲーム",
+      "メニュー",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "効果音（UI）",
+    "image": "https://placehold.co/600x400/6366f1/ffffff?text=UI+SFX",
+    "prompt": "【目的・背景】\nアプリ、ゲームのUI操作音\n\n【効果音種類】\n[例: ボタンクリック、通知、成功、エラー]\n\n【スタイル】\n[例: ミニマル、ゲーム風、高級感]\n\n【仕様】\n長さ: [例: 0.1-0.5秒]\nフォーマット: [例: WAV, MP3]\n\n【サンプルプロンプト】\nUI click sound effect, soft click, modern app style, short crisp sound, satisfying feedback, high quality audio",
+    "category": "音声・音楽生成",
+    "tags": [
+      "効果音",
+      "UI",
+      "アプリ"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "YouTube BGM（チュートリアル）",
+    "image": "https://placehold.co/600x400/FF0000/ffffff?text=Tutorial+BGM",
+    "prompt": "【目的・背景】\n解説動画、ハウツー動画のバックBGM\n\n【雰囲気】\n[例: 集中できる、邪魔にならない、軽快]\n\n【楽器構成】\n[例: ピアノ、アコースティックギター]\n\n【仕様】\nBPM: [例: 90-110]\n長さ: [例: 3-5分ループ]\n\n【サンプルプロンプト】\nbackground music for tutorial video, light acoustic guitar, subtle piano, not distracting, moderate tempo 100bpm, corporate friendly, royalty free style",
+    "category": "音声・音楽生成",
+    "tags": [
+      "YouTube",
+      "チュートリアル",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "ASMR・環境音",
+    "image": "https://placehold.co/600x400/2F4F4F/90EE90?text=Ambient",
+    "prompt": "【目的・背景】\n睡眠導入、作業用環境音\n\n【サウンドスケープ】\n[例: 雨音、焚き火、カフェ、森]\n\n【追加要素】\n[例: 雷、鳥の声、人の話し声（遠く）]\n\n【仕様】\n長さ: [例: 30分-1時間]\nループ対応: [例: シームレス]\n\n【サンプルプロンプト】\nrain ambience, gentle rain on window, distant thunder, cozy indoor atmosphere, ASMR quality, seamless loop, 1 hour",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ASMR",
+      "環境音",
+      "リラクゼーション"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "EDM・ダンストラック",
+    "image": "https://placehold.co/600x400/FF1493/ffffff?text=EDM",
+    "prompt": "【目的・背景】\nクラブ、フェス、動画用\n\n【サブジャンル】\n[例: House, Trance, Dubstep, Future Bass]\n\n【雰囲気】\n[例: アップリフティング、ダーク、ハード]\n\n【仕様】\nBPM: [例: 128-145]\n長さ: [例: 3-5分]\n\n【サンプルプロンプト】\nfuture bass EDM track, energetic synth drops, powerful bass, uplifting melody, 140bpm, festival anthem style, high quality production",
+    "category": "音声・音楽生成",
+    "tags": [
+      "EDM",
+      "ダンス",
+      "クラブ"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "ジャズ・ラウンジ",
+    "image": "https://placehold.co/600x400/D2691E/ffffff?text=Jazz",
+    "prompt": "【目的・背景】\nバー、レストラン、ラウンジBGM\n\n【スタイル】\n[例: スムースジャズ、ボサノバ、スウィング]\n\n【楽器構成】\n[例: ピアノトリオ、サックス、ウッドベース]\n\n【雰囲気】\n[例: 洗練、リラックス、ロマンチック]\n\n【サンプルプロンプト】\nsmooth jazz lounge music, saxophone melody, piano accompaniment, upright bass, brushed drums, relaxed tempo 90bpm, sophisticated atmosphere",
+    "category": "音声・音楽生成",
+    "tags": [
+      "ジャズ",
+      "ラウンジ",
+      "BGM"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "オーケストラ・映画音楽",
+    "image": "https://placehold.co/600x400/FFD700/333333?text=Orchestral",
+    "prompt": "【目的・背景】\n映画、トレーラー、壮大なシーン\n\n【シーン】\n[例: 戦闘、感動、サスペンス、勝利]\n\n【楽器構成】\nフルオーケストラ、合唱\n\n【仕様】\nBPM: [例: シーンによる]\n長さ: [例: 2-4分]\n\n【サンプルプロンプト】\nepic orchestral cinematic music, full orchestra, choir, dramatic build-up, triumphant climax, movie trailer style, emotional, hans zimmer inspired",
+    "category": "音声・音楽生成",
+    "tags": [
+      "オーケストラ",
+      "映画",
+      "壮大"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "製品デモ動画",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは動画ディレクターです。\n\n【目的・背景】\n[例: SaaSツールの機能紹介動画]\n\n【製品】\n[例: プロジェクト管理ツール]\n\n【ターゲット】\n[例: IT企業の意思決定者]\n\n【動画仕様】\n長さ: [例: 2分]\nスタイル: [例: 画面録画+アニメーション]\n\n【シーン構成】\n・問題提起\n・ソリューション紹介\n・主要機能デモ\n・ユーザーの声\n・CTA\n\n【サンプルプロンプト】\nproduct demo video, clean UI animation, screen recording style, professional voiceover text overlay, modern transitions",
+    "category": "動画生成",
+    "tags": [
+      "デモ",
+      "製品",
+      "SaaS"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "インタビュー動画",
+    "image": null,
+    "prompt": "【目的・背景】\n社員紹介、顧客インタビュー\n\n【インタビュイー】\n[例: CEO、顧客、社員]\n\n【トーン】\n[例: 誠実、親しみやすい、プロフェッショナル]\n\n【撮影スタイル】\n構図: [例: バストアップ、Bロール挿入]\nライティング: [例: 3点照明]\n背景: [例: オフィス、白バック]\n\n【サンプルプロンプト】\ninterview video style, talking head shot, professional lighting, blurred office background, confident speaker, b-roll cutaways",
+    "category": "動画生成",
+    "tags": [
+      "インタビュー",
+      "企業",
+      "人物"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "説明動画（アニメーション）",
+    "image": null,
+    "prompt": "【目的・背景】\nサービス説明、コンセプト紹介\n\n【内容】\n[例: 保険商品の仕組み説明]\n\n【アニメーションスタイル】\n[例: 2Dイラスト、モーショングラフィックス、ホワイトボード]\n\n【ナレーション】\n[例: 日本語、男性、落ち着いた声]\n\n【動画仕様】\n長さ: [例: 90秒]\n\n【サンプルプロンプト】\nexplainer video animation, 2D flat design, smooth motion graphics, icon animations, character illustration, corporate color scheme",
+    "category": "動画生成",
+    "tags": [
+      "説明動画",
+      "アニメーション",
+      "マーケティング"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "イベント・ハイライト",
+    "image": null,
+    "prompt": "【目的・背景】\nカンファレンス、セミナーのダイジェスト\n\n【イベント内容】\n[例: 年次カンファレンス、展示会]\n\n【含める要素】\n[例: 基調講演、ブース、参加者インタビュー]\n\n【編集スタイル】\nテンポ: [例: 速いカット]\n音楽: [例: アップビート]\n長さ: [例: 2-3分]\n\n【サンプルプロンプト】\nevent highlight video, dynamic cuts, energetic music sync, crowd shots, speaker presentations, booth interactions, time-lapse, drone shots",
+    "category": "動画生成",
+    "tags": [
+      "イベント",
+      "ハイライト",
+      "ダイジェスト"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "料理・レシピ動画",
+    "image": null,
+    "prompt": "【目的・背景】\nYouTube、SNS用のレシピ紹介\n\n【料理】\n[例: パスタ、スイーツ、和食]\n\n【撮影スタイル】\nアングル: [例: 俯瞰、横から]\nテンポ: [例: 早送り、リアルタイム]\n\n【編集】\nテキスト: [例: 分量、手順のテロップ]\nBGM: [例: 軽快、落ち着いた]\n\n【サンプルプロンプト】\ncooking video, overhead shot, hands preparing food, ingredient close-ups, satisfying cutting sounds, text overlays with measurements, warm lighting",
+    "category": "動画生成",
+    "tags": [
+      "料理",
+      "レシピ",
+      "フード"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "トランジション・エフェクト",
+    "image": null,
+    "prompt": "【目的・背景】\n動画編集用のトランジション素材\n\n【種類】\n[例: ワイプ、ズーム、グリッチ、液体]\n\n【用途】\n[例: YouTube、Vlog、企業動画]\n\n【仕様】\n解像度: [例: 4K]\nフレームレート: [例: 60fps]\n背景: [例: 透過、カラー]\n\n【サンプルプロンプト】\nvideo transition effect, liquid morphing, smooth animation, vibrant colors, 4K resolution, 60fps, alpha channel",
+    "category": "動画生成",
+    "tags": [
+      "トランジション",
+      "エフェクト",
+      "素材"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "ミュージックビデオ風",
+    "image": null,
+    "prompt": "【目的・背景】\n楽曲のビジュアル化\n\n【楽曲ジャンル】\n[例: ポップ、ロック、ヒップホップ、EDM]\n\n【ビジュアルスタイル】\n[例: パフォーマンス、ストーリー、抽象]\n\n【演出】\n[例: ダンス、風景カット、VFX]\n\n【サンプルプロンプト】\nmusic video style, artist performance, dramatic lighting, slow motion shots, dynamic camera movement, visual effects, beat-synced editing",
+    "category": "動画生成",
+    "tags": [
+      "MV",
+      "ミュージックビデオ",
+      "音楽"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "不動産・物件紹介",
+    "image": null,
+    "prompt": "【目的・背景】\n賃貸・売買物件の紹介動画\n\n【物件】\n種類: [例: マンション、一戸建て、オフィス]\n特徴: [例: 駅近、新築、眺望]\n\n【撮影スタイル】\n[例: ジンバル移動、ドローン空撮]\n\n【編集】\nテキスト: [例: 間取り、価格表示]\n音楽: [例: 落ち着いた、高級感]\n\n【サンプルプロンプト】\nreal estate video tour, smooth gimbal walk-through, bright natural lighting, modern interior, room transitions, drone exterior shot, text overlays with specs",
+    "category": "動画生成",
+    "tags": [
+      "不動産",
+      "物件",
+      "紹介"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "キャッチコピー作成",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたは広告コピーライターです。\n\n【目的・背景】\n[例: 新商品の認知度を上げるキャッチコピー]\n\n【商品/サービス】\n名前: [例: 天然水 クリスタル]\n特徴: [例: 富士山麓の湧き水、ミネラル豊富]\nUSP: [例: 他社より2倍のミネラル含有]\n\n【ターゲット】\n[例: 健康志向の30-50代女性]\n\n【トーン・雰囲気】\n[例: 清涼感、プレミアム感、親しみやすさ]\n\n【期待するアウトプット】\n・メインコピー（10案）\n・サブコピー（各メインに対応）\n・使用シーンの提案",
+    "category": "文章生成",
+    "tags": [
+      "キャッチコピー",
+      "広告",
+      "マーケティング"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "アンケート設計",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはマーケットリサーチャーです。\n\n【目的・背景】\n[例: 新サービスの需要調査]\n\n【調査対象】\n[例: 20-40代の会社員]\n\n【調査したい内容】\n[例: 利用意向、価格感度、競合比較]\n\n【アンケート形式】\n[例: Webアンケート、5分程度]\n\n【期待するアウトプット】\n・スクリーニング質問\n・本調査質問（選択式、自由記述）\n・回答選択肢\n・質問順序の理由",
+    "category": "文章生成",
+    "tags": [
+      "アンケート",
+      "リサーチ",
+      "調査"
+    ],
+    "tools": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Webサイトヒーロー画像",
+    "image": "https://placehold.co/600x400/6366f1/ffffff?text=Hero+Image",
+    "prompt": "【目的・背景】\nWebサイトのファーストビュー用画像\n\n【サイト種類】\n[例: コーポレートサイト、ECサイト、SaaS LP]\n\n【伝えたいイメージ】\n[例: 信頼性、革新性、親しみやすさ]\n\n【要素】\n人物: [例: ビジネスパーソン、家族、なし]\n背景: [例: オフィス、抽象的、グラデーション]\nカラー: [例: ブランドカラー準拠]\n\n【サンプルプロンプト】\nwebsite hero image, diverse business team collaboration, modern office environment, bright lighting, corporate blue color scheme, professional photography, space for text overlay, 16:9 aspect ratio",
+    "category": "画像生成",
+    "tags": [
+      "Webデザイン",
+      "ヒーロー",
+      "背景"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "インフォグラフィック素材",
+    "image": "https://placehold.co/600x400/10B981/ffffff?text=Infographic",
+    "prompt": "【目的・背景】\nデータや情報を視覚化する素材\n\n【テーマ】\n[例: ビジネス統計、プロセス図、比較]\n\n【スタイル】\n[例: フラット、アイソメトリック、手書き風]\n\n【カラーパレット】\n[例: コーポレートカラー、パステル、モノトーン]\n\n【含める要素】\n[例: グラフ、アイコン、フロー矢印]\n\n【サンプルプロンプト】\ninfographic design elements, flat style icons, pie charts, bar graphs, process arrows, business theme, blue and green color palette, vector illustration, clean design",
+    "category": "画像生成",
+    "tags": [
+      "インフォグラフィック",
+      "データ",
+      "ビジネス"
+    ],
+    "tools": [
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "name": "Stable Diffusion",
+        "url": "https://stability.ai/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "データベース設計",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはデータベースアーキテクトです。\n\n【目的・背景】\n[例: ECサイトのデータベース設計]\n\n【システム概要】\n機能: [例: ユーザー管理、商品管理、注文管理]\n規模: [例: ユーザー10万人、商品1万点]\n\n【技術要件】\nDBMS: [例: PostgreSQL, MySQL]\n正規化: [例: 第3正規形]\n\n【期待するアウトプット】\n・ER図（テキスト形式）\n・テーブル定義\n・リレーション\n・インデックス戦略\n・マイグレーションSQL",
+    "category": "コーディング",
+    "tags": [
+      "データベース",
+      "設計",
+      "アーキテクチャ"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "セキュリティ対策コード",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはセキュリティエンジニアです。\n\n【目的・背景】\n[例: Webアプリケーションのセキュリティ強化]\n\n【対象脆弱性】\n[例: XSS、SQLインジェクション、CSRF]\n\n【技術スタック】\n言語/FW: [例: Node.js/Express]\n\n【期待するアウトプット】\n・脆弱性の説明\n・攻撃例\n・対策コード\n・テスト方法\n・ベストプラクティス",
+    "category": "コーディング",
+    "tags": [
+      "セキュリティ",
+      "脆弱性",
+      "対策"
+    ],
+    "tools": [
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "name": "ChatGPT",
+        "url": "https://chat.openai.com/"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "着信音・通知音",
+    "image": "https://placehold.co/600x400/3B82F6/ffffff?text=Ringtone",
+    "prompt": "【目的・背景】\nスマートフォン、アプリの通知音\n\n【用途】\n[例: 着信音、メッセージ通知、アラーム]\n\n【スタイル】\n[例: シンプル、楽しい、洗練]\n\n【仕様】\n長さ: [例: 3-10秒]\nループ: [例: 着信音は対応]\n\n【サンプルプロンプト】\nnotification sound, gentle chime, two notes ascending, modern app style, pleasant tone, short duration 2 seconds, high quality audio",
+    "category": "音声・音楽生成",
+    "tags": [
+      "着信音",
+      "通知音",
+      "アプリ"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "ボーカル入り楽曲",
+    "image": "https://placehold.co/600x400/EC4899/ffffff?text=Vocal+Song",
+    "prompt": "【目的・背景】\nオリジナル楽曲制作\n\n【ジャンル】\n[例: J-POP、R&B、ロック、アニソン]\n\n【テーマ・歌詞内容】\n[例: 恋愛、友情、応援歌、季節]\n\n【ボーカルスタイル】\n[例: 女性ボーカル、男性ボーカル、デュエット]\n\n【仕様】\nBPM: [例: 120-140]\nキー: [例: Cメジャー]\n\n【サンプルプロンプト】\nJ-pop song with female vocals, upbeat tempo 130bpm, catchy chorus, electronic instrumentation, emotional lyrics about new beginnings, radio-friendly production",
+    "category": "音声・音楽生成",
+    "tags": [
+      "楽曲",
+      "ボーカル",
+      "オリジナル"
+    ],
+    "tools": [
+      {
+        "name": "Suno AI",
+        "url": "https://suno.com/"
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com/"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "ウェディング動画",
+    "image": null,
+    "prompt": "【目的・背景】\n結婚式のオープニング/プロフィール動画\n\n【スタイル】\n[例: ロマンチック、ポップ、シネマティック]\n\n【含める要素】\n[例: 写真スライドショー、テキスト、BGM]\n\n【動画仕様】\n長さ: [例: 3-5分]\n解像度: [例: 1080p]\n\n【トーン】\n[例: 感動的、明るい、おしゃれ]\n\n【サンプルプロンプト】\nwedding video style, romantic slow motion, soft warm color grading, lens flares, couple footage, nature backgrounds, cinematic transitions, emotional atmosphere",
+    "category": "動画生成",
+    "tags": [
+      "ウェディング",
+      "結婚式",
+      "イベント"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "教育・研修動画",
+    "image": null,
+    "prompt": "【AIへの役割】\nあなたはインストラクショナルデザイナーです。\n\n【目的・背景】\n[例: 新入社員向けコンプライアンス研修]\n\n【対象者】\n[例: 新入社員、全社員]\n\n【コンテンツ】\n[例: 情報セキュリティ、ハラスメント防止]\n\n【動画仕様】\n長さ: [例: 10-15分/モジュール]\n形式: [例: 講義+クイズ]\n\n【サンプルプロンプト】\ne-learning video, professional presenter, clean white background, text annotations, diagram animations, quiz overlay, corporate training style",
+    "category": "動画生成",
+    "tags": [
+      "教育",
+      "研修",
+      "Eラーニング"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "旅行・観光PR動画",
+    "image": null,
+    "prompt": "【目的・背景】\n観光地、ホテル、旅行商品のPR\n\n【対象エリア】\n[例: 京都、沖縄、北海道]\n\n【ターゲット】\n[例: 国内旅行者、インバウンド]\n\n【含める要素】\n[例: 風景、食事、アクティビティ、宿泊施設]\n\n【スタイル】\n[例: シネマティック、ドローン空撮]\n\n【サンプルプロンプト】\ntravel promotional video, stunning aerial drone shots, local cuisine close-ups, cultural experiences, happy travelers, cinematic color grading, inspiring music sync",
+    "category": "動画生成",
+    "tags": [
+      "旅行",
+      "観光",
+      "PR"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "ゲームトレーラー",
+    "image": null,
+    "prompt": "【目的・背景】\nゲーム発売前の告知映像\n\n【ゲームジャンル】\n[例: RPG、アクション、パズル]\n\n【トレーラー種類】\n[例: ティザー、ゲームプレイ、ストーリー]\n\n【含める要素】\n[例: カットシーン、ゲームプレイ映像、ロゴ]\n\n【トーン】\n[例: 壮大、ダーク、ポップ]\n\n【サンプルプロンプト】\ngame trailer style, epic cinematic shots, dramatic lighting, action sequences, logo reveal, title card, fast-paced editing, bass-heavy music sync, release date overlay",
+    "category": "動画生成",
+    "tags": [
+      "ゲーム",
+      "トレーラー",
+      "告知"
+    ],
+    "tools": [
+      {
+        "name": "Runway Gen-2",
+        "url": "https://runwayml.com/"
+      },
+      {
+        "name": "Sora",
+        "url": "https://openai.com/sora"
+      },
+      {
+        "name": "Gemini",
+        "url": "https://gemini.google.com/"
+      }
+    ]
+  }
+]

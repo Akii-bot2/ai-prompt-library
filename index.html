@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIプロンプトライブラリー</title>
+    <meta name="description" content="AI画像生成やテキスト生成のプロンプトコレクション">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <h1 class="site-title">AIプロンプトライブラリー</h1>
+            <p class="site-description">AI生成のためのプロンプトコレクション</p>
+
+            <div class="filter-section">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="search-input" class="search-input" placeholder="プロンプトを検索...">
+                </div>
+
+                <!-- Category Tabs -->
+                <div id="category-filters" class="category-filters">
+                    <!-- Categories will be injected here by JS -->
+                    <button class="category-btn active" data-category="all">すべて</button>
+                    <!-- Example: <button class="category-btn" data-category="画像生成">画像生成</button> -->
+                </div>
+
+                <!-- Tag Pills -->
+                <div id="tag-filters" class="tag-filters">
+                    <!-- Tags will be injected here by JS -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Problem Solver Section -->
+    <section class="problem-solver-section">
+        <div class="container">
+            <div class="problem-solver-card">
+                <h2 class="problem-solver-title">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    困っていることから探す
+                </h2>
+                <p class="problem-solver-description">あなたのお悩みを入力すると、おすすめのプロンプトを3つ提案します</p>
+                <div class="problem-input-container">
+                    <textarea id="problem-input" class="problem-input"
+                        placeholder="例: メールの文章がうまく書けない、SNS用の画像を作りたい、データ分析を自動化したい..."></textarea>
+                    <button id="solve-btn" class="solve-btn">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        おすすめを見る
+                    </button>
+                </div>
+                <div id="recommendations" class="recommendations-container" style="display: none;">
+                    <!-- Recommendations will be injected here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="container">
+            <div id="card-grid" class="card-grid">
+                <!-- Cards will be injected here by JS -->
+                <div class="loading">プロンプトを読み込み中...</div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 AIプロンプトライブラリー. Built for Aki.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

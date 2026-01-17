@@ -1,0 +1,1694 @@
+id,title,image,prompt,category,tags,tools
+1,ビジネスメール作成（謝罪）,,"【AIへの役割】
+あなたはビジネスコミュニケーションのプロフェッショナルです。
+
+【目的・背景】
+[例: 納期遅延について取引先に謝罪する]
+
+【ターゲット】
+[例: 長年の取引先の担当者]
+
+【トーン・雰囲気】
+誠実で丁寧、かつプロフェッショナル
+
+【期待するアウトプット】
+・件名
+・本文（挨拶、謝罪、原因説明、対策、締め）
+・署名",文章生成,"メール文面,ビジネス,謝罪",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+2,ビジネスメール作成（依頼）,,"【AIへの役割】
+あなたはビジネスメールの専門家です。
+
+【目的・背景】
+[例: 新規プロジェクトへの協力を依頼する]
+
+【ターゲット】
+[例: 他部署のマネージャー]
+
+【トーン・雰囲気】
+丁寧かつ説得力のある
+
+【期待するアウトプット】
+・件名
+・本文（背景説明、依頼内容、メリット提示、締め切り）",文章生成,"メール文面,ビジネス,依頼",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+3,お礼メール作成,,"【AIへの役割】
+あなたは心のこもったコミュニケーションの専門家です。
+
+【目的・背景】
+[例: 面接後のお礼を伝える]
+
+【ターゲット】
+[例: 採用担当者]
+
+【トーン・雰囲気】
+温かみがあり、誠実
+
+【期待するアウトプット】
+・件名
+・本文（感謝、印象に残った点、意欲表明）",文章生成,"メール文面,お礼",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+4,業務マニュアル作成,,"【AIへの役割】
+あなたは業務プロセス設計の専門家です。
+
+【目的・背景】
+[例: 新入社員向けの経費精算手順書を作成する]
+
+【ターゲット】
+[例: 入社1ヶ月目の新入社員]
+
+【トーン・雰囲気】
+分かりやすく、ステップバイステップ
+
+【期待するアウトプット】
+・目次
+・各ステップの詳細手順（スクリーンショット挿入箇所の指示含む）
+・よくある質問（FAQ）
+・注意点",文章生成,"マニュアル作成,業務,手順書",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+5,製品操作マニュアル,,"【AIへの役割】
+あなたはテクニカルライターです。
+
+【目的・背景】
+[例: 家電製品の初期設定ガイドを作成する]
+
+【ターゲット】
+[例: テクノロジーに詳しくない高齢者]
+
+【トーン・雰囲気】
+簡潔で親切、専門用語を避ける
+
+【期待するアウトプット】
+・箱を開けてから使えるまでの手順
+・図解の挿入箇所指示
+・トラブルシューティング",文章生成,"マニュアル作成,製品,ガイド",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+6,プレゼン資料構成案,,"【AIへの役割】
+あなたはプレゼンテーションデザインの専門家です。
+
+【目的・背景】
+[例: 新規事業の提案を役員会で発表する]
+
+【ターゲット】
+[例: 経営層（意思決定者）]
+
+【トーン・雰囲気】
+論理的、説得力があり、データドリブン
+
+【期待するアウトプット】
+・スライド構成（10枚程度）
+・各スライドの見出しとキーメッセージ
+・ビジュアル候補の提案",文章生成,"資料作成,プレゼン,提案",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+7,企画書テンプレート,,"【AIへの役割】
+あなたは企画立案のプロフェッショナルです。
+
+【目的・背景】
+[例: 社内イベントの企画を上司に提案する]
+
+【ターゲット】
+[例: 部門長]
+
+【トーン・雰囲気】
+説得力があり、具体的で実行可能
+
+【期待するアウトプット】
+・企画概要
+・目的と期待効果
+・スケジュール案
+・予算概算
+・リスクと対策",文章生成,"資料作成,企画書,提案",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+8,報告書作成,,"【AIへの役割】
+あなたはビジネスレポートの専門家です。
+
+【目的・背景】
+[例: 四半期の営業成績を報告する]
+
+【ターゲット】
+[例: 経営陣]
+
+【トーン・雰囲気】
+客観的、簡潔、データに基づく
+
+【期待するアウトプット】
+・エグゼクティブサマリー
+・主要KPIの分析
+・課題と改善策
+・次期の展望",文章生成,"資料作成,報告書,分析",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+9,SEOブログ記事,,"【AIへの役割】
+あなたはSEOとコンテンツマーケティングの専門家です。
+
+【目的・背景】
+[例: 「在宅ワーク 効率化」で検索上位を狙う]
+
+【ターゲット】
+[例: 在宅勤務を始めたばかりの会社員]
+
+【トーン・雰囲気】
+親しみやすく、実用的
+
+【期待するアウトプット】
+・SEO最適化されたタイトル（H1）
+・メタディスクリプション
+・見出し構成（H2, H3）
+・本文（2000-3000文字）
+・CTAの提案",文章生成,"ブログ,SEO,コンテンツ",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+10,SNS投稿文作成,,"【AIへの役割】
+あなたはソーシャルメディアマーケターです。
+
+【目的・背景】
+[例: 新製品の認知度を上げたい]
+
+【ターゲット】
+[例: 20-30代の女性]
+
+【トーン・雰囲気】
+カジュアルで親しみやすい、絵文字適度に使用
+
+【期待するアウトプット】
+・Instagram用（画像キャプション、ハッシュタグ）
+・X(Twitter)用（140字以内）
+・投稿最適時間の提案",文章生成,"SNS,マーケティング,投稿",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+11,キャラクターデザイン（ファンタジー）,https://placehold.co/600x400/2e1a1a/e9b645?text=Fantasy+Character,"【目的・背景】
+ゲームやイラスト用のオリジナルキャラクター
+
+【キャラクター設定】
+種族: [例: エルフ、人間、獣人]
+職業: [例: 魔法使い、戦士、盗賊]
+性別・年齢: [例: 女性、20代]
+性格: [例: 勇敢、神秘的、陽気]
+
+【ビジュアルスタイル】
+[例: アニメスタイル、写実的、セルシェード]
+
+【構図・ポーズ】
+[例: 全身立ち絵、バストアップ、アクションポーズ]
+
+【サンプルプロンプト】
+female elf mage, long silver hair, glowing blue eyes, ornate robe, holding magical staff, forest background, fantasy art style, highly detailed, 8k",画像生成,"キャラクター,ファンタジー,ゲーム",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+12,キャラクターデザイン（現代）,https://placehold.co/600x400/1a1a2e/e94560?text=Modern+Character,"【目的・背景】
+現代設定のキャラクターイラスト
+
+【キャラクター設定】
+職業: [例: 学生、会社員、アーティスト]
+性別・年齢: [例: 男性、30代]
+ファッション: [例: カジュアル、ストリート、フォーマル]
+
+【ビジュアルスタイル】
+[例: リアル調、イラスト調、漫画風]
+
+【構図・ポーズ】
+[例: 日常シーン、ポートレート]
+
+【サンプルプロンプト】
+young japanese businessman, modern suit, confident smile, city background, professional photograph style, cinematic lighting",画像生成,"キャラクター,現代,リアル",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+13,風景イラスト（自然）,https://placehold.co/600x400/228B22/ffffff?text=Nature+Landscape,"【目的・背景】
+背景素材、壁紙、コンセプトアート用
+
+【シーン設定】
+場所: [例: 山、海、森、草原]
+時間帯: [例: 朝焼け、昼、夕暮れ、夜]
+季節: [例: 春、夏、秋、冬]
+天気: [例: 晴れ、曇り、雨、雪]
+
+【ビジュアルスタイル】
+[例: 写真リアル、油絵風、ジブリ風、印象派]
+
+【サンプルプロンプト】
+breathtaking mountain landscape, sunset, golden hour lighting, snow-capped peaks, pine forest, lake reflection, oil painting style, 8k resolution",画像生成,"風景,自然,背景",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+14,風景イラスト（都市）,https://placehold.co/600x400/1a1a2e/e94560?text=Urban+Landscape,"【目的・背景】
+都市景観のコンセプトアート
+
+【シーン設定】
+都市タイプ: [例: 近未来、現代東京、レトロ欧州]
+時間帯: [例: 夜景、雨の日、霧]
+視点: [例: 俯瞰、ストリートレベル、屋上から]
+
+【ビジュアルスタイル】
+[例: サイバーパンク、写実的、アニメ背景]
+
+【サンプルプロンプト】
+futuristic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k",画像生成,"風景,都市,SF",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+15,3Dオブジェクトデザイン,https://placehold.co/600x400/4a4a4a/ffffff?text=3D+Object,"【目的・背景】
+ゲームアセット、プロダクトビジュアライゼーション
+
+【オブジェクト】
+種類: [例: 武器、家具、乗り物、食品]
+詳細: [例: 中世の剣、モダンなソファ]
+
+【ビジュアルスタイル】
+[例: フォトリアル3D、ローポリ、スタイライズド]
+
+【ライティング・背景】
+[例: スタジオ照明、透明背景、環境光]
+
+【サンプルプロンプト】
+medieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed",画像生成,"3D,オブジェクト,ゲーム",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+16,ロゴデザイン,https://placehold.co/600x400/000000/ffffff?text=Logo+Design,"【目的・背景】
+企業・サービス・イベント用のロゴ
+
+【ブランド情報】
+名前: [例: TechNova]
+業種: [例: ITスタートアップ]
+ブランドイメージ: [例: 革新的、信頼性、親しみやすい]
+
+【デザイン希望】
+タイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]
+カラー: [例: 青系、モノクロ、グラデーション]
+スタイル: [例: ミニマル、幾何学的、手書き風]
+
+【サンプルプロンプト】
+minimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background",画像生成,"ロゴ,デザイン,ブランディング",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+17,アイコンセット,https://placehold.co/600x400/6366f1/ffffff?text=Icon+Set,"【目的・背景】
+アプリ、Webサイト、プレゼン用のアイコン
+
+【アイコン内容】
+テーマ: [例: ビジネス、ヘルスケア、教育]
+必要なアイコン: [例: ホーム、設定、ユーザー、検索]
+
+【デザインスタイル】
+線の太さ: [例: 細い線、太い線、塗りつぶし]
+角: [例: 丸角、直角]
+カラー: [例: 単色、グラデーション、アクセントカラー]
+
+【サンプルプロンプト】
+flat design icon set, business theme, home settings user search icons, thin line style, rounded corners, blue color scheme, consistent style, vector",画像生成,"アイコン,UI,Webデザイン",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+18,食品・料理写真風,https://placehold.co/600x400/8B4513/ffffff?text=Food+Photo,"【目的・背景】
+メニュー、広告、SNS投稿用の料理ビジュアル
+
+【料理情報】
+料理名: [例: パスタ、寿司、ケーキ]
+スタイル: [例: 和食、洋食、デザート]
+
+【撮影スタイル】
+アングル: [例: 真上(フラットレイ)、45度、接写]
+ライティング: [例: 自然光、バックライト、ムーディ]
+背景・小物: [例: 木のテーブル、白皿、ハーブ添え]
+
+【サンプルプロンプト】
+professional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k",画像生成,"食品,写真,広告",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+19,インテリアデザイン,https://placehold.co/600x400/DEB887/333333?text=Interior,"【目的・背景】
+住宅、オフィス、店舗のインテリア提案
+
+【空間情報】
+部屋タイプ: [例: リビング、寝室、オフィス]
+スタイル: [例: モダン、北欧、和モダン]
+広さ: [例: 20畳、コンパクト]
+
+【要素】
+家具: [例: ソファ、デスク、ベッド]
+カラーパレット: [例: ナチュラル、モノトーン、アクセントカラー]
+素材: [例: 木、コンクリート、ファブリック]
+
+【サンプルプロンプト】
+modern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k",画像生成,"インテリア,建築,デザイン",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+20,アニメ風イラスト,https://placehold.co/600x400/FF69B4/ffffff?text=Anime+Style,"【目的・背景】
+同人誌、グッズ、アイコン用イラスト
+
+【キャラクター】
+タイプ: [例: 美少女、少年、デフォルメ]
+表情: [例: 笑顔、クール、照れ]
+服装: [例: 制服、ファンタジー衣装、私服]
+
+【スタイル・作画】
+参考作風: [例: 京アニ風、ufotable風、萌え系]
+塗り: [例: アニメ塗り、厚塗り、水彩]
+
+【サンプルプロンプト】
+anime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed",画像生成,"アニメ,イラスト,キャラクター",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+21,Python: データ分析スクリプト,,"【AIへの役割】
+あなたは経験豊富なPythonエンジニアです。
+
+【目的・背景】
+[例: CSVファイルの売上データを分析し、月次レポートを自動生成したい]
+
+【開発環境】
+Python: [例: 3.11]
+使用ライブラリ: [例: pandas, matplotlib]
+
+【入力データ】
+[例: sales.csv - 日付、商品名、売上金額、個数のカラムを含む]
+
+【期待するアウトプット】
+・コード全体（コメント付き）
+・月別売上集計
+・グラフ出力（棒グラフ、折れ線グラフ）
+・エラーハンドリング",コーディング,"Python,データ分析,自動化",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+22,Python: Webスクレイピング,,"【AIへの役割】
+あなたはWebスクレイピングの専門家です。
+
+【目的・背景】
+[例: ニュースサイトから最新記事のタイトルとURLを取得したい]
+
+【対象サイト】
+[例: 一般的なニュースサイト（robots.txtを遵守）]
+
+【技術要件】
+ライブラリ: [例: requests, BeautifulSoup]
+注意点: [例: レート制限、User-Agent設定]
+
+【期待するアウトプット】
+・スクレイピングコード
+・データ保存（CSV/JSON）
+・エラー処理
+・法的注意事項のコメント",コーディング,"Python,スクレイピング,自動化",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+23,JavaScript: REST API実装,,"【AIへの役割】
+あなたはNode.js/Express開発者です。
+
+【目的・背景】
+[例: ユーザー管理のCRUD APIを構築したい]
+
+【技術スタック】
+フレームワーク: [例: Express.js]
+データベース: [例: MongoDB, PostgreSQL]
+
+【エンドポイント】
+[例: GET /users, POST /users, PUT /users/:id, DELETE /users/:id]
+
+【期待するアウトプット】
+・ルーティング設定
+・コントローラー
+・バリデーション
+・エラーハンドリング
+・Swagger/OpenAPIドキュメント",コーディング,"JavaScript,API,バックエンド",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+24,React: UIコンポーネント,,"【AIへの役割】
+あなたはReactのフロントエンド専門家です。
+
+【目的・背景】
+[例: 再利用可能なモーダルコンポーネントを作成したい]
+
+【技術スタック】
+React: [例: 18.x]
+スタイリング: [例: CSS Modules, Tailwind]
+状態管理: [例: useState, Zustand]
+
+【コンポーネント要件】
+props: [例: isOpen, onClose, title, children]
+機能: [例: ESCキーで閉じる、外側クリックで閉じる]
+
+【期待するアウトプット】
+・TypeScript対応のコンポーネント
+・スタイル
+・使用例（ストーリー）
+・アクセシビリティ対応",コーディング,"React,フロントエンド,UI",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+25,SQL: 複雑なクエリ作成,,"【AIへの役割】
+あなたはデータベースエンジニアです。
+
+【目的・背景】
+[例: 顧客の購買履歴から優良顧客を抽出したい]
+
+【データベース】
+種類: [例: PostgreSQL, MySQL]
+テーブル構造: [例: customers, orders, products]
+
+【要件】
+抽出条件: [例: 過去1年で10万円以上購入した顧客]
+並び順: [例: 購入金額の降順]
+
+【期待するアウトプット】
+・SQLクエリ
+・インデックス推奨
+・実行計画の解説
+・パフォーマンス最適化のヒント",コーディング,"SQL,データベース,分析",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+26,HTML/CSS: レスポンシブレイアウト,,"【AIへの役割】
+あなたはCSS設計の専門家です。
+
+【目的・背景】
+[例: モバイルファーストのランディングページを作成したい]
+
+【レイアウト要件】
+構成: [例: ヘッダー、ヒーロー、特徴セクション、フッター]
+ブレイクポイント: [例: 768px, 1024px]
+
+【デザイン仕様】
+カラー: [例: プライマリ #3B82F6]
+フォント: [例: Noto Sans JP]
+
+【期待するアウトプット】
+・セマンティックHTML
+・モダンCSS（Flexbox/Grid）
+・レスポンシブ対応
+・アクセシビリティ考慮",コーディング,"HTML,CSS,Webサイト",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+27,TypeScript: 型定義設計,,"【AIへの役割】
+あなたはTypeScriptの型システム専門家です。
+
+【目的・背景】
+[例: ECサイトのドメインモデルの型を設計したい]
+
+【ドメイン】
+エンティティ: [例: User, Product, Order, Cart]
+関係性: [例: UserはOrdersを持つ、OrderはProductsを含む]
+
+【要件】
+ユーティリティ型: [例: Partial, Pick, Omit の活用]
+ジェネリクス: [例: APIレスポンス型]
+
+【期待するアウトプット】
+・interface/type定義
+・型ガード関数
+・Zodスキーマ（オプション）
+・使用例",コーディング,"TypeScript,型定義,設計",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+28,Git: ワークフロー設計,,"【AIへの役割】
+あなたはDevOpsエンジニアです。
+
+【目的・背景】
+[例: チーム開発のブランチ戦略を確立したい]
+
+【チーム規模】
+人数: [例: 5名]
+リリース頻度: [例: 週1回]
+
+【要件】
+ブランチモデル: [例: Git Flow, GitHub Flow]
+CI/CD: [例: GitHub Actions連携]
+
+【期待するアウトプット】
+・ブランチ命名規則
+・マージ戦略
+・コミットメッセージ規約
+・プルリクエストテンプレート",コーディング,"Git,DevOps,チーム開発",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+29,Lo-Fi BGM（作業用）,https://placehold.co/600x400/4B0082/ffffff?text=Lo-Fi,"【目的・背景】
+作業・勉強に集中するためのBGM
+
+【ムード・雰囲気】
+[例: 穏やか、ノスタルジック、雨の日]
+
+【楽器・サウンド】
+メイン: [例: ピアノ、ギター]
+サブ: [例: ソフトなドラム、環境音]
+
+【テンポ・長さ】
+BPM: [例: 70-85]
+長さ: [例: 3分]
+
+【サンプルプロンプト】
+lo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",音声・音楽生成,"Lo-Fi,作業用,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+30,ゲームBGM（バトル）,https://placehold.co/600x400/8B0000/ffffff?text=Battle+BGM,"【目的・背景】
+ゲームのボス戦・バトルシーン用
+
+【ムード・雰囲気】
+[例: 激しい、緊迫感、壮大]
+
+【楽器・サウンド】
+メイン: [例: オーケストラ、エレキギター]
+パーカッション: [例: 激しいドラム、ティンパニ]
+
+【テンポ・長さ】
+BPM: [例: 140-180]
+ループ対応: [例: はい]
+
+【サンプルプロンプト】
+epic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",音声・音楽生成,"ゲーム,バトル,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+31,ポッドキャスト用ジングル,https://placehold.co/600x400/32CD32/ffffff?text=Podcast,"【目的・背景】
+番組のオープニング/エンディング用
+
+【ムード・雰囲気】
+[例: 明るい、プロフェッショナル、カジュアル]
+
+【番組ジャンル】
+[例: ビジネス、エンタメ、教育]
+
+【テンポ・長さ】
+長さ: [例: 5-10秒]
+BPM: [例: 110-130]
+
+【サンプルプロンプト】
+upbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",音声・音楽生成,"ポッドキャスト,ジングル,短尺",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+32,リラクゼーション音楽,https://placehold.co/600x400/2F4F4F/F0FFF0?text=Relaxing,"【目的・背景】
+瞑想、ヨガ、睡眠導入用
+
+【ムード・雰囲気】
+[例: 穏やか、神秘的、自然]
+
+【楽器・サウンド】
+メイン: [例: シンセパッド、ピアノ]
+環境音: [例: 波の音、鳥の声、風]
+
+【テンポ・長さ】
+BPM: [例: 50-70]
+長さ: [例: 10分]
+
+【サンプルプロンプト】
+ambient meditation music, soft synthesizer pads, gentle piano, nature sounds, very slow tempo 55bpm, calming, healing frequencies, 432hz",音声・音楽生成,"リラクゼーション,瞑想,睡眠",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+33,製品プロモーション動画,,"【AIへの役割】
+あなたは動画プロデューサーです。
+
+【目的・背景】
+[例: 新発売のスマートウォッチのSNS広告動画]
+
+【ターゲット】
+[例: 20-30代の健康志向ビジネスパーソン]
+
+【動画仕様】
+長さ: [例: 30秒]
+アスペクト比: [例: 9:16（縦動画）]
+スタイル: [例: クリーン、ミニマル、ダイナミック]
+
+【シーン構成】
+イントロ: [例: 問題提起、日常シーン]
+本編: [例: 製品登場、機能紹介]
+アウトロ: [例: ロゴ、CTA]
+
+【サンプルプロンプト（シーン別）】
+Scene 1: close-up of smartwatch on wrist, morning sunlight, person checking health stats
+Scene 2: dynamic transition, product features appearing, sleek animation",動画生成,"プロモーション,広告,SNS",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+34,YouTube動画オープニング,,"【目的・背景】
+チャンネルのブランディング用イントロ
+
+【チャンネルジャンル】
+[例: テック系、Vlog、ゲーム実況]
+
+【トーン・雰囲気】
+[例: クール、ポップ、プロフェッショナル]
+
+【動画仕様】
+長さ: [例: 5秒]
+ロゴ/チャンネル名: [例: TechReview]
+
+【要素】
+モーション: [例: ロゴアニメーション、パーティクル]
+カラー: [例: ブランドカラー使用]
+サウンド: [例: ジングル連動]
+
+【サンプルプロンプト】
+dynamic youtube intro animation, logo reveal, particle effects, tech style, blue neon glow, fast paced, 5 seconds, 4k",動画生成,"YouTube,オープニング,ブランディング",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+35,ドキュメンタリー風映像,,"【目的・背景】
+ストーリーテリング、インタビュー素材
+
+【テーマ】
+[例: 職人の仕事、地域の歴史、自然環境]
+
+【ビジュアルスタイル】
+トーン: [例: シネマティック、ノスタルジック]
+カラーグレード: [例: フィルム風、ナチュラル]
+
+【カメラワーク】
+[例: ゆっくりしたパン、クローズアップ、インタビューショット]
+
+【サンプルプロンプト】
+documentary style footage, craftsman hands working, warm color grading, shallow depth of field, slow cinematic movements, natural lighting, film grain",動画生成,"ドキュメンタリー,撮影,映像",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+36,SNS用ショート動画,,"【目的・背景】
+TikTok/Reels/Shorts用のエンゲージメント獲得
+
+【コンテンツタイプ】
+[例: ハウツー、Before/After、トレンド]
+
+【ターゲット】
+[例: Z世代]
+
+【動画仕様】
+長さ: [例: 15-60秒]
+アスペクト比: 9:16
+
+【要素】
+フック: [例: 最初の3秒で興味を引く]
+テンポ: [例: 速いカット]
+テキスト: [例: 字幕オーバーレイ]
+
+【サンプルプロンプト】
+vertical video, fast cuts, trendy transitions, bright colorful aesthetic, gen-z style, dynamic camera movement, text overlays, engaging hook",動画生成,"SNS,ショート,TikTok",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+37,議事録作成,,"【AIへの役割】
+あなたは会議ファシリテーターです。
+
+【目的・背景】
+[例: 部門ミーティングの議事録を作成する]
+
+【参加者】
+[例: マーケティング部 5名]
+
+【トーン・雰囲気】
+簡潔で正確、要点を押さえた
+
+【期待するアウトプット】
+・日時、場所、参加者
+・議題一覧
+・各議題の議論要約
+・決定事項
+・アクションアイテム（担当者、期限）",文章生成,"議事録,ビジネス,会議",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+38,製品説明文,,"【AIへの役割】
+あなたはコピーライターです。
+
+【目的・背景】
+[例: ECサイトの商品ページ用説明文を作成]
+
+【製品情報】
+名前: [例: ワイヤレスイヤホン XYZ]
+特徴: [例: ノイズキャンセリング、30時間再生]
+
+【ターゲット】
+[例: 20-40代の音楽好き]
+
+【トーン・雰囲気】
+魅力的で購買意欲を刺激する
+
+【期待するアウトプット】
+・キャッチコピー
+・製品概要（100文字）
+・詳細説明（300-500文字）
+・スペック表",文章生成,"製品説明,EC,マーケティング",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+39,プレスリリース作成,,"【AIへの役割】
+あなたは広報担当者です。
+
+【目的・背景】
+[例: 新サービスのローンチを発表する]
+
+【発表内容】
+[例: AIチャットボットサービス開始]
+
+【ターゲット】
+[例: IT系メディア、業界記者]
+
+【トーン・雰囲気】
+公式、信頼性がある、ニュース価値を伝える
+
+【期待するアウトプット】
+・タイトル
+・リード文（5W1H）
+・本文（背景、詳細、今後の展望）
+・会社概要
+・問い合わせ先",文章生成,"プレスリリース,広報,メディア",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+40,FAQ作成,,"【AIへの役割】
+あなたはカスタマーサポートの専門家です。
+
+【目的・背景】
+[例: 自社サービスのヘルプページ用FAQ]
+
+【サービス/製品】
+[例: サブスクリプション型動画配信サービス]
+
+【想定される質問カテゴリ】
+[例: 料金、使い方、解約、トラブル]
+
+【トーン・雰囲気】
+親切で分かりやすい
+
+【期待するアウトプット】
+・カテゴリ別Q&A（各5-10件）
+・回答は簡潔に（100文字以内）",文章生成,"FAQ,サポート,ヘルプ",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+41,求人票作成,,"【AIへの役割】
+あなたは採用担当者です。
+
+【目的・背景】
+[例: エンジニア採用の求人票を作成]
+
+【ポジション詳細】
+職種: [例: フロントエンドエンジニア]
+雇用形態: [例: 正社員]
+必須スキル: [例: React, TypeScript 3年以上]
+
+【企業の魅力】
+[例: フルリモート、フレックス制度]
+
+【トーン・雰囲気】
+魅力的で候補者を惹きつける
+
+【期待するアウトプット】
+・職種タイトル
+・仕事内容
+・応募条件
+・福利厚生
+・選考フロー",文章生成,"求人票,採用,HR",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+42,自己紹介文,,"【AIへの役割】
+あなたはパーソナルブランディングの専門家です。
+
+【目的・背景】
+[例: LinkedInプロフィール用の自己紹介]
+
+【基本情報】
+職業: [例: マーケティングマネージャー]
+経験年数: [例: 10年]
+強み: [例: データドリブンな戦略立案]
+
+【ターゲット】
+[例: 転職エージェント、採用担当者]
+
+【トーン・雰囲気】
+プロフェッショナルかつ人間味のある
+
+【期待するアウトプット】
+・キャッチフレーズ
+・経歴要約
+・実績ハイライト
+・価値観・目標",文章生成,"自己紹介,キャリア,プロフィール",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+43,レビュー返信,,"【AIへの役割】
+あなたはカスタマーサクセス担当です。
+
+【目的・背景】
+[例: 低評価レビューに誠実に返信する]
+
+【レビュー内容】
+[例: 配送が遅れた、商品に傷があった]
+
+【対象プラットフォーム】
+[例: Amazon、Googleマップ]
+
+【トーン・雰囲気】
+誠実、謝罪と感謝、建設的
+
+【期待するアウトプット】
+・お礼
+・問題への謝罪
+・改善策の提示
+・継続利用のお願い",文章生成,"レビュー,カスタマーサポート,返信",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+44,契約書ドラフト,,"【AIへの役割】
+あなたは法務アドバイザーです。
+
+【目的・背景】
+[例: フリーランス向け業務委託契約書のドラフト]
+
+【契約種類】
+[例: 業務委託契約、秘密保持契約、売買契約]
+
+【主要条件】
+[例: 期間、報酬、成果物の定義]
+
+【トーン・雰囲気】
+法的に正確、明確
+
+【期待するアウトプット】
+・契約書タイトル
+・当事者情報
+・目的条項
+・権利義務
+・期間・解除条項
+・署名欄
+
+※法的助言ではありません。専門家に確認してください。",文章生成,"契約書,法務,ビジネス",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+45,スピーチ原稿,,"【AIへの役割】
+あなたはスピーチライターです。
+
+【目的・背景】
+[例: 結婚式の友人代表スピーチ]
+
+【シチュエーション】
+場面: [例: 結婚式、入社式、卒業式]
+時間: [例: 5分程度]
+
+【話者情報】
+[例: 新郎の大学時代の友人]
+
+【トーン・雰囲気】
+感動的、ユーモア、心温まる
+
+【期待するアウトプット】
+・冒頭（自己紹介、関係性）
+・エピソード
+・メッセージ
+・締めの言葉",文章生成,"スピーチ,原稿,イベント",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+46,小説・ストーリー,,"【AIへの役割】
+あなたは小説家です。
+
+【目的・背景】
+[例: 短編小説のプロット作成]
+
+【ジャンル】
+[例: ミステリー、恋愛、SF、ファンタジー]
+
+【設定】
+舞台: [例: 近未来の東京]
+主人公: [例: 記憶を失った探偵]
+
+【トーン・雰囲気】
+[例: ダーク、コミカル、感動的]
+
+【期待するアウトプット】
+・あらすじ（200文字）
+・主要キャラクター紹介
+・起承転結の構成
+・冒頭シーン（500文字）",文章生成,"小説,ストーリー,クリエイティブ",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+47,ニュースレター,,"【AIへの役割】
+あなたはコンテンツマーケターです。
+
+【目的・背景】
+[例: 月次の顧客向けニュースレター]
+
+【配信対象】
+[例: 既存顧客500名]
+
+【含めるコンテンツ】
+[例: 新機能紹介、イベント告知、業界ニュース]
+
+【トーン・雰囲気】
+親しみやすく、価値を提供
+
+【期待するアウトプット】
+・件名（開封率を意識）
+・挨拶
+・各セクション（見出し+本文）
+・CTA
+・フッター",文章生成,"ニュースレター,メール,マーケティング",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+48,翻訳・ローカライズ,,"【AIへの役割】
+あなたはプロの翻訳者です。
+
+【目的・背景】
+[例: 日本語のWebサイトを英語にローカライズ]
+
+【原文】
+[翻訳したいテキストを貼り付け]
+
+【翻訳方向】
+[例: 日→英、英→日]
+
+【トーン・雰囲気】
+[例: フォーマル、カジュアル、技術的]
+
+【ターゲット】
+[例: アメリカ市場向け]
+
+【期待するアウトプット】
+・翻訳文
+・文化的に適切な表現への調整
+・意訳が必要な箇所の注釈",文章生成,"翻訳,ローカライズ,多言語",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+49,ポートレート写真風,https://placehold.co/600x400/8B4513/ffffff?text=Portrait,"【目的・背景】
+プロフィール写真、広告素材
+
+【被写体】
+性別/年齢: [例: 30代女性]
+表情: [例: 自信に満ちた笑顔]
+服装: [例: ビジネスカジュアル]
+
+【撮影スタイル】
+ライティング: [例: レンブラントライティング、自然光]
+背景: [例: スタジオグレー、屋外ボケ]
+構図: [例: バストアップ、3/4アングル]
+
+【サンプルプロンプト】
+professional headshot portrait, asian businesswoman, confident smile, soft studio lighting, blurred office background, 85mm lens, shallow depth of field, 8k",画像生成,"ポートレート,写真,プロフィール",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+50,商品撮影風,https://placehold.co/600x400/ffffff/333333?text=Product,"【目的・背景】
+EC、広告用の商品ビジュアル
+
+【商品】
+種類: [例: 化粧品、電子機器、アパレル]
+特徴: [例: 高級感、ミニマル]
+
+【撮影スタイル】
+背景: [例: 白背景、グラデーション、生活シーン]
+ライティング: [例: ソフトボックス、リムライト]
+アングル: [例: 正面、45度、俯瞰]
+
+【サンプルプロンプト】
+product photography, luxury perfume bottle, minimalist white background, studio lighting, reflections, glass material, commercial quality, 8k",画像生成,"商品,撮影,EC",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+51,建物・建築CG,https://placehold.co/600x400/87CEEB/333333?text=Architecture,"【目的・背景】
+建築ビジュアライゼーション、不動産広告
+
+【建築物】
+種類: [例: モダン住宅、オフィスビル、商業施設]
+スタイル: [例: ミニマリスト、和風、未来的]
+
+【表現】
+時間帯: [例: 昼、夕暮れ、夜景]
+アングル: [例: 外観パース、インテリア、鳥瞰]
+環境: [例: 緑化、都市環境]
+
+【サンプルプロンプト】
+architectural visualization, modern japanese house, minimalist design, large windows, wooden exterior, garden, sunset lighting, photorealistic render, 8k",画像生成,"建築,CG,不動産",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+52,抽象アート,https://placehold.co/600x400/FF6B6B/ffffff?text=Abstract,"【目的・背景】
+壁紙、アート作品、装飾
+
+【コンセプト】
+テーマ: [例: 感情、自然、音楽]
+カラーパレット: [例: 暖色系、モノクロ、パステル]
+
+【スタイル】
+参考: [例: 抽象表現主義、幾何学的、流体アート]
+テクスチャ: [例: 油絵の質感、デジタルスムース]
+
+【サンプルプロンプト】
+abstract art, fluid paint strokes, vibrant colors, blue and gold, emotional expression, modern art gallery style, high resolution, artistic",画像生成,"アート,抽象,装飾",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+53,イラスト（絵本風）,https://placehold.co/600x400/FFD700/333333?text=Storybook,"【目的・背景】
+絵本、児童向けコンテンツ
+
+【シーン】
+場面: [例: 森の動物たちのパーティー]
+キャラクター: [例: うさぎ、くま、小鳥]
+
+【スタイル】
+塗り: [例: 水彩、パステル、クレヨン風]
+タッチ: [例: 優しい、ほのぼの]
+
+【サンプルプロンプト】
+children's book illustration, cute forest animals having picnic, soft watercolor style, warm colors, whimsical, storybook art, gentle lighting",画像生成,"絵本,イラスト,児童",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+54,テクスチャ・パターン,https://placehold.co/600x400/8FBC8F/ffffff?text=Texture,"【目的・背景】
+デザイン素材、背景、3Dテクスチャ
+
+【テクスチャ種類】
+素材: [例: 木目、大理石、布地、金属]
+パターン: [例: 幾何学、花柄、和風]
+
+【仕様】
+シームレス: [例: はい/いいえ]
+解像度: [例: 4K]
+
+【サンプルプロンプト】
+seamless wood texture, light oak grain, natural pattern, high resolution, tileable, 4k, PBR material ready",画像生成,"テクスチャ,パターン,素材",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+55,モックアップ用画像,https://placehold.co/600x400/4169E1/ffffff?text=Mockup,"【目的・背景】
+デザイン提案、プレゼン用素材
+
+【モックアップ種類】
+デバイス: [例: iPhone、MacBook、ポスター]
+シーン: [例: デスク上、手持ち、壁掛け]
+
+【スタイル】
+環境: [例: オフィス、カフェ、ミニマル]
+アングル: [例: 正面、斜め、俯瞰]
+
+【サンプルプロンプト】
+mockup scene, iphone on wooden desk, minimal office environment, natural lighting, shallow depth of field, professional photography, 4k",画像生成,"モックアップ,デザイン,プレゼン",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+56,バナー・広告素材,https://placehold.co/600x400/FF4500/ffffff?text=Banner,"【目的・背景】
+Web広告、SNS広告のビジュアル
+
+【広告内容】
+商品/サービス: [例: フィットネスアプリ]
+メッセージ: [例: 30日間無料トライアル]
+
+【デザイン仕様】
+サイズ: [例: 1200x628（Facebook）]
+スタイル: [例: モダン、ポップ、高級感]
+
+【サンプルプロンプト】
+advertising banner design, fitness app promotion, energetic person exercising, bold typography space, vibrant orange gradient, modern design, eye-catching",画像生成,"バナー,広告,マーケティング",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+57,マスコットキャラクター,https://placehold.co/600x400/32CD32/ffffff?text=Mascot,"【目的・背景】
+企業/サービスのマスコット
+
+【キャラクター設定】
+モチーフ: [例: 動物、ロボット、食べ物]
+性格: [例: 元気、優しい、知的]
+ブランドイメージ: [例: テック系、エコ、子供向け]
+
+【スタイル】
+デザイン: [例: シンプル、ディテール多め]
+用途: [例: 印刷物、アニメーション対応]
+
+【サンプルプロンプト】
+mascot character design, friendly robot, rounded shapes, blue and white colors, simple design, multiple expressions sheet, vector style, brand mascot",画像生成,"マスコット,キャラクター,ブランディング",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+58,SNS投稿用グラフィック,https://placehold.co/600x400/E91E63/ffffff?text=Social,"【目的・背景】
+Instagram、X等のフィード投稿
+
+【コンテンツ】
+種類: [例: 名言、お知らせ、Tips]
+ブランド: [例: ロゴ、カラー指定]
+
+【デザイン仕様】
+サイズ: [例: 1080x1080（Instagram正方形）]
+スタイル: [例: ミニマル、カラフル、エレガント]
+
+【サンプルプロンプト】
+social media post design, inspirational quote card, minimalist layout, soft pastel background, modern typography, instagram aesthetic, clean design",画像生成,"SNS,グラフィック,デザイン",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+59,コンセプトアート（SF）,https://placehold.co/600x400/1a1a2e/00FF7F?text=Sci-Fi,"【目的・背景】
+ゲーム、映画、小説のビジュアル開発
+
+【シーン設定】
+舞台: [例: 宇宙ステーション、火星コロニー]
+時代: [例: 2150年]
+テーマ: [例: 人類の宇宙進出]
+
+【スタイル】
+参考作品: [例: Blade Runner、Mass Effect]
+雰囲気: [例: ユートピア、ディストピア]
+
+【サンプルプロンプト】
+sci-fi concept art, futuristic space station interior, holographic displays, sleek design, ambient blue lighting, astronauts in background, cinematic composition, matte painting style, 8k",画像生成,"コンセプトアート,SF,ゲーム",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+60,コンセプトアート（ファンタジー）,https://placehold.co/600x400/4B0082/FFD700?text=Fantasy,"【目的・背景】
+ゲーム、TRPG、小説のビジュアル
+
+【シーン設定】
+舞台: [例: 魔法の王国、ダンジョン]
+要素: [例: ドラゴン、魔法使い、古代遺跡]
+
+【スタイル】
+参考: [例: ダークファンタジー、ハイファンタジー]
+アーティスト風: [例: Frank Frazetta風]
+
+【サンプルプロンプト】
+fantasy concept art, ancient dragon's lair, treasure hoard, dramatic lighting, volumetric fog, epic scale, digital painting, artstation trending, 8k",画像生成,"コンセプトアート,ファンタジー,ゲーム",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+61,Python: 自動化スクリプト（ファイル操作）,,"【AIへの役割】
+あなたはPythonエンジニアです。
+
+【目的・背景】
+[例: フォルダ内のファイルを日付別に整理したい]
+
+【入力】
+対象: [例: ~/Downloads内のファイル]
+条件: [例: 拡張子、作成日]
+
+【処理内容】
+[例: 年月フォルダを作成し移動]
+
+【期待するアウトプット】
+・コード（コメント付き）
+・エラーハンドリング
+・ログ出力
+・ドライラン機能",コーディング,"Python,自動化,ファイル操作",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+62,Python: API連携,,"【AIへの役割】
+あなたはバックエンドエンジニアです。
+
+【目的・背景】
+[例: OpenWeather APIから天気情報を取得]
+
+【API情報】
+サービス: [例: OpenWeather]
+認証: [例: APIキー]
+
+【処理内容】
+[例: 指定都市の天気を取得してJSON保存]
+
+【期待するアウトプット】
+・リクエスト処理
+・レスポンスパース
+・エラーハンドリング
+・レート制限考慮",コーディング,"Python,API,外部連携",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+63,JavaScript: DOM操作,,"【AIへの役割】
+あなたはフロントエンドエンジニアです。
+
+【目的・背景】
+[例: フォームの入力バリデーションを実装]
+
+【要件】
+対象要素: [例: メールアドレス、電話番号]
+バリデーション: [例: 必須、形式チェック]
+
+【UI要件】
+エラー表示: [例: 入力欄下に赤文字]
+リアルタイム: [例: 入力中にチェック]
+
+【期待するアウトプット】
+・バニラJS実装
+・HTML/CSS
+・アクセシビリティ対応",コーディング,"JavaScript,DOM,フロントエンド",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+64,React: カスタムフック,,"【AIへの役割】
+あなたはReact専門家です。
+
+【目的・背景】
+[例: API呼び出しを共通化するカスタムフック]
+
+【フック名】
+[例: useFetch, useLocalStorage]
+
+【機能要件】
+[例: ローディング状態、エラーハンドリング、キャッシュ]
+
+【期待するアウトプット】
+・TypeScript対応フック
+・使用例
+・テストコード
+・ドキュメント",コーディング,"React,フック,フロントエンド",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+65,CSS: アニメーション,,"【AIへの役割】
+あなたはCSSアニメーション専門家です。
+
+【目的・背景】
+[例: ボタンホバー時のエフェクト]
+
+【アニメーション種類】
+[例: フェード、スライド、バウンス、モーフィング]
+
+【仕様】
+トリガー: [例: ホバー、クリック、スクロール]
+速度: [例: 0.3秒]
+イージング: [例: ease-out]
+
+【期待するアウトプット】
+・CSS（@keyframes）
+・HTML構造
+・パフォーマンス考慮",コーディング,"CSS,アニメーション,UI",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+66,Node.js: バッチ処理,,"【AIへの役割】
+あなたはバックエンドエンジニアです。
+
+【目的・背景】
+[例: 毎日深夜にデータベースのバックアップ]
+
+【処理内容】
+[例: DBダンプ、圧縮、S3アップロード]
+
+【スケジュール】
+[例: cron形式で指定]
+
+【期待するアウトプット】
+・スクリプト
+・ログ出力
+・エラー通知（Slack等）
+・リトライ処理",コーディング,"Node.js,バッチ,バックエンド",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+67,SQL: データ移行,,"【AIへの役割】
+あなたはDBAです。
+
+【目的・背景】
+[例: 旧テーブルから新テーブルへのデータ移行]
+
+【テーブル構造】
+移行元: [例: users_old (id, name, email)]
+移行先: [例: users (id, first_name, last_name, email)]
+
+【変換ルール】
+[例: nameをfirst_nameとlast_nameに分割]
+
+【期待するアウトプット】
+・移行SQL
+・データ検証クエリ
+・ロールバック手順",コーディング,"SQL,データ移行,DBA",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+68,Docker: 開発環境構築,,"【AIへの役割】
+あなたはDevOpsエンジニアです。
+
+【目的・背景】
+[例: Node.js + PostgreSQL + Redisの開発環境]
+
+【技術スタック】
+言語/FW: [例: Node.js 20]
+DB: [例: PostgreSQL 15]
+その他: [例: Redis, Nginx]
+
+【期待するアウトプット】
+・Dockerfile
+・docker-compose.yml
+・.env.example
+・README（起動手順）",コーディング,"Docker,DevOps,環境構築",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+69,テスト: ユニットテスト,,"【AIへの役割】
+あなたはQAエンジニアです。
+
+【目的・背景】
+[例: ユーティリティ関数のテストを作成]
+
+【テスト対象】
+関数/クラス: [例: formatDate, validateEmail]
+言語: [例: JavaScript/TypeScript]
+
+【フレームワーク】
+[例: Jest, Vitest, pytest]
+
+【期待するアウトプット】
+・正常系テスト
+・異常系テスト
+・エッジケース
+・モック/スタブ使用例",コーディング,"テスト,ユニットテスト,QA",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+70,GitHub Actions: CI/CD,,"【AIへの役割】
+あなたはDevOpsエンジニアです。
+
+【目的・背景】
+[例: PRマージ時に自動テスト＆デプロイ]
+
+【パイプライン】
+トリガー: [例: push, pull_request]
+ステップ: [例: lint, test, build, deploy]
+
+【デプロイ先】
+[例: Vercel, AWS, GCP]
+
+【期待するアウトプット】
+・.github/workflows/ci.yml
+・シークレット設定手順
+・バッジ埋め込みコード",コーディング,"GitHub Actions,CI/CD,DevOps",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+71,正規表現: パターン作成,,"【AIへの役割】
+あなたは正規表現の専門家です。
+
+【目的・背景】
+[例: 電話番号を抽出したい]
+
+【マッチ対象】
+形式: [例: 090-1234-5678, 0901234567]
+言語: [例: JavaScript, Python]
+
+【期待するアウトプット】
+・正規表現パターン
+・使用例コード
+・マッチ/非マッチ例
+・解説",コーディング,"正規表現,パターン,テキスト処理",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+72,アルゴリズム: 実装,,"【AIへの役割】
+あなたはアルゴリズムの専門家です。
+
+【目的・背景】
+[例: 面接対策でソートアルゴリズムを理解したい]
+
+【アルゴリズム】
+[例: クイックソート、二分探索、ダイクストラ]
+
+【言語】
+[例: Python, JavaScript]
+
+【期待するアウトプット】
+・実装コード
+・計算量（時間・空間）
+・動作原理の解説
+・使用場面",コーディング,"アルゴリズム,データ構造,学習",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+73,ゲームBGM（フィールド）,https://placehold.co/600x400/228B22/ffffff?text=Field+BGM,"【目的・背景】
+RPG等のフィールドマップBGM
+
+【シーン】
+場所: [例: 草原、雪山、砂漠]
+雰囲気: [例: 冒険的、神秘的、穏やか]
+
+【楽器構成】
+[例: オーケストラ、民族楽器、シンセ]
+
+【仕様】
+BPM: [例: 80-120]
+ループ: [例: 対応必須]
+
+【サンプルプロンプト】
+adventure RPG field music, orchestral, light percussion, hopeful melody, moderate tempo 100bpm, fantasy adventure theme, seamless loop",音声・音楽生成,"ゲーム,フィールド,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+74,ゲームBGM（メニュー）,https://placehold.co/600x400/4a4a4a/ffffff?text=Menu+BGM,"【目的・背景】
+ゲームのタイトル画面、メニュー画面
+
+【雰囲気】
+[例: 荘厳、期待感、ノスタルジック]
+
+【楽器構成】
+[例: ピアノ、ストリングス、アンビエント]
+
+【仕様】
+BPM: [例: 60-80]
+ループ: [例: 対応]
+
+【サンプルプロンプト】
+game menu music, ambient piano, soft strings, peaceful atmosphere, slow tempo 70bpm, title screen theme, ethereal, loop ready",音声・音楽生成,"ゲーム,メニュー,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+75,効果音（UI）,https://placehold.co/600x400/6366f1/ffffff?text=UI+SFX,"【目的・背景】
+アプリ、ゲームのUI操作音
+
+【効果音種類】
+[例: ボタンクリック、通知、成功、エラー]
+
+【スタイル】
+[例: ミニマル、ゲーム風、高級感]
+
+【仕様】
+長さ: [例: 0.1-0.5秒]
+フォーマット: [例: WAV, MP3]
+
+【サンプルプロンプト】
+UI click sound effect, soft click, modern app style, short crisp sound, satisfying feedback, high quality audio",音声・音楽生成,"効果音,UI,アプリ",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+76,YouTube BGM（チュートリアル）,https://placehold.co/600x400/FF0000/ffffff?text=Tutorial+BGM,"【目的・背景】
+解説動画、ハウツー動画のバックBGM
+
+【雰囲気】
+[例: 集中できる、邪魔にならない、軽快]
+
+【楽器構成】
+[例: ピアノ、アコースティックギター]
+
+【仕様】
+BPM: [例: 90-110]
+長さ: [例: 3-5分ループ]
+
+【サンプルプロンプト】
+background music for tutorial video, light acoustic guitar, subtle piano, not distracting, moderate tempo 100bpm, corporate friendly, royalty free style",音声・音楽生成,"YouTube,チュートリアル,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+77,ASMR・環境音,https://placehold.co/600x400/2F4F4F/90EE90?text=Ambient,"【目的・背景】
+睡眠導入、作業用環境音
+
+【サウンドスケープ】
+[例: 雨音、焚き火、カフェ、森]
+
+【追加要素】
+[例: 雷、鳥の声、人の話し声（遠く）]
+
+【仕様】
+長さ: [例: 30分-1時間]
+ループ対応: [例: シームレス]
+
+【サンプルプロンプト】
+rain ambience, gentle rain on window, distant thunder, cozy indoor atmosphere, ASMR quality, seamless loop, 1 hour",音声・音楽生成,"ASMR,環境音,リラクゼーション",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+78,EDM・ダンストラック,https://placehold.co/600x400/FF1493/ffffff?text=EDM,"【目的・背景】
+クラブ、フェス、動画用
+
+【サブジャンル】
+[例: House, Trance, Dubstep, Future Bass]
+
+【雰囲気】
+[例: アップリフティング、ダーク、ハード]
+
+【仕様】
+BPM: [例: 128-145]
+長さ: [例: 3-5分]
+
+【サンプルプロンプト】
+future bass EDM track, energetic synth drops, powerful bass, uplifting melody, 140bpm, festival anthem style, high quality production",音声・音楽生成,"EDM,ダンス,クラブ",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+79,ジャズ・ラウンジ,https://placehold.co/600x400/D2691E/ffffff?text=Jazz,"【目的・背景】
+バー、レストラン、ラウンジBGM
+
+【スタイル】
+[例: スムースジャズ、ボサノバ、スウィング]
+
+【楽器構成】
+[例: ピアノトリオ、サックス、ウッドベース]
+
+【雰囲気】
+[例: 洗練、リラックス、ロマンチック]
+
+【サンプルプロンプト】
+smooth jazz lounge music, saxophone melody, piano accompaniment, upright bass, brushed drums, relaxed tempo 90bpm, sophisticated atmosphere",音声・音楽生成,"ジャズ,ラウンジ,BGM",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+80,オーケストラ・映画音楽,https://placehold.co/600x400/FFD700/333333?text=Orchestral,"【目的・背景】
+映画、トレーラー、壮大なシーン
+
+【シーン】
+[例: 戦闘、感動、サスペンス、勝利]
+
+【楽器構成】
+フルオーケストラ、合唱
+
+【仕様】
+BPM: [例: シーンによる]
+長さ: [例: 2-4分]
+
+【サンプルプロンプト】
+epic orchestral cinematic music, full orchestra, choir, dramatic build-up, triumphant climax, movie trailer style, emotional, hans zimmer inspired",音声・音楽生成,"オーケストラ,映画,壮大",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+81,製品デモ動画,,"【AIへの役割】
+あなたは動画ディレクターです。
+
+【目的・背景】
+[例: SaaSツールの機能紹介動画]
+
+【製品】
+[例: プロジェクト管理ツール]
+
+【ターゲット】
+[例: IT企業の意思決定者]
+
+【動画仕様】
+長さ: [例: 2分]
+スタイル: [例: 画面録画+アニメーション]
+
+【シーン構成】
+・問題提起
+・ソリューション紹介
+・主要機能デモ
+・ユーザーの声
+・CTA
+
+【サンプルプロンプト】
+product demo video, clean UI animation, screen recording style, professional voiceover text overlay, modern transitions",動画生成,"デモ,製品,SaaS",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+82,インタビュー動画,,"【目的・背景】
+社員紹介、顧客インタビュー
+
+【インタビュイー】
+[例: CEO、顧客、社員]
+
+【トーン】
+[例: 誠実、親しみやすい、プロフェッショナル]
+
+【撮影スタイル】
+構図: [例: バストアップ、Bロール挿入]
+ライティング: [例: 3点照明]
+背景: [例: オフィス、白バック]
+
+【サンプルプロンプト】
+interview video style, talking head shot, professional lighting, blurred office background, confident speaker, b-roll cutaways",動画生成,"インタビュー,企業,人物",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+83,説明動画（アニメーション）,,"【目的・背景】
+サービス説明、コンセプト紹介
+
+【内容】
+[例: 保険商品の仕組み説明]
+
+【アニメーションスタイル】
+[例: 2Dイラスト、モーショングラフィックス、ホワイトボード]
+
+【ナレーション】
+[例: 日本語、男性、落ち着いた声]
+
+【動画仕様】
+長さ: [例: 90秒]
+
+【サンプルプロンプト】
+explainer video animation, 2D flat design, smooth motion graphics, icon animations, character illustration, corporate color scheme",動画生成,"説明動画,アニメーション,マーケティング",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+84,イベント・ハイライト,,"【目的・背景】
+カンファレンス、セミナーのダイジェスト
+
+【イベント内容】
+[例: 年次カンファレンス、展示会]
+
+【含める要素】
+[例: 基調講演、ブース、参加者インタビュー]
+
+【編集スタイル】
+テンポ: [例: 速いカット]
+音楽: [例: アップビート]
+長さ: [例: 2-3分]
+
+【サンプルプロンプト】
+event highlight video, dynamic cuts, energetic music sync, crowd shots, speaker presentations, booth interactions, time-lapse, drone shots",動画生成,"イベント,ハイライト,ダイジェスト",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+85,料理・レシピ動画,,"【目的・背景】
+YouTube、SNS用のレシピ紹介
+
+【料理】
+[例: パスタ、スイーツ、和食]
+
+【撮影スタイル】
+アングル: [例: 俯瞰、横から]
+テンポ: [例: 早送り、リアルタイム]
+
+【編集】
+テキスト: [例: 分量、手順のテロップ]
+BGM: [例: 軽快、落ち着いた]
+
+【サンプルプロンプト】
+cooking video, overhead shot, hands preparing food, ingredient close-ups, satisfying cutting sounds, text overlays with measurements, warm lighting",動画生成,"料理,レシピ,フード",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+86,トランジション・エフェクト,,"【目的・背景】
+動画編集用のトランジション素材
+
+【種類】
+[例: ワイプ、ズーム、グリッチ、液体]
+
+【用途】
+[例: YouTube、Vlog、企業動画]
+
+【仕様】
+解像度: [例: 4K]
+フレームレート: [例: 60fps]
+背景: [例: 透過、カラー]
+
+【サンプルプロンプト】
+video transition effect, liquid morphing, smooth animation, vibrant colors, 4K resolution, 60fps, alpha channel",動画生成,"トランジション,エフェクト,素材",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+87,ミュージックビデオ風,,"【目的・背景】
+楽曲のビジュアル化
+
+【楽曲ジャンル】
+[例: ポップ、ロック、ヒップホップ、EDM]
+
+【ビジュアルスタイル】
+[例: パフォーマンス、ストーリー、抽象]
+
+【演出】
+[例: ダンス、風景カット、VFX]
+
+【サンプルプロンプト】
+music video style, artist performance, dramatic lighting, slow motion shots, dynamic camera movement, visual effects, beat-synced editing",動画生成,"MV,ミュージックビデオ,音楽",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+88,不動産・物件紹介,,"【目的・背景】
+賃貸・売買物件の紹介動画
+
+【物件】
+種類: [例: マンション、一戸建て、オフィス]
+特徴: [例: 駅近、新築、眺望]
+
+【撮影スタイル】
+[例: ジンバル移動、ドローン空撮]
+
+【編集】
+テキスト: [例: 間取り、価格表示]
+音楽: [例: 落ち着いた、高級感]
+
+【サンプルプロンプト】
+real estate video tour, smooth gimbal walk-through, bright natural lighting, modern interior, room transitions, drone exterior shot, text overlays with specs",動画生成,"不動産,物件,紹介",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+89,キャッチコピー作成,,"【AIへの役割】
+あなたは広告コピーライターです。
+
+【目的・背景】
+[例: 新商品の認知度を上げるキャッチコピー]
+
+【商品/サービス】
+名前: [例: 天然水 クリスタル]
+特徴: [例: 富士山麓の湧き水、ミネラル豊富]
+USP: [例: 他社より2倍のミネラル含有]
+
+【ターゲット】
+[例: 健康志向の30-50代女性]
+
+【トーン・雰囲気】
+[例: 清涼感、プレミアム感、親しみやすさ]
+
+【期待するアウトプット】
+・メインコピー（10案）
+・サブコピー（各メインに対応）
+・使用シーンの提案",文章生成,"キャッチコピー,広告,マーケティング",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+90,アンケート設計,,"【AIへの役割】
+あなたはマーケットリサーチャーです。
+
+【目的・背景】
+[例: 新サービスの需要調査]
+
+【調査対象】
+[例: 20-40代の会社員]
+
+【調査したい内容】
+[例: 利用意向、価格感度、競合比較]
+
+【アンケート形式】
+[例: Webアンケート、5分程度]
+
+【期待するアウトプット】
+・スクリーニング質問
+・本調査質問（選択式、自由記述）
+・回答選択肢
+・質問順序の理由",文章生成,"アンケート,リサーチ,調査",ChatGPT|https://chat.openai.com/;Claude|https://claude.ai/;Gemini|https://gemini.google.com/
+91,Webサイトヒーロー画像,https://placehold.co/600x400/6366f1/ffffff?text=Hero+Image,"【目的・背景】
+Webサイトのファーストビュー用画像
+
+【サイト種類】
+[例: コーポレートサイト、ECサイト、SaaS LP]
+
+【伝えたいイメージ】
+[例: 信頼性、革新性、親しみやすさ]
+
+【要素】
+人物: [例: ビジネスパーソン、家族、なし]
+背景: [例: オフィス、抽象的、グラデーション]
+カラー: [例: ブランドカラー準拠]
+
+【サンプルプロンプト】
+website hero image, diverse business team collaboration, modern office environment, bright lighting, corporate blue color scheme, professional photography, space for text overlay, 16:9 aspect ratio",画像生成,"Webデザイン,ヒーロー,背景",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+92,インフォグラフィック素材,https://placehold.co/600x400/10B981/ffffff?text=Infographic,"【目的・背景】
+データや情報を視覚化する素材
+
+【テーマ】
+[例: ビジネス統計、プロセス図、比較]
+
+【スタイル】
+[例: フラット、アイソメトリック、手書き風]
+
+【カラーパレット】
+[例: コーポレートカラー、パステル、モノトーン]
+
+【含める要素】
+[例: グラフ、アイコン、フロー矢印]
+
+【サンプルプロンプト】
+infographic design elements, flat style icons, pie charts, bar graphs, process arrows, business theme, blue and green color palette, vector illustration, clean design",画像生成,"インフォグラフィック,データ,ビジネス",Midjourney|https://www.midjourney.com/;Stable Diffusion|https://stability.ai/;Gemini|https://gemini.google.com/
+93,データベース設計,,"【AIへの役割】
+あなたはデータベースアーキテクトです。
+
+【目的・背景】
+[例: ECサイトのデータベース設計]
+
+【システム概要】
+機能: [例: ユーザー管理、商品管理、注文管理]
+規模: [例: ユーザー10万人、商品1万点]
+
+【技術要件】
+DBMS: [例: PostgreSQL, MySQL]
+正規化: [例: 第3正規形]
+
+【期待するアウトプット】
+・ER図（テキスト形式）
+・テーブル定義
+・リレーション
+・インデックス戦略
+・マイグレーションSQL",コーディング,"データベース,設計,アーキテクチャ",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+94,セキュリティ対策コード,,"【AIへの役割】
+あなたはセキュリティエンジニアです。
+
+【目的・背景】
+[例: Webアプリケーションのセキュリティ強化]
+
+【対象脆弱性】
+[例: XSS、SQLインジェクション、CSRF]
+
+【技術スタック】
+言語/FW: [例: Node.js/Express]
+
+【期待するアウトプット】
+・脆弱性の説明
+・攻撃例
+・対策コード
+・テスト方法
+・ベストプラクティス",コーディング,"セキュリティ,脆弱性,対策",GitHub Copilot|https://github.com/features/copilot;ChatGPT|https://chat.openai.com/;Gemini|https://gemini.google.com/
+95,着信音・通知音,https://placehold.co/600x400/3B82F6/ffffff?text=Ringtone,"【目的・背景】
+スマートフォン、アプリの通知音
+
+【用途】
+[例: 着信音、メッセージ通知、アラーム]
+
+【スタイル】
+[例: シンプル、楽しい、洗練]
+
+【仕様】
+長さ: [例: 3-10秒]
+ループ: [例: 着信音は対応]
+
+【サンプルプロンプト】
+notification sound, gentle chime, two notes ascending, modern app style, pleasant tone, short duration 2 seconds, high quality audio",音声・音楽生成,"着信音,通知音,アプリ",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+96,ボーカル入り楽曲,https://placehold.co/600x400/EC4899/ffffff?text=Vocal+Song,"【目的・背景】
+オリジナル楽曲制作
+
+【ジャンル】
+[例: J-POP、R&B、ロック、アニソン]
+
+【テーマ・歌詞内容】
+[例: 恋愛、友情、応援歌、季節]
+
+【ボーカルスタイル】
+[例: 女性ボーカル、男性ボーカル、デュエット]
+
+【仕様】
+BPM: [例: 120-140]
+キー: [例: Cメジャー]
+
+【サンプルプロンプト】
+J-pop song with female vocals, upbeat tempo 130bpm, catchy chorus, electronic instrumentation, emotional lyrics about new beginnings, radio-friendly production",音声・音楽生成,"楽曲,ボーカル,オリジナル",Suno AI|https://suno.com/;Udio|https://www.udio.com/
+97,ウェディング動画,,"【目的・背景】
+結婚式のオープニング/プロフィール動画
+
+【スタイル】
+[例: ロマンチック、ポップ、シネマティック]
+
+【含める要素】
+[例: 写真スライドショー、テキスト、BGM]
+
+【動画仕様】
+長さ: [例: 3-5分]
+解像度: [例: 1080p]
+
+【トーン】
+[例: 感動的、明るい、おしゃれ]
+
+【サンプルプロンプト】
+wedding video style, romantic slow motion, soft warm color grading, lens flares, couple footage, nature backgrounds, cinematic transitions, emotional atmosphere",動画生成,"ウェディング,結婚式,イベント",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+98,教育・研修動画,,"【AIへの役割】
+あなたはインストラクショナルデザイナーです。
+
+【目的・背景】
+[例: 新入社員向けコンプライアンス研修]
+
+【対象者】
+[例: 新入社員、全社員]
+
+【コンテンツ】
+[例: 情報セキュリティ、ハラスメント防止]
+
+【動画仕様】
+長さ: [例: 10-15分/モジュール]
+形式: [例: 講義+クイズ]
+
+【サンプルプロンプト】
+e-learning video, professional presenter, clean white background, text annotations, diagram animations, quiz overlay, corporate training style",動画生成,"教育,研修,Eラーニング",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+99,旅行・観光PR動画,,"【目的・背景】
+観光地、ホテル、旅行商品のPR
+
+【対象エリア】
+[例: 京都、沖縄、北海道]
+
+【ターゲット】
+[例: 国内旅行者、インバウンド]
+
+【含める要素】
+[例: 風景、食事、アクティビティ、宿泊施設]
+
+【スタイル】
+[例: シネマティック、ドローン空撮]
+
+【サンプルプロンプト】
+travel promotional video, stunning aerial drone shots, local cuisine close-ups, cultural experiences, happy travelers, cinematic color grading, inspiring music sync",動画生成,"旅行,観光,PR",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/
+100,ゲームトレーラー,,"【目的・背景】
+ゲーム発売前の告知映像
+
+【ゲームジャンル】
+[例: RPG、アクション、パズル]
+
+【トレーラー種類】
+[例: ティザー、ゲームプレイ、ストーリー]
+
+【含める要素】
+[例: カットシーン、ゲームプレイ映像、ロゴ]
+
+【トーン】
+[例: 壮大、ダーク、ポップ]
+
+【サンプルプロンプト】
+game trailer style, epic cinematic shots, dramatic lighting, action sequences, logo reveal, title card, fast-paced editing, bass-heavy music sync, release date overlay",動画生成,"ゲーム,トレーラー,告知",Runway Gen-2|https://runwayml.com/;Sora|https://openai.com/sora;Gemini|https://gemini.google.com/

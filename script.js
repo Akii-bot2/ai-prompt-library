@@ -5,6 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const tagFiltersContainer = document.getElementById('tag-filters');
     const searchInput = document.getElementById('search-input');
 
+    // Category Default Images
+    const categoryImages = {
+        '文章生成': 'images/category_text.png',
+        '画像生成': 'images/category_image.png',
+        'コーディング': 'images/category_coding.png',
+        '音声・音楽生成': 'images/category_audio.png',
+        '動画生成': 'images/category_video.png'
+    };
+
     // State
     let allPrompts = [];
     let activeCategory = 'all';
@@ -191,6 +200,8 @@ document.addEventListener('DOMContentLoaded', () => {
             let imageHtml = '';
             if (item.image) {
                 imageHtml = `<img src="${item.image}" alt="${item.title}" class="card-image" loading="lazy">`;
+            } else if (categoryImages[item.category]) {
+                imageHtml = `<img src="${categoryImages[item.category]}" alt="${item.category}" class="card-image" loading="lazy">`;
             } else {
                 imageHtml = `
                     <div class="card-placeholder">

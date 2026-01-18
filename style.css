@@ -775,6 +775,11 @@ button {
     }
 
     /* Horizontal scrolling categories */
+    .filter-section {
+        width: 100%;
+        align-items: stretch;
+    }
+
     .category-filters {
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -783,10 +788,11 @@ button {
         scrollbar-width: none;
         -ms-overflow-style: none;
         padding-bottom: var(--spacing-sm);
-        margin: 0 calc(-1 * var(--spacing-md));
-        padding-left: var(--spacing-md);
-        padding-right: var(--spacing-md);
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
         gap: var(--spacing-sm);
+        width: 100%;
     }
 
     .category-filters::-webkit-scrollbar {

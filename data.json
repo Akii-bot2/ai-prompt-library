@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "ビジネスメール作成（謝罪）",
-    "image": null,
+    "image": "images/prompt_01.png",
     "prompt": "【AIへの役割】\nあなたはビジネスコミュニケーションのプロフェッショナルです。\n\n【目的・背景】\n[例: 納期遅延について取引先に謝罪する]\n\n【ターゲット】\n[例: 長年の取引先の担当者]\n\n【トーン・雰囲気】\n誠実で丁寧、かつプロフェッショナル\n\n【期待するアウトプット】\n・件名\n・本文（挨拶、謝罪、原因説明、対策、締め）\n・署名",
     "category": "文章生成",
     "tags": [
@@ -28,7 +28,7 @@
   {
     "id": 2,
     "title": "ビジネスメール作成（依頼）",
-    "image": null,
+    "image": "images/prompt_02.png",
     "prompt": "【AIへの役割】\nあなたはビジネスメールの専門家です。\n\n【目的・背景】\n[例: 新規プロジェクトへの協力を依頼する]\n\n【ターゲット】\n[例: 他部署のマネージャー]\n\n【トーン・雰囲気】\n丁寧かつ説得力のある\n\n【期待するアウトプット】\n・件名\n・本文（背景説明、依頼内容、メリット提示、締め切り）",
     "category": "文章生成",
     "tags": [
@@ -54,7 +54,7 @@
   {
     "id": 3,
     "title": "お礼メール作成",
-    "image": null,
+    "image": "images/prompt_03.png",
     "prompt": "【AIへの役割】\nあなたは心のこもったコミュニケーションの専門家です。\n\n【目的・背景】\n[例: 面接後のお礼を伝える]\n\n【ターゲット】\n[例: 採用担当者]\n\n【トーン・雰囲気】\n温かみがあり、誠実\n\n【期待するアウトプット】\n・件名\n・本文（感謝、印象に残った点、意欲表明）",
     "category": "文章生成",
     "tags": [
@@ -79,7 +79,7 @@
   {
     "id": 4,
     "title": "業務マニュアル作成",
-    "image": null,
+    "image": "images/prompt_04.png",
     "prompt": "【AIへの役割】\nあなたは業務プロセス設計の専門家です。\n\n【目的・背景】\n[例: 新入社員向けの経費精算手順書を作成する]\n\n【ターゲット】\n[例: 入社1ヶ月目の新入社員]\n\n【トーン・雰囲気】\n分かりやすく、ステップバイステップ\n\n【期待するアウトプット】\n・目次\n・各ステップの詳細手順（スクリーンショット挿入箇所の指示含む）\n・よくある質問（FAQ）\n・注意点",
     "category": "文章生成",
     "tags": [
@@ -105,7 +105,7 @@
   {
     "id": 5,
     "title": "製品操作マニュアル",
-    "image": null,
+    "image": "images/prompt_05.png",
     "prompt": "【AIへの役割】\nあなたはテクニカルライターです。\n\n【目的・背景】\n[例: 家電製品の初期設定ガイドを作成する]\n\n【ターゲット】\n[例: テクノロジーに詳しくない高齢者]\n\n【トーン・雰囲気】\n簡潔で親切、専門用語を避ける\n\n【期待するアウトプット】\n・箱を開けてから使えるまでの手順\n・図解の挿入箇所指示\n・トラブルシューティング",
     "category": "文章生成",
     "tags": [
@@ -131,7 +131,7 @@
   {
     "id": 6,
     "title": "プレゼン資料構成案",
-    "image": null,
+    "image": "images/prompt_06.png",
     "prompt": "【AIへの役割】\nあなたはプレゼンテーションデザインの専門家です。\n\n【目的・背景】\n[例: 新規事業の提案を役員会で発表する]\n\n【ターゲット】\n[例: 経営層（意思決定者）]\n\n【トーン・雰囲気】\n論理的、説得力があり、データドリブン\n\n【期待するアウトプット】\n・スライド構成（10枚程度）\n・各スライドの見出しとキーメッセージ\n・ビジュアル候補の提案",
     "category": "文章生成",
     "tags": [
@@ -157,7 +157,7 @@
   {
     "id": 7,
     "title": "企画書テンプレート",
-    "image": null,
+    "image": "images/prompt_07.png",
     "prompt": "【AIへの役割】\nあなたは企画立案のプロフェッショナルです。\n\n【目的・背景】\n[例: 社内イベントの企画を上司に提案する]\n\n【ターゲット】\n[例: 部門長]\n\n【トーン・雰囲気】\n説得力があり、具体的で実行可能\n\n【期待するアウトプット】\n・企画概要\n・目的と期待効果\n・スケジュール案\n・予算概算\n・リスクと対策",
     "category": "文章生成",
     "tags": [
@@ -183,7 +183,7 @@
   {
     "id": 8,
     "title": "報告書作成",
-    "image": null,
+    "image": "images/prompt_08.png",
     "prompt": "【AIへの役割】\nあなたはビジネスレポートの専門家です。\n\n【目的・背景】\n[例: 四半期の営業成績を報告する]\n\n【ターゲット】\n[例: 経営陣]\n\n【トーン・雰囲気】\n客観的、簡潔、データに基づく\n\n【期待するアウトプット】\n・エグゼクティブサマリー\n・主要KPIの分析\n・課題と改善策\n・次期の展望",
     "category": "文章生成",
     "tags": [
@@ -209,7 +209,7 @@
   {
     "id": 9,
     "title": "SEOブログ記事",
-    "image": null,
+    "image": "images/prompt_09.png",
     "prompt": "【AIへの役割】\nあなたはSEOとコンテンツマーケティングの専門家です。\n\n【目的・背景】\n[例: 「在宅ワーク 効率化」で検索上位を狙う]\n\n【ターゲット】\n[例: 在宅勤務を始めたばかりの会社員]\n\n【トーン・雰囲気】\n親しみやすく、実用的\n\n【期待するアウトプット】\n・SEO最適化されたタイトル（H1）\n・メタディスクリプション\n・見出し構成（H2, H3）\n・本文（2000-3000文字）\n・CTAの提案",
     "category": "文章生成",
     "tags": [
@@ -235,7 +235,7 @@
   {
     "id": 10,
     "title": "SNS投稿文作成",
-    "image": null,
+    "image": "images/prompt_10.png",
     "prompt": "【AIへの役割】\nあなたはソーシャルメディアマーケターです。\n\n【目的・背景】\n[例: 新製品の認知度を上げたい]\n\n【ターゲット】\n[例: 20-30代の女性]\n\n【トーン・雰囲気】\nカジュアルで親しみやすい、絵文字適度に使用\n\n【期待するアウトプット】\n・Instagram用（画像キャプション、ハッシュタグ）\n・X(Twitter)用（140字以内）\n・投稿最適時間の提案",
     "category": "文章生成",
     "tags": [
@@ -261,7 +261,7 @@
   {
     "id": 11,
     "title": "キャラクターデザイン（ファンタジー）",
-    "image": "https://placehold.co/600x400/2e1a1a/e9b645?text=Fantasy+Character",
+    "image": "images/prompt_11.png",
     "prompt": "【目的・背景】\nゲームやイラスト用のオリジナルキャラクター\n\n【キャラクター設定】\n種族: [例: エルフ、人間、獣人]\n職業: [例: 魔法使い、戦士、盗賊]\n性別・年齢: [例: 女性、20代]\n性格: [例: 勇敢、神秘的、陽気]\n\n【ビジュアルスタイル】\n[例: アニメスタイル、写実的、セルシェード]\n\n【構図・ポーズ】\n[例: 全身立ち絵、バストアップ、アクションポーズ]\n\n【サンプルプロンプト】\nfemale elf mage, long silver hair, glowing blue eyes, ornate robe, holding magical staff, forest background, fantasy art style, highly detailed, 8k",
     "category": "画像生成",
     "tags": [
@@ -287,7 +287,7 @@
   {
     "id": 12,
     "title": "キャラクターデザイン（現代）",
-    "image": "https://placehold.co/600x400/1a1a2e/e94560?text=Modern+Character",
+    "image": "images/prompt_12.png",
     "prompt": "【目的・背景】\n現代設定のキャラクターイラスト\n\n【キャラクター設定】\n職業: [例: 学生、会社員、アーティスト]\n性別・年齢: [例: 男性、30代]\nファッション: [例: カジュアル、ストリート、フォーマル]\n\n【ビジュアルスタイル】\n[例: リアル調、イラスト調、漫画風]\n\n【構図・ポーズ】\n[例: 日常シーン、ポートレート]\n\n【サンプルプロンプト】\nyoung japanese businessman, modern suit, confident smile, city background, professional photograph style, cinematic lighting",
     "category": "画像生成",
     "tags": [
@@ -313,7 +313,7 @@
   {
     "id": 13,
     "title": "風景イラスト（自然）",
-    "image": "https://placehold.co/600x400/228B22/ffffff?text=Nature+Landscape",
+    "image": "images/prompt_13.png",
     "prompt": "【目的・背景】\n背景素材、壁紙、コンセプトアート用\n\n【シーン設定】\n場所: [例: 山、海、森、草原]\n時間帯: [例: 朝焼け、昼、夕暮れ、夜]\n季節: [例: 春、夏、秋、冬]\n天気: [例: 晴れ、曇り、雨、雪]\n\n【ビジュアルスタイル】\n[例: 写真リアル、油絵風、ジブリ風、印象派]\n\n【サンプルプロンプト】\nbreathtaking mountain landscape, sunset, golden hour lighting, snow-capped peaks, pine forest, lake reflection, oil painting style, 8k resolution",
     "category": "画像生成",
     "tags": [
@@ -339,7 +339,7 @@
   {
     "id": 14,
     "title": "風景イラスト（都市）",
-    "image": "https://placehold.co/600x400/1a1a2e/e94560?text=Urban+Landscape",
+    "image": "images/prompt_14.png",
     "prompt": "【目的・背景】\n都市景観のコンセプトアート\n\n【シーン設定】\n都市タイプ: [例: 近未来、現代東京、レトロ欧州]\n時間帯: [例: 夜景、雨の日、霧]\n視点: [例: 俯瞰、ストリートレベル、屋上から]\n\n【ビジュアルスタイル】\n[例: サイバーパンク、写実的、アニメ背景]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k",
     "category": "画像生成",
     "tags": [
@@ -365,7 +365,7 @@
   {
     "id": 15,
     "title": "3Dオブジェクトデザイン",
-    "image": "https://placehold.co/600x400/4a4a4a/ffffff?text=3D+Object",
+    "image": "images/prompt_15.png",
     "prompt": "【目的・背景】\nゲームアセット、プロダクトビジュアライゼーション\n\n【オブジェクト】\n種類: [例: 武器、家具、乗り物、食品]\n詳細: [例: 中世の剣、モダンなソファ]\n\n【ビジュアルスタイル】\n[例: フォトリアル3D、ローポリ、スタイライズド]\n\n【ライティング・背景】\n[例: スタジオ照明、透明背景、環境光]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed",
     "category": "画像生成",
     "tags": [
@@ -391,7 +391,7 @@
   {
     "id": 16,
     "title": "ロゴデザイン",
-    "image": "https://placehold.co/600x400/000000/ffffff?text=Logo+Design",
+    "image": "images/prompt_16.png",
     "prompt": "【目的・背景】\n企業・サービス・イベント用のロゴ\n\n【ブランド情報】\n名前: [例: TechNova]\n業種: [例: ITスタートアップ]\nブランドイメージ: [例: 革新的、信頼性、親しみやすい]\n\n【デザイン希望】\nタイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]\nカラー: [例: 青系、モノクロ、グラデーション]\nスタイル: [例: ミニマル、幾何学的、手書き風]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background",
     "category": "画像生成",
     "tags": [
@@ -417,7 +417,7 @@
   {
     "id": 17,
     "title": "アイコンセット",
-    "image": "https://placehold.co/600x400/6366f1/ffffff?text=Icon+Set",
+    "image": "images/prompt_17.png",
     "prompt": "【目的・背景】\nアプリ、Webサイト、プレゼン用のアイコン\n\n【アイコン内容】\nテーマ: [例: ビジネス、ヘルスケア、教育]\n必要なアイコン: [例: ホーム、設定、ユーザー、検索]\n\n【デザインスタイル】\n線の太さ: [例: 細い線、太い線、塗りつぶし]\n角: [例: 丸角、直角]\nカラー: [例: 単色、グラデーション、アクセントカラー]\n\n【サンプルプロンプト】\nflat design icon set, business theme, home settings user search icons, thin line style, rounded corners, blue color scheme, consistent style, vector",
     "category": "画像生成",
     "tags": [
@@ -443,7 +443,7 @@
   {
     "id": 18,
     "title": "食品・料理写真風",
-    "image": "https://placehold.co/600x400/8B4513/ffffff?text=Food+Photo",
+    "image": "images/prompt_18.png",
     "prompt": "【目的・背景】\nメニュー、広告、SNS投稿用の料理ビジュアル\n\n【料理情報】\n料理名: [例: パスタ、寿司、ケーキ]\nスタイル: [例: 和食、洋食、デザート]\n\n【撮影スタイル】\nアングル: [例: 真上(フラットレイ)、45度、接写]\nライティング: [例: 自然光、バックライト、ムーディ]\n背景・小物: [例: 木のテーブル、白皿、ハーブ添え]\n\n【サンプルプロンプト】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k",
     "category": "画像生成",
     "tags": [
@@ -469,7 +469,7 @@
   {
     "id": 19,
     "title": "インテリアデザイン",
-    "image": "https://placehold.co/600x400/DEB887/333333?text=Interior",
+    "image": "images/prompt_19.png",
     "prompt": "【目的・背景】\n住宅、オフィス、店舗のインテリア提案\n\n【空間情報】\n部屋タイプ: [例: リビング、寝室、オフィス]\nスタイル: [例: モダン、北欧、和モダン]\n広さ: [例: 20畳、コンパクト]\n\n【要素】\n家具: [例: ソファ、デスク、ベッド]\nカラーパレット: [例: ナチュラル、モノトーン、アクセントカラー]\n素材: [例: 木、コンクリート、ファブリック]\n\n【サンプルプロンプト】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k",
     "category": "画像生成",
     "tags": [
@@ -495,7 +495,7 @@
   {
     "id": 20,
     "title": "アニメ風イラスト",
-    "image": "https://placehold.co/600x400/FF69B4/ffffff?text=Anime+Style",
+    "image": "images/prompt_20.png",
     "prompt": "【目的・背景】\n同人誌、グッズ、アイコン用イラスト\n\n【キャラクター】\nタイプ: [例: 美少女、少年、デフォルメ]\n表情: [例: 笑顔、クール、照れ]\n服装: [例: 制服、ファンタジー衣装、私服]\n\n【スタイル・作画】\n参考作風: [例: 京アニ風、ufotable風、萌え系]\n塗り: [例: アニメ塗り、厚塗り、水彩]\n\n【サンプルプロンプト】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed",
     "category": "画像生成",
     "tags": [
@@ -521,7 +521,7 @@
   {
     "id": 21,
     "title": "Python: データ分析スクリプト",
-    "image": null,
+    "image": "images/prompt_21.png",
     "prompt": "【AIへの役割】\nあなたは経験豊富なPythonエンジニアです。\n\n【目的・背景】\n[例: CSVファイルの売上データを分析し、月次レポートを自動生成したい]\n\n【開発環境】\nPython: [例: 3.11]\n使用ライブラリ: [例: pandas, matplotlib]\n\n【入力データ】\n[例: sales.csv - 日付、商品名、売上金額、個数のカラムを含む]\n\n【期待するアウトプット】\n・コード全体（コメント付き）\n・月別売上集計\n・グラフ出力（棒グラフ、折れ線グラフ）\n・エラーハンドリング",
     "category": "コーディング",
     "tags": [

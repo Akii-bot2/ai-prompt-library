@@ -773,7 +773,7 @@
   {
     "id": 31,
     "title": "ポッドキャスト用ジングル",
-    "image": null,
+    "image": "images/prompt_33.png",
     "prompt": "【目的・背景】\n番組のオープニング/エンディング用\n\n【ムード・雰囲気】\n[例: 明るい、プロフェッショナル、カジュアル]\n\n【番組ジャンル】\n[例: ビジネス、エンタメ、教育]\n\n【テンポ・長さ】\n長さ: [例: 5-10秒]\nBPM: [例: 110-130]\n\n【サンプルプロンプト】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
     "category": "音声・音楽生成",
     "tags": [

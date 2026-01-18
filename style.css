@@ -758,14 +758,87 @@ button {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .site-title {
-        font-size: 2rem;
+
+    /* Smaller header on mobile */
+    .header {
+        padding: var(--spacing-md) 0;
     }
 
+    .site-title {
+        font-size: 1.5rem;
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .site-description {
+        font-size: 0.9rem;
+        margin-bottom: var(--spacing-md);
+    }
+
+    /* Horizontal scrolling categories */
+    .category-filters {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-bottom: var(--spacing-sm);
+        margin: 0 calc(-1 * var(--spacing-md));
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+        gap: var(--spacing-sm);
+    }
+
+    .category-filters::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-btn {
+        flex-shrink: 0;
+        padding: 6px 12px;
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+
+    /* Smaller tag filters */
+    .tag-filters {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        justify-content: flex-start;
+        margin: 0 calc(-1 * var(--spacing-md));
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+    }
+
+    .tag-filters::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tag-pill {
+        flex-shrink: 0;
+        font-size: 0.75rem;
+        padding: 4px 10px;
+    }
+
+    /* Search bar */
+    .search-container {
+        margin-bottom: var(--spacing-xs);
+    }
+
+    .search-input {
+        padding: 10px 16px 10px 40px;
+        font-size: 0.9rem;
+    }
+
+    /* Cards */
     .card-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
 
+    /* Main layout */
     .main-layout {
         flex-direction: column;
     }
@@ -783,5 +856,18 @@ button {
     .ad-item {
         width: calc(50% - var(--spacing-md));
         min-width: 280px;
+    }
+
+    /* Problem solver section compact */
+    .problem-solver-section {
+        padding: var(--spacing-md) 0;
+    }
+
+    .problem-solver-title {
+        font-size: 1.1rem;
+    }
+
+    .problem-solver-description {
+        font-size: 0.85rem;
     }
 }

@@ -234,6 +234,14 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         card.addEventListener('click', (e) => {
+            // GA4: Track native ad click
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'native_ad_click', {
+                    'event_category': 'advertising',
+                    'event_label': ad.title,
+                    'ad_type': 'native_card'
+                });
+            }
             if (!e.target.closest('.native-ad-cta')) {
                 window.open(ad.url, '_blank');
             }
@@ -401,6 +409,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 cursor: "pointer"
             },
             onClick: function () {
+                // GA4: Track toast ad click
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'toast_ad_click', {
+                        'event_category': 'advertising',
+                        'event_label': category,
+                        'ad_type': 'toast'
+                    });
+                }
                 window.open(ad.url, '_blank');
             }
         }).showToast();
@@ -421,6 +437,15 @@ document.addEventListener('DOMContentLoaded', () => {
             btnElement.classList.add('copied');
             icon.classList.remove('fa-copy');
             icon.classList.add('fa-check');
+
+            // GA4: Track prompt copy
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'prompt_copy', {
+                    'event_category': 'engagement',
+                    'event_label': category,
+                    'prompt_id': id
+                });
+            }
 
             // Show ad toast
             showAdToast(category);

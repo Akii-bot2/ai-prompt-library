@@ -547,7 +547,7 @@
   {
     "id": 22,
     "title": "Python: Webスクレイピング",
-    "image": null,
+    "image": "images/prompt_22.png",
     "prompt": "【AIへの役割】\nあなたはWebスクレイピングの専門家です。\n\n【目的・背景】\n[例: ニュースサイトから最新記事のタイトルとURLを取得したい]\n\n【対象サイト】\n[例: 一般的なニュースサイト（robots.txtを遵守）]\n\n【技術要件】\nライブラリ: [例: requests, BeautifulSoup]\n注意点: [例: レート制限、User-Agent設定]\n\n【期待するアウトプット】\n・スクレイピングコード\n・データ保存（CSV/JSON）\n・エラー処理\n・法的注意事項のコメント",
     "category": "コーディング",
     "tags": [
@@ -573,7 +573,7 @@
   {
     "id": 23,
     "title": "JavaScript: REST API実装",
-    "image": null,
+    "image": "images/prompt_23.png",
     "prompt": "【AIへの役割】\nあなたはNode.js/Express開発者です。\n\n【目的・背景】\n[例: ユーザー管理のCRUD APIを構築したい]\n\n【技術スタック】\nフレームワーク: [例: Express.js]\nデータベース: [例: MongoDB, PostgreSQL]\n\n【エンドポイント】\n[例: GET /users, POST /users, PUT /users/:id, DELETE /users/:id]\n\n【期待するアウトプット】\n・ルーティング設定\n・コントローラー\n・バリデーション\n・エラーハンドリング\n・Swagger/OpenAPIドキュメント",
     "category": "コーディング",
     "tags": [
@@ -599,7 +599,7 @@
   {
     "id": 24,
     "title": "React: UIコンポーネント",
-    "image": null,
+    "image": "images/prompt_24.png",
     "prompt": "【AIへの役割】\nあなたはReactのフロントエンド専門家です。\n\n【目的・背景】\n[例: 再利用可能なモーダルコンポーネントを作成したい]\n\n【技術スタック】\nReact: [例: 18.x]\nスタイリング: [例: CSS Modules, Tailwind]\n状態管理: [例: useState, Zustand]\n\n【コンポーネント要件】\nprops: [例: isOpen, onClose, title, children]\n機能: [例: ESCキーで閉じる、外側クリックで閉じる]\n\n【期待するアウトプット】\n・TypeScript対応のコンポーネント\n・スタイル\n・使用例（ストーリー）\n・アクセシビリティ対応",
     "category": "コーディング",
     "tags": [
@@ -625,7 +625,7 @@
   {
     "id": 25,
     "title": "SQL: 複雑なクエリ作成",
-    "image": null,
+    "image": "images/prompt_25.png",
     "prompt": "【AIへの役割】\nあなたはデータベースエンジニアです。\n\n【目的・背景】\n[例: 顧客の購買履歴から優良顧客を抽出したい]\n\n【データベース】\n種類: [例: PostgreSQL, MySQL]\nテーブル構造: [例: customers, orders, products]\n\n【要件】\n抽出条件: [例: 過去1年で10万円以上購入した顧客]\n並び順: [例: 購入金額の降順]\n\n【期待するアウトプット】\n・SQLクエリ\n・インデックス推奨\n・実行計画の解説\n・パフォーマンス最適化のヒント",
     "category": "コーディング",
     "tags": [
@@ -651,7 +651,7 @@
   {
     "id": 26,
     "title": "HTML/CSS: レスポンシブレイアウト",
-    "image": null,
+    "image": "images/prompt_26.png",
     "prompt": "【AIへの役割】\nあなたはCSS設計の専門家です。\n\n【目的・背景】\n[例: モバイルファーストのランディングページを作成したい]\n\n【レイアウト要件】\n構成: [例: ヘッダー、ヒーロー、特徴セクション、フッター]\nブレイクポイント: [例: 768px, 1024px]\n\n【デザイン仕様】\nカラー: [例: プライマリ #3B82F6]\nフォント: [例: Noto Sans JP]\n\n【期待するアウトプット】\n・セマンティックHTML\n・モダンCSS（Flexbox/Grid）\n・レスポンシブ対応\n・アクセシビリティ考慮",
     "category": "コーディング",
     "tags": [
@@ -677,7 +677,7 @@
   {
     "id": 27,
     "title": "TypeScript: 型定義設計",
-    "image": null,
+    "image": "images/prompt_27.png",
     "prompt": "【AIへの役割】\nあなたはTypeScriptの型システム専門家です。\n\n【目的・背景】\n[例: ECサイトのドメインモデルの型を設計したい]\n\n【ドメイン】\nエンティティ: [例: User, Product, Order, Cart]\n関係性: [例: UserはOrdersを持つ、OrderはProductsを含む]\n\n【要件】\nユーティリティ型: [例: Partial, Pick, Omit の活用]\nジェネリクス: [例: APIレスポンス型]\n\n【期待するアウトプット】\n・interface/type定義\n・型ガード関数\n・Zodスキーマ（オプション）\n・使用例",
     "category": "コーディング",
     "tags": [
@@ -703,7 +703,7 @@
   {
     "id": 28,
     "title": "Git: ワークフロー設計",
-    "image": null,
+    "image": "images/prompt_28.png",
     "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: チーム開発のブランチ戦略を確立したい]\n\n【チーム規模】\n人数: [例: 5名]\nリリース頻度: [例: 週1回]\n\n【要件】\nブランチモデル: [例: Git Flow, GitHub Flow]\nCI/CD: [例: GitHub Actions連携]\n\n【期待するアウトプット】\n・ブランチ命名規則\n・マージ戦略\n・コミットメッセージ規約\n・プルリクエストテンプレート",
     "category": "コーディング",
     "tags": [
@@ -729,7 +729,7 @@
   {
     "id": 29,
     "title": "Lo-Fi BGM（作業用）",
-    "image": "https://placehold.co/600x400/4B0082/ffffff?text=Lo-Fi",
+    "image": "images/prompt_29.png",
     "prompt": "【目的・背景】\n作業・勉強に集中するためのBGM\n\n【ムード・雰囲気】\n[例: 穏やか、ノスタルジック、雨の日]\n\n【楽器・サウンド】\nメイン: [例: ピアノ、ギター]\nサブ: [例: ソフトなドラム、環境音]\n\n【テンポ・長さ】\nBPM: [例: 70-85]\n長さ: [例: 3分]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",
     "category": "音声・音楽生成",
     "tags": [
@@ -751,7 +751,7 @@
   {
     "id": 30,
     "title": "ゲームBGM（バトル）",
-    "image": "https://placehold.co/600x400/8B0000/ffffff?text=Battle+BGM",
+    "image": "images/prompt_30.png",
     "prompt": "【目的・背景】\nゲームのボス戦・バトルシーン用\n\n【ムード・雰囲気】\n[例: 激しい、緊迫感、壮大]\n\n【楽器・サウンド】\nメイン: [例: オーケストラ、エレキギター]\nパーカッション: [例: 激しいドラム、ティンパニ]\n\n【テンポ・長さ】\nBPM: [例: 140-180]\nループ対応: [例: はい]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",
     "category": "音声・音楽生成",
     "tags": [
@@ -773,7 +773,7 @@
   {
     "id": 31,
     "title": "ポッドキャスト用ジングル",
-    "image": "https://placehold.co/600x400/32CD32/ffffff?text=Podcast",
+    "image": "images/prompt_31.png",
     "prompt": "【目的・背景】\n番組のオープニング/エンディング用\n\n【ムード・雰囲気】\n[例: 明るい、プロフェッショナル、カジュアル]\n\n【番組ジャンル】\n[例: ビジネス、エンタメ、教育]\n\n【テンポ・長さ】\n長さ: [例: 5-10秒]\nBPM: [例: 110-130]\n\n【サンプルプロンプト】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
     "category": "音声・音楽生成",
     "tags": [
@@ -795,7 +795,7 @@
   {
     "id": 32,
     "title": "リラクゼーション音楽",
-    "image": "https://placehold.co/600x400/2F4F4F/F0FFF0?text=Relaxing",
+    "image": "images/prompt_32.png",
     "prompt": "【目的・背景】\n瞑想、ヨガ、睡眠導入用\n\n【ムード・雰囲気】\n[例: 穏やか、神秘的、自然]\n\n【楽器・サウンド】\nメイン: [例: シンセパッド、ピアノ]\n環境音: [例: 波の音、鳥の声、風]\n\n【テンポ・長さ】\nBPM: [例: 50-70]\n長さ: [例: 10分]\n\n【サンプルプロンプト】\nambient meditation music, soft synthesizer pads, gentle piano, nature sounds, very slow tempo 55bpm, calming, healing frequencies, 432hz",
     "category": "音声・音楽生成",
     "tags": [
@@ -817,7 +817,7 @@
   {
     "id": 33,
     "title": "製品プロモーション動画",
-    "image": null,
+    "image": "images/prompt_33.png",
     "prompt": "【AIへの役割】\nあなたは動画プロデューサーです。\n\n【目的・背景】\n[例: 新発売のスマートウォッチのSNS広告動画]\n\n【ターゲット】\n[例: 20-30代の健康志向ビジネスパーソン]\n\n【動画仕様】\n長さ: [例: 30秒]\nアスペクト比: [例: 9:16（縦動画）]\nスタイル: [例: クリーン、ミニマル、ダイナミック]\n\n【シーン構成】\nイントロ: [例: 問題提起、日常シーン]\n本編: [例: 製品登場、機能紹介]\nアウトロ: [例: ロゴ、CTA]\n\n【サンプルプロンプト（シーン別）】\nScene 1: close-up of smartwatch on wrist, morning sunlight, person checking health stats\nScene 2: dynamic transition, product features appearing, sleek animation",
     "category": "動画生成",
     "tags": [
@@ -843,7 +843,7 @@
   {
     "id": 34,
     "title": "YouTube動画オープニング",
-    "image": null,
+    "image": "images/prompt_34.png",
     "prompt": "【目的・背景】\nチャンネルのブランディング用イントロ\n\n【チャンネルジャンル】\n[例: テック系、Vlog、ゲーム実況]\n\n【トーン・雰囲気】\n[例: クール、ポップ、プロフェッショナル]\n\n【動画仕様】\n長さ: [例: 5秒]\nロゴ/チャンネル名: [例: TechReview]\n\n【要素】\nモーション: [例: ロゴアニメーション、パーティクル]\nカラー: [例: ブランドカラー使用]\nサウンド: [例: ジングル連動]\n\n【サンプルプロンプト】\ndynamic youtube intro animation, logo reveal, particle effects, tech style, blue neon glow, fast paced, 5 seconds, 4k",
     "category": "動画生成",
     "tags": [
@@ -869,7 +869,7 @@
   {
     "id": 35,
     "title": "ドキュメンタリー風映像",
-    "image": null,
+    "image": "images/prompt_35.png",
     "prompt": "【目的・背景】\nストーリーテリング、インタビュー素材\n\n【テーマ】\n[例: 職人の仕事、地域の歴史、自然環境]\n\n【ビジュアルスタイル】\nトーン: [例: シネマティック、ノスタルジック]\nカラーグレード: [例: フィルム風、ナチュラル]\n\n【カメラワーク】\n[例: ゆっくりしたパン、クローズアップ、インタビューショット]\n\n【サンプルプロンプト】\ndocumentary style footage, craftsman hands working, warm color grading, shallow depth of field, slow cinematic movements, natural lighting, film grain",
     "category": "動画生成",
     "tags": [
@@ -895,7 +895,7 @@
   {
     "id": 36,
     "title": "SNS用ショート動画",
-    "image": null,
+    "image": "images/prompt_36.png",
     "prompt": "【目的・背景】\nTikTok/Reels/Shorts用のエンゲージメント獲得\n\n【コンテンツタイプ】\n[例: ハウツー、Before/After、トレンド]\n\n【ターゲット】\n[例: Z世代]\n\n【動画仕様】\n長さ: [例: 15-60秒]\nアスペクト比: 9:16\n\n【要素】\nフック: [例: 最初の3秒で興味を引く]\nテンポ: [例: 速いカット]\nテキスト: [例: 字幕オーバーレイ]\n\n【サンプルプロンプト】\nvertical video, fast cuts, trendy transitions, bright colorful aesthetic, gen-z style, dynamic camera movement, text overlays, engaging hook",
     "category": "動画生成",
     "tags": [
@@ -921,7 +921,7 @@
   {
     "id": 37,
     "title": "議事録作成",
-    "image": null,
+    "image": "images/prompt_37.png",
     "prompt": "【AIへの役割】\nあなたは会議ファシリテーターです。\n\n【目的・背景】\n[例: 部門ミーティングの議事録を作成する]\n\n【参加者】\n[例: マーケティング部 5名]\n\n【トーン・雰囲気】\n簡潔で正確、要点を押さえた\n\n【期待するアウトプット】\n・日時、場所、参加者\n・議題一覧\n・各議題の議論要約\n・決定事項\n・アクションアイテム（担当者、期限）",
     "category": "文章生成",
     "tags": [
@@ -947,7 +947,7 @@
   {
     "id": 38,
     "title": "製品説明文",
-    "image": null,
+    "image": "images/prompt_38.png",
     "prompt": "【AIへの役割】\nあなたはコピーライターです。\n\n【目的・背景】\n[例: ECサイトの商品ページ用説明文を作成]\n\n【製品情報】\n名前: [例: ワイヤレスイヤホン XYZ]\n特徴: [例: ノイズキャンセリング、30時間再生]\n\n【ターゲット】\n[例: 20-40代の音楽好き]\n\n【トーン・雰囲気】\n魅力的で購買意欲を刺激する\n\n【期待するアウトプット】\n・キャッチコピー\n・製品概要（100文字）\n・詳細説明（300-500文字）\n・スペック表",
     "category": "文章生成",
     "tags": [
@@ -973,7 +973,7 @@
   {
     "id": 39,
     "title": "プレスリリース作成",
-    "image": null,
+    "image": "images/prompt_39.png",
     "prompt": "【AIへの役割】\nあなたは広報担当者です。\n\n【目的・背景】\n[例: 新サービスのローンチを発表する]\n\n【発表内容】\n[例: AIチャットボットサービス開始]\n\n【ターゲット】\n[例: IT系メディア、業界記者]\n\n【トーン・雰囲気】\n公式、信頼性がある、ニュース価値を伝える\n\n【期待するアウトプット】\n・タイトル\n・リード文（5W1H）\n・本文（背景、詳細、今後の展望）\n・会社概要\n・問い合わせ先",
     "category": "文章生成",
     "tags": [
@@ -999,7 +999,7 @@
   {
     "id": 40,
     "title": "FAQ作成",
-    "image": null,
+    "image": "images/prompt_40.png",
     "prompt": "【AIへの役割】\nあなたはカスタマーサポートの専門家です。\n\n【目的・背景】\n[例: 自社サービスのヘルプページ用FAQ]\n\n【サービス/製品】\n[例: サブスクリプション型動画配信サービス]\n\n【想定される質問カテゴリ】\n[例: 料金、使い方、解約、トラブル]\n\n【トーン・雰囲気】\n親切で分かりやすい\n\n【期待するアウトプット】\n・カテゴリ別Q&A（各5-10件）\n・回答は簡潔に（100文字以内）",
     "category": "文章生成",
     "tags": [
@@ -1025,7 +1025,7 @@
   {
     "id": 41,
     "title": "求人票作成",
-    "image": null,
+    "image": "images/prompt_41.png",
     "prompt": "【AIへの役割】\nあなたは採用担当者です。\n\n【目的・背景】\n[例: エンジニア採用の求人票を作成]\n\n【ポジション詳細】\n職種: [例: フロントエンドエンジニア]\n雇用形態: [例: 正社員]\n必須スキル: [例: React, TypeScript 3年以上]\n\n【企業の魅力】\n[例: フルリモート、フレックス制度]\n\n【トーン・雰囲気】\n魅力的で候補者を惹きつける\n\n【期待するアウトプット】\n・職種タイトル\n・仕事内容\n・応募条件\n・福利厚生\n・選考フロー",
     "category": "文章生成",
     "tags": [

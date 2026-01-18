@@ -271,9 +271,9 @@ document.addEventListener('DOMContentLoaded', () => {
             url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
         },
         'コーディング': {
-            hint: '💡 Python環境構築済みのVPSで快適に開発',
-            cta: '👉 クラウドVPSを見る',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 Python環境構築済み！開発・テスト環境に最適',
+            cta: '👉 ConoHa VPSで快適開発',
+            url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1DEZZM+50+4YQJIQ'
         },
         '文章生成': {
             hint: '💡 AIライティングをさらに効率化',

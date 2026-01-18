@@ -645,38 +645,50 @@ button {
     font-size: 1.2rem;
 }
 
-/* Affiliate Section */
-.affiliate-section {
-    padding: var(--spacing-lg) 0;
-    margin-top: var(--spacing-lg);
-    border-top: 1px solid var(--border-color);
+/* Sidebar Layout */
+.main-layout {
+    display: flex;
+    gap: var(--spacing-lg);
 }
 
-.affiliate-label {
+.main-layout .card-grid {
+    flex: 1;
+}
+
+/* Sidebar Ads */
+.sidebar-ads {
+    width: 320px;
+    flex-shrink: 0;
+    position: sticky;
+    top: var(--spacing-lg);
+    height: fit-content;
+}
+
+.sidebar-ads .affiliate-label {
     font-size: 0.85rem;
     color: var(--text-muted);
     margin-bottom: var(--spacing-md);
     text-align: center;
 }
 
-.affiliate-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: var(--spacing-md);
-}
-
-.affiliate-container table {
+.ad-item {
     background: var(--surface-color);
     border-radius: var(--radius-md);
-    border-color: var(--border-color) !important;
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid var(--border-color);
 }
 
-.affiliate-container a {
+.ad-item table {
+    border-color: transparent !important;
+    width: 100% !important;
+}
+
+.ad-item a {
     color: var(--primary-color);
 }
 
-.affiliate-container a:hover {
+.ad-item a:hover {
     text-decoration: underline;
 }
 
@@ -697,5 +709,24 @@ button {
 
     .card-grid {
         grid-template-columns: 1fr;
+    }
+
+    .main-layout {
+        flex-direction: column;
+    }
+
+    .sidebar-ads {
+        width: 100%;
+        position: static;
+        order: -1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+        justify-content: center;
+    }
+
+    .ad-item {
+        width: calc(50% - var(--spacing-md));
+        min-width: 280px;
     }
 }

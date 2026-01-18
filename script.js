@@ -181,6 +181,66 @@ document.addEventListener('DOMContentLoaded', () => {
         renderCards(filtered);
     }
 
+    // Native Ad Cards Data
+    const nativeAds = [
+        {
+            title: 'AI開発に最適な環境',
+            description: 'ConoHa VPSなら、Python環境構築済みですぐに開発スタート。月額料金でコスト管理も簡単。',
+            cta: 'ConoHa VPSを見る',
+            url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1DEZZM+50+4YQJIQ',
+            icon: 'fa-server',
+            color: '#3b82f6'
+        },
+        {
+            title: 'AI画像生成を快適に',
+            description: 'RTX搭載・32GBメモリで、Stable DiffusionやMidjourneyの作業がサクサク。3年保証付き。',
+            cta: 'RTX搭載ノートPC ¥219,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-k7-h-ma%252F',
+            icon: 'fa-laptop',
+            color: '#8b5cf6'
+        },
+        {
+            title: 'Office付きで仕事効率UP',
+            description: '文章作成からAI活用まで1台でカバー。国内生産・3年保証の安心品質。',
+            cta: '高コスパノートPC ¥123,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-a5a5a01s%252F',
+            icon: 'fa-desktop',
+            color: '#10b981'
+        }
+    ];
+
+    // Create Native Ad Card
+    function createNativeAdCard(ad) {
+        const card = document.createElement('div');
+        card.className = 'card native-ad-card';
+        card.innerHTML = `
+            <div class="card-image-container">
+                <div class="native-ad-placeholder" style="background: linear-gradient(135deg, ${ad.color}22 0%, ${ad.color}44 100%);">
+                    <i class="fa-solid ${ad.icon}" style="color: ${ad.color};"></i>
+                </div>
+                <div class="category-badge" style="background: ${ad.color};">PR</div>
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h2 class="card-title">${ad.title}</h2>
+                </div>
+                <div class="native-ad-description">
+                    ${ad.description}
+                </div>
+                <a href="${ad.url}" target="_blank" rel="noopener noreferrer nofollow" class="native-ad-cta" style="background: ${ad.color};">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    ${ad.cta}
+                </a>
+            </div>
+        `;
+        card.addEventListener('click', (e) => {
+            if (!e.target.closest('.native-ad-cta')) {
+                window.open(ad.url, '_blank');
+            }
+        });
+        return card;
+    }
+
     // 8. Render Cards Implementation
     function renderCards(prompts) {
         cardGrid.innerHTML = '';
@@ -191,8 +251,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const fragment = document.createDocumentFragment();
+        const adInterval = 10; // Insert ad every 10 cards
+        let adIndex = 0;
 
-        prompts.forEach(item => {
+        prompts.forEach((item, index) => {
+            // Insert native ad card every 10 cards
+            if (index > 0 && index % adInterval === 0 && adIndex < nativeAds.length) {
+                const adCard = createNativeAdCard(nativeAds[adIndex]);
+                fragment.appendChild(adCard);
+                adIndex++;
+            }
+
             const card = document.createElement('div');
             card.className = 'card';
 

@@ -266,9 +266,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Ad data mapping by category
     const adData = {
         '画像生成': {
-            hint: '💡 このプロンプトの実行にはVRAM 12GB以上が推奨です',
-            cta: '👉 GPUクラウドで高速生成',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 画像生成にはRTX搭載PCが必須！32GBメモリで快適に',
+            cta: '👉 RTX搭載ノートPC ¥219,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-k7-h-ma%252F'
         },
         'コーディング': {
             hint: '💡 Python環境構築済み！開発・テスト環境に最適',
@@ -276,24 +276,24 @@ document.addEventListener('DOMContentLoaded', () => {
             url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1DEZZM+50+4YQJIQ'
         },
         '文章生成': {
-            hint: '💡 AIライティングをさらに効率化',
-            cta: '👉 高性能PCで作業効率UP',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 Office付きで文章作成もAIも快適',
+            cta: '👉 高コスパノートPC ¥123,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-a5a5a01s%252F'
         },
         '音声・音楽生成': {
-            hint: '💡 音楽AIはCPU/GPU性能が重要です',
-            cta: '👉 推奨スペックPCを見る',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 音楽AIはCPU/GPU性能が重要！RTX搭載で快適',
+            cta: '👉 RTX搭載ノートPC ¥219,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-k7-h-ma%252F'
         },
         '動画生成': {
-            hint: '💡 動画生成には高性能GPUが必須',
-            cta: '👉 RTX搭載PCを見る',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 動画生成にはRTX搭載・32GBメモリが必須',
+            cta: '👉 動画編集向けノートPC ¥219,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-k7-h-ma%252F'
         },
         'default': {
-            hint: '💡 AI活用をさらに加速',
-            cta: '👉 おすすめ環境を見る',
-            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u67p4.2bo11b3a.g00u67p4.2bo1290d%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fdospara-r%252Fic526330%252F'
+            hint: '💡 AI活用に最適なPCをチェック',
+            cta: '👉 高コスパノートPC ¥123,800〜',
+            url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-a5a5a01s%252F'
         }
     };
 

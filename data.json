@@ -732,7 +732,7 @@
   {
     "id": 29,
     "title": "Lo-Fi BGM（作業用）",
-    "image": "images/prompt_34.png",
+    "image": "images/prompt_29_lofi.png",
     "prompt": "【目的・背景】\n作業・勉強に集中するためのBGM\n\n【ムード・雰囲気】\n[例: 穏やか、ノスタルジック、雨の日]\n\n【楽器・サウンド】\nメイン: [例: ピアノ、ギター]\nサブ: [例: ソフトなドラム、環境音]\n\n【テンポ・長さ】\nBPM: [例: 70-85]\n長さ: [例: 3分]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",
     "category": "音声・音楽生成",
     "tags": [
@@ -754,7 +754,7 @@
   {
     "id": 30,
     "title": "ゲームBGM（バトル）",
-    "image": "images/prompt_35.png",
+    "image": "images/prompt_30_game.png",
     "prompt": "【目的・背景】\nゲームのボス戦・バトルシーン用\n\n【ムード・雰囲気】\n[例: 激しい、緊迫感、壮大]\n\n【楽器・サウンド】\nメイン: [例: オーケストラ、エレキギター]\nパーカッション: [例: 激しいドラム、ティンパニ]\n\n【テンポ・長さ】\nBPM: [例: 140-180]\nループ対応: [例: はい]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",
     "category": "音声・音楽生成",
     "tags": [
@@ -776,7 +776,7 @@
   {
     "id": 31,
     "title": "ポッドキャスト用ジングル",
-    "image": "images/prompt_33.png",
+    "image": "images/prompt_31_podcast.png",
     "prompt": "【目的・背景】\n番組のオープニング/エンディング用\n\n【ムード・雰囲気】\n[例: 明るい、プロフェッショナル、カジュアル]\n\n【番組ジャンル】\n[例: ビジネス、エンタメ、教育]\n\n【テンポ・長さ】\n長さ: [例: 5-10秒]\nBPM: [例: 110-130]\n\n【サンプルプロンプト】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
     "category": "音声・音楽生成",
     "tags": [
@@ -798,7 +798,7 @@
   {
     "id": 32,
     "title": "リラクゼーション音楽",
-    "image": "images/prompt_36.png",
+    "image": "images/prompt_32_relax.png",
     "prompt": "【目的・背景】\n瞑想、ヨガ、睡眠導入用\n\n【ムード・雰囲気】\n[例: 穏やか、神秘的、自然]\n\n【楽器・サウンド】\nメイン: [例: シンセパッド、ピアノ]\n環境音: [例: 波の音、鳥の声、風]\n\n【テンポ・長さ】\nBPM: [例: 50-70]\n長さ: [例: 10分]\n\n【サンプルプロンプト】\nambient meditation music, soft synthesizer pads, gentle piano, nature sounds, very slow tempo 55bpm, calming, healing frequencies, 432hz",
     "category": "音声・音楽生成",
     "tags": [
@@ -820,7 +820,7 @@
   {
     "id": 33,
     "title": "製品プロモーション動画",
-    "image": "images/prompt_41.png",
+    "image": "images/prompt_33.png",
     "prompt": "【AIへの役割】\nあなたは動画プロデューサーです。\n\n【目的・背景】\n[例: 新発売のスマートウォッチのSNS広告動画]\n\n【ターゲット】\n[例: 20-30代の健康志向ビジネスパーソン]\n\n【動画仕様】\n長さ: [例: 30秒]\nアスペクト比: [例: 9:16（縦動画）]\nスタイル: [例: クリーン、ミニマル、ダイナミック]\n\n【シーン構成】\nイントロ: [例: 問題提起、日常シーン]\n本編: [例: 製品登場、機能紹介]\nアウトロ: [例: ロゴ、CTA]\n\n【サンプルプロンプト（シーン別）】\nScene 1: close-up of smartwatch on wrist, morning sunlight, person checking health stats\nScene 2: dynamic transition, product features appearing, sleek animation",
     "category": "動画生成",
     "tags": [

@@ -654,7 +654,7 @@
   {
     "id": 26,
     "title": "HTML/CSS: レスポンシブレイアウト",
-    "image": null,
+    "image": "images/prompt_26.png",
     "prompt": "【AIへの役割】\nあなたはCSS設計の専門家です。\n\n【目的・背景】\n[例: モバイルファーストのランディングページを作成したい]\n\n【レイアウト要件】\n構成: [例: ヘッダー、ヒーロー、特徴セクション、フッター]\nブレイクポイント: [例: 768px, 1024px]\n\n【デザイン仕様】\nカラー: [例: プライマリ #3B82F6]\nフォント: [例: Noto Sans JP]\n\n【期待するアウトプット】\n・セマンティックHTML\n・モダンCSS（Flexbox/Grid）\n・レスポンシブ対応\n・アクセシビリティ考慮",
     "category": "コーディング",
     "tags": [
@@ -680,7 +680,7 @@
   {
     "id": 27,
     "title": "TypeScript: 型定義設計",
-    "image": null,
+    "image": "images/prompt_27.png",
     "prompt": "【AIへの役割】\nあなたはTypeScriptの型システム専門家です。\n\n【目的・背景】\n[例: ECサイトのドメインモデルの型を設計したい]\n\n【ドメイン】\nエンティティ: [例: User, Product, Order, Cart]\n関係性: [例: UserはOrdersを持つ、OrderはProductsを含む]\n\n【要件】\nユーティリティ型: [例: Partial, Pick, Omit の活用]\nジェネリクス: [例: APIレスポンス型]\n\n【期待するアウトプット】\n・interface/type定義\n・型ガード関数\n・Zodスキーマ（オプション）\n・使用例",
     "category": "コーディング",
     "tags": [
@@ -846,7 +846,7 @@
   {
     "id": 34,
     "title": "YouTube動画オープニング",
-    "image": null,
+    "image": "images/prompt_34.png",
     "prompt": "【目的・背景】\nチャンネルのブランディング用イントロ\n\n【チャンネルジャンル】\n[例: テック系、Vlog、ゲーム実況]\n\n【トーン・雰囲気】\n[例: クール、ポップ、プロフェッショナル]\n\n【動画仕様】\n長さ: [例: 5秒]\nロゴ/チャンネル名: [例: TechReview]\n\n【要素】\nモーション: [例: ロゴアニメーション、パーティクル]\nカラー: [例: ブランドカラー使用]\nサウンド: [例: ジングル連動]\n\n【サンプルプロンプト】\ndynamic youtube intro animation, logo reveal, particle effects, tech style, blue neon glow, fast paced, 5 seconds, 4k",
     "category": "動画生成",
     "tags": [
@@ -872,7 +872,7 @@
   {
     "id": 35,
     "title": "ドキュメンタリー風映像",
-    "image": null,
+    "image": "images/prompt_35.png",
     "prompt": "【目的・背景】\nストーリーテリング、インタビュー素材\n\n【テーマ】\n[例: 職人の仕事、地域の歴史、自然環境]\n\n【ビジュアルスタイル】\nトーン: [例: シネマティック、ノスタルジック]\nカラーグレード: [例: フィルム風、ナチュラル]\n\n【カメラワーク】\n[例: ゆっくりしたパン、クローズアップ、インタビューショット]\n\n【サンプルプロンプト】\ndocumentary style footage, craftsman hands working, warm color grading, shallow depth of field, slow cinematic movements, natural lighting, film grain",
     "category": "動画生成",
     "tags": [
@@ -898,7 +898,7 @@
   {
     "id": 36,
     "title": "SNS用ショート動画",
-    "image": null,
+    "image": "images/prompt_36.png",
     "prompt": "【目的・背景】\nTikTok/Reels/Shorts用のエンゲージメント獲得\n\n【コンテンツタイプ】\n[例: ハウツー、Before/After、トレンド]\n\n【ターゲット】\n[例: Z世代]\n\n【動画仕様】\n長さ: [例: 15-60秒]\nアスペクト比: 9:16\n\n【要素】\nフック: [例: 最初の3秒で興味を引く]\nテンポ: [例: 速いカット]\nテキスト: [例: 字幕オーバーレイ]\n\n【サンプルプロンプト】\nvertical video, fast cuts, trendy transitions, bright colorful aesthetic, gen-z style, dynamic camera movement, text overlays, engaging hook",
     "category": "動画生成",
     "tags": [
@@ -924,7 +924,7 @@
   {
     "id": 37,
     "title": "議事録作成",
-    "image": null,
+    "image": "images/prompt_37.png",
     "prompt": "【AIへの役割】\nあなたは会議ファシリテーターです。\n\n【目的・背景】\n[例: 部門ミーティングの議事録を作成する]\n\n【参加者】\n[例: マーケティング部 5名]\n\n【トーン・雰囲気】\n簡潔で正確、要点を押さえた\n\n【期待するアウトプット】\n・日時、場所、参加者\n・議題一覧\n・各議題の議論要約\n・決定事項\n・アクションアイテム（担当者、期限）",
     "category": "文章生成",
     "tags": [
@@ -950,7 +950,7 @@
   {
     "id": 38,
     "title": "製品説明文",
-    "image": null,
+    "image": "images/prompt_38.png",
     "prompt": "【AIへの役割】\nあなたはコピーライターです。\n\n【目的・背景】\n[例: ECサイトの商品ページ用説明文を作成]\n\n【製品情報】\n名前: [例: ワイヤレスイヤホン XYZ]\n特徴: [例: ノイズキャンセリング、30時間再生]\n\n【ターゲット】\n[例: 20-40代の音楽好き]\n\n【トーン・雰囲気】\n魅力的で購買意欲を刺激する\n\n【期待するアウトプット】\n・キャッチコピー\n・製品概要（100文字）\n・詳細説明（300-500文字）\n・スペック表",
     "category": "文章生成",
     "tags": [
@@ -976,7 +976,7 @@
   {
     "id": 39,
     "title": "プレスリリース作成",
-    "image": null,
+    "image": "images/prompt_39.png",
     "prompt": "【AIへの役割】\nあなたは広報担当者です。\n\n【目的・背景】\n[例: 新サービスのローンチを発表する]\n\n【発表内容】\n[例: AIチャットボットサービス開始]\n\n【ターゲット】\n[例: IT系メディア、業界記者]\n\n【トーン・雰囲気】\n公式、信頼性がある、ニュース価値を伝える\n\n【期待するアウトプット】\n・タイトル\n・リード文（5W1H）\n・本文（背景、詳細、今後の展望）\n・会社概要\n・問い合わせ先",
     "category": "文章生成",
     "tags": [
@@ -1002,7 +1002,7 @@
   {
     "id": 40,
     "title": "FAQ作成",
-    "image": null,
+    "image": "images/prompt_40.png",
     "prompt": "【AIへの役割】\nあなたはカスタマーサポートの専門家です。\n\n【目的・背景】\n[例: 自社サービスのヘルプページ用FAQ]\n\n【サービス/製品】\n[例: サブスクリプション型動画配信サービス]\n\n【想定される質問カテゴリ】\n[例: 料金、使い方、解約、トラブル]\n\n【トーン・雰囲気】\n親切で分かりやすい\n\n【期待するアウトプット】\n・カテゴリ別Q&A（各5-10件）\n・回答は簡潔に（100文字以内）",
     "category": "文章生成",
     "tags": [
@@ -1028,7 +1028,7 @@
   {
     "id": 41,
     "title": "求人票作成",
-    "image": null,
+    "image": "images/prompt_41.png",
     "prompt": "【AIへの役割】\nあなたは採用担当者です。\n\n【目的・背景】\n[例: エンジニア採用の求人票を作成]\n\n【ポジション詳細】\n職種: [例: フロントエンドエンジニア]\n雇用形態: [例: 正社員]\n必須スキル: [例: React, TypeScript 3年以上]\n\n【企業の魅力】\n[例: フルリモート、フレックス制度]\n\n【トーン・雰囲気】\n魅力的で候補者を惹きつける\n\n【期待するアウトプット】\n・職種タイトル\n・仕事内容\n・応募条件\n・福利厚生\n・選考フロー",
     "category": "文章生成",
     "tags": [
@@ -1054,7 +1054,7 @@
   {
     "id": 42,
     "title": "自己紹介文",
-    "image": null,
+    "image": "images/prompt_42.png",
     "prompt": "【AIへの役割】\nあなたはパーソナルブランディングの専門家です。\n\n【目的・背景】\n[例: LinkedInプロフィール用の自己紹介]\n\n【基本情報】\n職業: [例: マーケティングマネージャー]\n経験年数: [例: 10年]\n強み: [例: データドリブンな戦略立案]\n\n【ターゲット】\n[例: 転職エージェント、採用担当者]\n\n【トーン・雰囲気】\nプロフェッショナルかつ人間味のある\n\n【期待するアウトプット】\n・キャッチフレーズ\n・経歴要約\n・実績ハイライト\n・価値観・目標",
     "category": "文章生成",
     "tags": [
@@ -1080,7 +1080,7 @@
   {
     "id": 43,
     "title": "レビュー返信",
-    "image": null,
+    "image": "images/prompt_43.png",
     "prompt": "【AIへの役割】\nあなたはカスタマーサクセス担当です。\n\n【目的・背景】\n[例: 低評価レビューに誠実に返信する]\n\n【レビュー内容】\n[例: 配送が遅れた、商品に傷があった]\n\n【対象プラットフォーム】\n[例: Amazon、Googleマップ]\n\n【トーン・雰囲気】\n誠実、謝罪と感謝、建設的\n\n【期待するアウトプット】\n・お礼\n・問題への謝罪\n・改善策の提示\n・継続利用のお願い",
     "category": "文章生成",
     "tags": [
@@ -1106,7 +1106,7 @@
   {
     "id": 44,
     "title": "契約書ドラフト",
-    "image": null,
+    "image": "images/prompt_44.png",
     "prompt": "【AIへの役割】\nあなたは法務アドバイザーです。\n\n【目的・背景】\n[例: フリーランス向け業務委託契約書のドラフト]\n\n【契約種類】\n[例: 業務委託契約、秘密保持契約、売買契約]\n\n【主要条件】\n[例: 期間、報酬、成果物の定義]\n\n【トーン・雰囲気】\n法的に正確、明確\n\n【期待するアウトプット】\n・契約書タイトル\n・当事者情報\n・目的条項\n・権利義務\n・期間・解除条項\n・署名欄\n\n※法的助言ではありません。専門家に確認してください。",
     "category": "文章生成",
     "tags": [
@@ -1132,7 +1132,7 @@
   {
     "id": 45,
     "title": "スピーチ原稿",
-    "image": null,
+    "image": "images/prompt_45.png",
     "prompt": "【AIへの役割】\nあなたはスピーチライターです。\n\n【目的・背景】\n[例: 結婚式の友人代表スピーチ]\n\n【シチュエーション】\n場面: [例: 結婚式、入社式、卒業式]\n時間: [例: 5分程度]\n\n【話者情報】\n[例: 新郎の大学時代の友人]\n\n【トーン・雰囲気】\n感動的、ユーモア、心温まる\n\n【期待するアウトプット】\n・冒頭（自己紹介、関係性）\n・エピソード\n・メッセージ\n・締めの言葉",
     "category": "文章生成",
     "tags": [
@@ -1158,7 +1158,7 @@
   {
     "id": 46,
     "title": "小説・ストーリー",
-    "image": null,
+    "image": "images/prompt_46.png",
     "prompt": "【AIへの役割】\nあなたは小説家です。\n\n【目的・背景】\n[例: 短編小説のプロット作成]\n\n【ジャンル】\n[例: ミステリー、恋愛、SF、ファンタジー]\n\n【設定】\n舞台: [例: 近未来の東京]\n主人公: [例: 記憶を失った探偵]\n\n【トーン・雰囲気】\n[例: ダーク、コミカル、感動的]\n\n【期待するアウトプット】\n・あらすじ（200文字）\n・主要キャラクター紹介\n・起承転結の構成\n・冒頭シーン（500文字）",
     "category": "文章生成",
     "tags": [
@@ -1184,7 +1184,7 @@
   {
     "id": 47,
     "title": "ニュースレター",
-    "image": null,
+    "image": "images/prompt_47.png",
     "prompt": "【AIへの役割】\nあなたはコンテンツマーケターです。\n\n【目的・背景】\n[例: 月次の顧客向けニュースレター]\n\n【配信対象】\n[例: 既存顧客500名]\n\n【含めるコンテンツ】\n[例: 新機能紹介、イベント告知、業界ニュース]\n\n【トーン・雰囲気】\n親しみやすく、価値を提供\n\n【期待するアウトプット】\n・件名（開封率を意識）\n・挨拶\n・各セクション（見出し+本文）\n・CTA\n・フッター",
     "category": "文章生成",
     "tags": [
@@ -1210,7 +1210,7 @@
   {
     "id": 48,
     "title": "翻訳・ローカライズ",
-    "image": null,
+    "image": "images/prompt_48.png",
     "prompt": "【AIへの役割】\nあなたはプロの翻訳者です。\n\n【目的・背景】\n[例: 日本語のWebサイトを英語にローカライズ]\n\n【原文】\n[翻訳したいテキストを貼り付け]\n\n【翻訳方向】\n[例: 日→英、英→日]\n\n【トーン・雰囲気】\n[例: フォーマル、カジュアル、技術的]\n\n【ターゲット】\n[例: アメリカ市場向け]\n\n【期待するアウトプット】\n・翻訳文\n・文化的に適切な表現への調整\n・意訳が必要な箇所の注釈",
     "category": "文章生成",
     "tags": [
@@ -1236,7 +1236,7 @@
   {
     "id": 49,
     "title": "ポートレート写真風",
-    "image": "https://placehold.co/600x400/8B4513/ffffff?text=Portrait",
+    "image": "images/prompt_49.png",
     "prompt": "【目的・背景】\nプロフィール写真、広告素材\n\n【被写体】\n性別/年齢: [例: 30代女性]\n表情: [例: 自信に満ちた笑顔]\n服装: [例: ビジネスカジュアル]\n\n【撮影スタイル】\nライティング: [例: レンブラントライティング、自然光]\n背景: [例: スタジオグレー、屋外ボケ]\n構図: [例: バストアップ、3/4アングル]\n\n【サンプルプロンプト】\nprofessional headshot portrait, asian businesswoman, confident smile, soft studio lighting, blurred office background, 85mm lens, shallow depth of field, 8k",
     "category": "画像生成",
     "tags": [
@@ -1262,7 +1262,7 @@
   {
     "id": 50,
     "title": "商品撮影風",
-    "image": "https://placehold.co/600x400/ffffff/333333?text=Product",
+    "image": "images/prompt_50.png",
     "prompt": "【目的・背景】\nEC、広告用の商品ビジュアル\n\n【商品】\n種類: [例: 化粧品、電子機器、アパレル]\n特徴: [例: 高級感、ミニマル]\n\n【撮影スタイル】\n背景: [例: 白背景、グラデーション、生活シーン]\nライティング: [例: ソフトボックス、リムライト]\nアングル: [例: 正面、45度、俯瞰]\n\n【サンプルプロンプト】\nproduct photography, luxury perfume bottle, minimalist white background, studio lighting, reflections, glass material, commercial quality, 8k",
     "category": "画像生成",
     "tags": [
@@ -1288,7 +1288,7 @@
   {
     "id": 51,
     "title": "建物・建築CG",
-    "image": "https://placehold.co/600x400/87CEEB/333333?text=Architecture",
+    "image": "images/prompt_51.png",
     "prompt": "【目的・背景】\n建築ビジュアライゼーション、不動産広告\n\n【建築物】\n種類: [例: モダン住宅、オフィスビル、商業施設]\nスタイル: [例: ミニマリスト、和風、未来的]\n\n【表現】\n時間帯: [例: 昼、夕暮れ、夜景]\nアングル: [例: 外観パース、インテリア、鳥瞰]\n環境: [例: 緑化、都市環境]\n\n【サンプルプロンプト】\narchitectural visualization, modern japanese house, minimalist design, large windows, wooden exterior, garden, sunset lighting, photorealistic render, 8k",
     "category": "画像生成",
     "tags": [
@@ -1314,7 +1314,7 @@
   {
     "id": 52,
     "title": "抽象アート",
-    "image": "https://placehold.co/600x400/FF6B6B/ffffff?text=Abstract",
+    "image": "images/prompt_52.png",
     "prompt": "【目的・背景】\n壁紙、アート作品、装飾\n\n【コンセプト】\nテーマ: [例: 感情、自然、音楽]\nカラーパレット: [例: 暖色系、モノクロ、パステル]\n\n【スタイル】\n参考: [例: 抽象表現主義、幾何学的、流体アート]\nテクスチャ: [例: 油絵の質感、デジタルスムース]\n\n【サンプルプロンプト】\nabstract art, fluid paint strokes, vibrant colors, blue and gold, emotional expression, modern art gallery style, high resolution, artistic",
     "category": "画像生成",
     "tags": [

@@ -312,6 +312,19 @@ document.addEventListener('DOMContentLoaded', () => {
             // Category Badge
             const categoryBadge = item.category ? `<div class="category-badge">${item.category}</div>` : '';
 
+            // Form button for hasForm prompts
+            let formButtonHtml = '';
+            let formBadgeHtml = '';
+            if (item.hasForm) {
+                formButtonHtml = `
+                    <button class="form-btn" aria-label="Open form" onclick="togglePromptForm(${item.id}, this)">
+                        <i class="fa-solid fa-edit"></i>
+                        <span>入力</span>
+                    </button>
+                `;
+                formBadgeHtml = `<div class="form-supported-badge"><i class="fa-solid fa-sparkles"></i> フォーム入力対応</div>`;
+            }
+
             card.innerHTML = `
                 <div class="card-image-container">
                     ${imageHtml}
@@ -320,10 +333,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card-content">
                     <div class="card-header">
                         <h2 class="card-title">${item.title}</h2>
-                        <button class="copy-btn" aria-label="Copy prompt" onclick="copyPrompt('${item.id}', this)">
-                            <i class="fa-regular fa-copy"></i>
-                        </button>
+                        <div class="card-actions">
+                            ${formButtonHtml}
+                            <button class="copy-btn" aria-label="Copy prompt" onclick="copyPrompt('${item.id}', this)">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
                     </div>
+                    ${formBadgeHtml}
                     <div class="prompt-text-container">
                         <code class="prompt-text" id="prompt-${item.id}">${item.prompt}</code>
                     </div>
@@ -458,6 +475,268 @@ document.addEventListener('DOMContentLoaded', () => {
         }).catch(err => {
             console.error('Failed to copy text: ', err);
             alert('Failed to copy to clipboard');
+        });
+    }
+
+    // ===== Prompt Form Feature =====
+
+    // Extract variables from prompt text
+    function extractVariables(promptText) {
+        const regex = /\[(\*?)([^\]]+)\]/g;
+        const variables = [];
+        const seen = new Set();
+        let match;
+
+        while ((match = regex.exec(promptText)) !== null) {
+            const fullMatch = match[0]; // [*variable name] or [variable name]
+            const isEssential = match[1] === '*'; // Check if starts with *
+            const varContent = match[2]; // variable name without brackets and *
+
+            if (!seen.has(fullMatch)) {
+                seen.add(fullMatch);
+                // Extract label (the part before parentheses)
+                const labelMatch = varContent.match(/^([^（(]+)/);
+                const label = labelMatch ? labelMatch[1].trim() : varContent;
+
+                variables.push({
+                    full: fullMatch,
+                    content: varContent,
+                    label: label,
+                    isEssential: isEssential
+                });
+            }
+        }
+        return variables;
+    }
+
+    // Tone labels for slider
+    const toneLabels = ['フォーマル', 'ビジネス', 'カジュアル'];
+    const toneDescriptions = {
+        0: '敬語中心、堅めの表現',
+        1: '丁寧だが堅すぎない標準的なビジネス文体',
+        2: '親しみやすく柔らかい表現'
+    };
+
+    // Generate form HTML with simple/detailed mode and tone slider
+    function generateFormHTML(promptId, variables) {
+        const essentialVars = variables.filter(v => v.isEssential);
+        const optionalVars = variables.filter(v => !v.isEssential);
+
+        const createInputs = (vars, isOptional = false) => vars.map((v, index) => `
+            <div class="prompt-form-field ${isOptional ? 'optional-field' : 'essential-field'}">
+                <label class="prompt-form-label" for="form-${promptId}-${isOptional ? 'opt-' : ''}${index}">
+                    ${v.label}
+                    ${!isOptional ? '<span class="required-badge">必須</span>' : ''}
+                </label>
+                <input type="text" 
+                       class="prompt-form-input" 
+                       id="form-${promptId}-${isOptional ? 'opt-' : ''}${index}"
+                       data-variable="${v.full.replace(/"/g, '&quot;')}"
+                       placeholder="${v.content}">
+            </div>
+        `).join('');
+
+        const essentialInputs = createInputs(essentialVars, false);
+        const optionalInputs = createInputs(optionalVars, true);
+
+        return `
+            <div class="prompt-form-container" id="form-container-${promptId}">
+                <div class="prompt-form-header">
+                    <i class="fa-solid fa-edit"></i> 情報を入力してプロンプトを生成
+                </div>
+                
+                <!-- Mode Toggle -->
+                <div class="form-mode-toggle">
+                    <button class="mode-btn active" data-mode="simple" onclick="toggleFormMode(${promptId}, 'simple', this)">
+                        <i class="fa-solid fa-bolt"></i> かんたん
+                    </button>
+                    <button class="mode-btn" data-mode="detailed" onclick="toggleFormMode(${promptId}, 'detailed', this)">
+                        <i class="fa-solid fa-sliders"></i> 詳細
+                    </button>
+                </div>
+
+                <!-- Tone Slider -->
+                <div class="tone-slider-container">
+                    <label class="tone-slider-label">
+                        <i class="fa-solid fa-comment-dots"></i> 文体のトーン
+                    </label>
+                    <div class="tone-slider-wrapper">
+                        <span class="tone-label-left">堅い</span>
+                        <input type="range" 
+                               class="tone-slider" 
+                               id="tone-${promptId}"
+                               min="0" max="2" value="1"
+                               oninput="updateToneLabel(${promptId})">
+                        <span class="tone-label-right">砕けた</span>
+                    </div>
+                    <div class="tone-current" id="tone-display-${promptId}">
+                        <span class="tone-value">ビジネス</span>
+                        <span class="tone-desc">丁寧だが堅すぎない標準的なビジネス文体</span>
+                    </div>
+                </div>
+
+                <!-- Essential Fields (always visible) -->
+                <div class="prompt-form-fields essential-fields">
+                    ${essentialInputs}
+                </div>
+
+                <!-- Optional Fields (hidden in simple mode) -->
+                <div class="prompt-form-fields optional-fields" id="optional-fields-${promptId}" style="display: none;">
+                    <div class="optional-fields-header">
+                        <i class="fa-solid fa-plus-circle"></i> 詳細項目（オプション）
+                    </div>
+                    ${optionalInputs}
+                </div>
+
+                <button class="generate-prompt-btn" onclick="generateFilledPrompt(${promptId})">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    プロンプトを生成
+                </button>
+                <div class="generated-prompt-container" id="generated-${promptId}" style="display: none;">
+                    <div class="generated-prompt-header">
+                        <span><i class="fa-solid fa-check-circle"></i> 生成されたプロンプト</span>
+                        <button class="copy-generated-btn" onclick="copyGeneratedPrompt(${promptId})">
+                            <i class="fa-regular fa-copy"></i> コピー
+                        </button>
+                    </div>
+                    <pre class="generated-prompt-text" id="generated-text-${promptId}"></pre>
+                </div>
+            </div>
+        `;
+    }
+
+    // Toggle form mode (simple/detailed)
+    window.toggleFormMode = function (promptId, mode, btn) {
+        const container = document.getElementById(`form-container-${promptId}`);
+        const optionalFields = document.getElementById(`optional-fields-${promptId}`);
+        const modeButtons = container.querySelectorAll('.mode-btn');
+
+        modeButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        if (mode === 'detailed') {
+            optionalFields.style.display = 'block';
+        } else {
+            optionalFields.style.display = 'none';
+        }
+    }
+
+    // Update tone label when slider changes
+    window.updateToneLabel = function (promptId) {
+        const slider = document.getElementById(`tone-${promptId}`);
+        const display = document.getElementById(`tone-display-${promptId}`);
+        const value = parseInt(slider.value);
+
+        display.innerHTML = `
+            <span class="tone-value">${toneLabels[value]}</span>
+            <span class="tone-desc">${toneDescriptions[value]}</span>
+        `;
+    }
+
+    // Toggle form visibility
+    window.togglePromptForm = function (promptId, btn) {
+        const card = btn.closest('.card');
+        let formContainer = card.querySelector('.prompt-form-container');
+
+        if (formContainer) {
+            // Toggle visibility
+            formContainer.classList.toggle('active');
+            btn.classList.toggle('active');
+        } else {
+            // Create form
+            const prompt = allPrompts.find(p => p.id === promptId);
+            if (!prompt) return;
+
+            const variables = extractVariables(prompt.prompt);
+            if (variables.length === 0) return;
+
+            const formHTML = generateFormHTML(promptId, variables);
+            const cardContent = card.querySelector('.card-content');
+            cardContent.insertAdjacentHTML('beforeend', formHTML);
+
+            formContainer = card.querySelector('.prompt-form-container');
+            formContainer.classList.add('active');
+            btn.classList.add('active');
+        }
+    }
+
+    // Generate filled prompt
+    window.generateFilledPrompt = function (promptId) {
+        const prompt = allPrompts.find(p => p.id === promptId);
+        if (!prompt) return;
+
+        let filledPrompt = prompt.prompt;
+        const formContainer = document.getElementById(`form-container-${promptId}`);
+        const inputs = formContainer.querySelectorAll('.prompt-form-input');
+
+        inputs.forEach(input => {
+            const variable = input.dataset.variable;
+            const value = input.value.trim() || input.placeholder;
+            filledPrompt = filledPrompt.split(variable).join(value);
+        });
+
+        // Apply tone from slider
+        const toneSlider = document.getElementById(`tone-${promptId}`);
+        if (toneSlider) {
+            const toneValue = parseInt(toneSlider.value);
+            const toneText = toneLabels[toneValue];
+            const toneInstruction = {
+                0: 'フォーマルな敬語中心で、堅めの表現を使用してください。',
+                1: '丁寧だが堅すぎない、標準的なビジネス文体で書いてください。',
+                2: '親しみやすく柔らかい表現を使い、適度にカジュアルに書いてください。'
+            };
+
+            // Replace or append tone instruction
+            if (filledPrompt.includes('【トーン・雰囲気】')) {
+                // Find and update the tone section
+                filledPrompt = filledPrompt.replace(
+                    /(【トーン・雰囲気】\n)[^\n【]*/,
+                    `$1文体: ${toneText}\n${toneInstruction[toneValue]}`
+                );
+            }
+        }
+
+        // Show generated prompt
+        const generatedContainer = document.getElementById(`generated-${promptId}`);
+        const generatedText = document.getElementById(`generated-text-${promptId}`);
+        generatedText.textContent = filledPrompt;
+        generatedContainer.style.display = 'block';
+
+        // Scroll to generated prompt
+        generatedContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+        // GA4 tracking
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'prompt_generate', {
+                'event_category': 'engagement',
+                'prompt_id': promptId
+            });
+        }
+    }
+
+    // Copy generated prompt
+    window.copyGeneratedPrompt = function (promptId) {
+        const generatedText = document.getElementById(`generated-text-${promptId}`);
+        const textToCopy = generatedText.textContent;
+
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            const btn = document.querySelector(`#generated-${promptId} .copy-generated-btn`);
+            const originalHTML = btn.innerHTML;
+            btn.innerHTML = '<i class="fa-solid fa-check"></i> コピー完了';
+            btn.classList.add('copied');
+
+            // Get category for ad toast
+            const card = btn.closest('.card');
+            const categoryBadge = card.querySelector('.category-badge');
+            const category = categoryBadge ? categoryBadge.textContent : 'default';
+            showAdToast(category);
+
+            setTimeout(() => {
+                btn.innerHTML = originalHTML;
+                btn.classList.remove('copied');
+            }, 2000);
+        }).catch(err => {
+            console.error('Failed to copy text: ', err);
         });
     }
 

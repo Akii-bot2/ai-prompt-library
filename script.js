@@ -192,6 +192,14 @@ document.addEventListener('DOMContentLoaded', () => {
             color: '#3b82f6'
         },
         {
+            title: '低価格＆高性能VPS',
+            description: 'KAGOYA CLOUD VPSは初期費用無料、日額20円〜。AI開発やWebアプリ運用に最適な高機能VPS。',
+            cta: 'KAGOYA VPSを見る',
+            url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1FSQEQ+7YE+NWZDE',
+            icon: 'fa-cloud',
+            color: '#ff6b35'
+        },
+        {
             title: 'AI画像生成を快適に',
             description: 'RTX搭載・32GBメモリで、Stable DiffusionやMidjourneyの作業がサクサク。3年保証付き。',
             cta: 'RTX搭載ノートPC ¥219,800〜',
@@ -371,11 +379,18 @@ document.addEventListener('DOMContentLoaded', () => {
             cta: '👉 RTX搭載ノートPC ¥219,800〜',
             url: 'https://rpx.a8.net/svt/ejp?a8mat=4AV8S8+E97O8I+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pw5s4.2bo11b4c.g00pw5s4.2bo12a23%2Fa26011868606_4AV8S8_E97O8I_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fmousecomputer%252Fm-k7-h-ma%252F'
         },
-        'コーディング': {
-            hint: '💡 Python環境構築済み！開発・テスト環境に最適',
-            cta: '👉 ConoHa VPSで快適開発',
-            url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1DEZZM+50+4YQJIQ'
-        },
+        'コーディング': [
+            {
+                hint: '💡 Python環境構築済み！開発・テスト環境に最適',
+                cta: '👉 ConoHa VPSで快適開発',
+                url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1DEZZM+50+4YQJIQ'
+            },
+            {
+                hint: '💡 初期費用無料・日額20円〜！低コストで本格開発',
+                cta: '👉 KAGOYA CLOUD VPSを見る',
+                url: 'https://px.a8.net/svt/ejp?a8mat=4AV8S9+1FSQEQ+7YE+NWZDE'
+            }
+        ],
         '文章生成': {
             hint: '💡 Office付きで文章作成もAIも快適',
             cta: '👉 高コスパノートPC ¥123,800〜',
@@ -404,7 +419,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const toastCount = parseInt(sessionStorage.getItem('adToastCount') || '0');
         if (toastCount >= 3) return;
 
-        const ad = adData[category] || adData['default'];
+        let adConfig = adData[category] || adData['default'];
+
+        // If ad config is an array, randomly select one
+        const ad = Array.isArray(adConfig)
+            ? adConfig[Math.floor(Math.random() * adConfig.length)]
+            : adConfig;
 
         // Create custom toast element
         const toastNode = document.createElement('div');

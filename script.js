@@ -258,11 +258,18 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Sort: hasForm prompts first, then by original order (id)
+        const sortedPrompts = [...prompts].sort((a, b) => {
+            if (a.hasForm && !b.hasForm) return -1;
+            if (!a.hasForm && b.hasForm) return 1;
+            return a.id - b.id;
+        });
+
         const fragment = document.createDocumentFragment();
         const adInterval = 10; // Insert ad every 10 cards
         let adIndex = 0;
 
-        prompts.forEach((item, index) => {
+        sortedPrompts.forEach((item, index) => {
             // Insert native ad card every 10 cards
             if (index > 0 && index % adInterval === 0 && adIndex < nativeAds.length) {
                 const adCard = createNativeAdCard(nativeAds[adIndex]);
@@ -518,7 +525,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // Generate form HTML with simple/detailed mode and tone slider
-    function generateFormHTML(promptId, variables) {
+    function generateFormHTML(promptId, variables, category) {
         const essentialVars = variables.filter(v => v.isEssential);
         const optionalVars = variables.filter(v => !v.isEssential);
 
@@ -539,22 +546,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const essentialInputs = createInputs(essentialVars, false);
         const optionalInputs = createInputs(optionalVars, true);
 
-        return `
-            <div class="prompt-form-container" id="form-container-${promptId}">
-                <div class="prompt-form-header">
-                    <i class="fa-solid fa-edit"></i> 情報を入力してプロンプトを生成
-                </div>
-                
-                <!-- Mode Toggle -->
-                <div class="form-mode-toggle">
-                    <button class="mode-btn active" data-mode="simple" onclick="toggleFormMode(${promptId}, 'simple', this)">
-                        <i class="fa-solid fa-bolt"></i> かんたん
-                    </button>
-                    <button class="mode-btn" data-mode="detailed" onclick="toggleFormMode(${promptId}, 'detailed', this)">
-                        <i class="fa-solid fa-sliders"></i> 詳細
-                    </button>
-                </div>
+        // Categories that don't need tone slider (non-text generation)
+        const noToneCategories = ['画像生成', '動画生成', '音声・音楽生成'];
+        const showToneSlider = !noToneCategories.includes(category);
 
+        const toneSliderHTML = showToneSlider ? `
                 <!-- Tone Slider -->
                 <div class="tone-slider-container">
                     <label class="tone-slider-label">
@@ -574,6 +570,25 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="tone-desc">丁寧だが堅すぎない標準的なビジネス文体</span>
                     </div>
                 </div>
+        ` : '';
+
+        return `
+            <div class="prompt-form-container" id="form-container-${promptId}">
+                <div class="prompt-form-header">
+                    <i class="fa-solid fa-edit"></i> 情報を入力してプロンプトを生成
+                </div>
+                
+                <!-- Mode Toggle -->
+                <div class="form-mode-toggle">
+                    <button class="mode-btn active" data-mode="simple" onclick="toggleFormMode(${promptId}, 'simple', this)">
+                        <i class="fa-solid fa-bolt"></i> かんたん
+                    </button>
+                    <button class="mode-btn" data-mode="detailed" onclick="toggleFormMode(${promptId}, 'detailed', this)">
+                        <i class="fa-solid fa-sliders"></i> 詳細
+                    </button>
+                </div>
+
+                ${toneSliderHTML}
 
                 <!-- Essential Fields (always visible) -->
                 <div class="prompt-form-fields essential-fields">
@@ -650,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const variables = extractVariables(prompt.prompt);
             if (variables.length === 0) return;
 
-            const formHTML = generateFormHTML(promptId, variables);
+            const formHTML = generateFormHTML(promptId, variables, prompt.category);
             const cardContent = card.querySelector('.card-content');
             cardContent.insertAdjacentHTML('beforeend', formHTML);
 
@@ -716,11 +731,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Copy generated prompt
     window.copyGeneratedPrompt = function (promptId) {
-        const generatedText = document.getElementById(`generated-text-${promptId}`);
+        const generatedText = document.getElementById(`generated - text - ${promptId} `);
         const textToCopy = generatedText.textContent;
 
         navigator.clipboard.writeText(textToCopy).then(() => {
-            const btn = document.querySelector(`#generated-${promptId} .copy-generated-btn`);
+            const btn = document.querySelector(`#generated - ${promptId} .copy - generated - btn`);
             const originalHTML = btn.innerHTML;
             btn.innerHTML = '<i class="fa-solid fa-check"></i> コピー完了';
             btn.classList.add('copied');
@@ -853,7 +868,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function calculateRelevanceScore(prompt, userProblem) {
         let score = 0;
         const problemLower = userProblem.toLowerCase();
-        const promptText = `${prompt.title} ${prompt.category} ${prompt.tags.join(' ')} ${prompt.prompt}`.toLowerCase();
+        const promptText = `${prompt.title} ${prompt.category} ${prompt.tags.join(' ')} ${prompt.prompt} `.toLowerCase();
 
         // Direct text match
         const problemWords = problemLower.split(/[\s,、。]+/).filter(w => w.length > 1);
@@ -900,32 +915,32 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderRecommendations(recommendations) {
         if (recommendations.length === 0) {
             recommendationsContainer.innerHTML = `
-                <div class="recommendations-title">
-                    <i class="fa-solid fa-circle-info"></i>
-                    おすすめが見つかりませんでした
-                </div>
-                <p style="color: var(--text-muted);">別のキーワードで試してみてください。例: 「メール」「画像」「自動化」など</p>
-            `;
+            < div class="recommendations-title" >
+                <i class="fa-solid fa-circle-info"></i>
+        おすすめが見つかりませんでした
+                </div >
+            <p style="color: var(--text-muted);">別のキーワードで試してみてください。例: 「メール」「画像」「自動化」など</p>
+        `;
             recommendationsContainer.style.display = 'block';
             return;
         }
 
         const listHtml = recommendations.map((rec, index) => `
-            <div class="recommendation-item" onclick="scrollToCard(${rec.id})">
+            < div class="recommendation-item" onclick = "scrollToCard(${rec.id})" >
                 <div class="recommendation-info">
                     <div class="recommendation-title">${index + 1}. ${rec.title}</div>
                     <div class="recommendation-category">${rec.category}</div>
                 </div>
                 <span class="recommendation-score">マッチ度: ${Math.min(100, rec.score)}%</span>
                 <i class="fa-solid fa-chevron-right recommendation-arrow"></i>
-            </div>
-        `).join('');
+            </div >
+            `).join('');
 
         recommendationsContainer.innerHTML = `
-            <div class="recommendations-title">
+            < div class="recommendations-title" >
                 <i class="fa-solid fa-check-circle"></i>
-                おすすめのプロンプト
-            </div>
+        おすすめのプロンプト
+            </div >
             <div class="recommendation-list">
                 ${listHtml}
             </div>

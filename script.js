@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionalInputs = createInputs(optionalVars, true);
 
         // Categories that don't need tone slider (non-text generation)
-        const noToneCategories = ['画像生成', '動画生成', '音声・音楽生成'];
+        const noToneCategories = ['画像生成', '動画生成', '音声・音楽生成', 'コーディング'];
         const showToneSlider = !noToneCategories.includes(category);
 
         const toneSliderHTML = showToneSlider ? `

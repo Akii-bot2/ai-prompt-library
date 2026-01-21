@@ -1013,4 +1013,160 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // ===== Onboarding Feature =====
+    const ONBOARDING_KEY = 'ai_prompt_library_onboarding_completed';
+    let currentSlide = 0;
+    const totalSlides = 4;
+
+    // Check if onboarding should be shown
+    function shouldShowOnboarding() {
+        return !localStorage.getItem(ONBOARDING_KEY);
+    }
+
+    // Show onboarding modal
+    function showOnboarding() {
+        const modal = document.getElementById('onboarding-modal');
+        if (modal) {
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    // Close onboarding modal
+    window.closeOnboarding = function () {
+        const modal = document.getElementById('onboarding-modal');
+        if (modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+            localStorage.setItem(ONBOARDING_KEY, 'true');
+        }
+    };
+
+    // Go to specific slide
+    function goToSlide(index) {
+        if (index < 0 || index >= totalSlides) return;
+
+        currentSlide = index;
+        const slides = document.querySelectorAll('.onboarding-slide');
+        const dots = document.querySelectorAll('.onboarding-dots .dot');
+        const nextBtn = document.getElementById('onboarding-next');
+
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+
+        // Update button text on last slide
+        if (index === totalSlides - 1) {
+            nextBtn.innerHTML = 'はじめる <i class="fa-solid fa-check"></i>';
+            nextBtn.classList.add('finish');
+        } else {
+            nextBtn.innerHTML = '次へ <i class="fa-solid fa-chevron-right"></i>';
+            nextBtn.classList.remove('finish');
+        }
+    }
+
+    // Next slide
+    window.nextSlide = function () {
+        if (currentSlide < totalSlides - 1) {
+            goToSlide(currentSlide + 1);
+        } else {
+            closeOnboarding();
+        }
+    };
+
+    // Previous slide
+    function prevSlide() {
+        if (currentSlide > 0) {
+            goToSlide(currentSlide - 1);
+        }
+    }
+
+    // Dot click handler
+    function initDotNavigation() {
+        const dots = document.querySelectorAll('.onboarding-dots .dot');
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => goToSlide(i));
+        });
+    }
+
+    // Touch swipe support
+    function initSwipeNavigation() {
+        const slidesContainer = document.getElementById('onboarding-slides');
+        if (!slidesContainer) return;
+
+        let startX = 0;
+        let isDragging = false;
+
+        slidesContainer.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            isDragging = true;
+        }, { passive: true });
+
+        slidesContainer.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+        }, { passive: true });
+
+        slidesContainer.addEventListener('touchend', (e) => {
+            if (!isDragging) return;
+            isDragging = false;
+
+            const endX = e.changedTouches[0].clientX;
+            const diff = startX - endX;
+
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) {
+                    // Swipe left - next
+                    nextSlide();
+                } else {
+                    // Swipe right - prev
+                    prevSlide();
+                }
+            }
+        }, { passive: true });
+    }
+
+    // Keyboard navigation
+    function initKeyboardNavigation() {
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('onboarding-modal');
+            if (!modal || !modal.classList.contains('active')) return;
+
+            if (e.key === 'ArrowRight' || e.key === 'Enter') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            } else if (e.key === 'Escape') {
+                closeOnboarding();
+            }
+        });
+    }
+
+    // Overlay click to close
+    function initOverlayClose() {
+        const overlay = document.querySelector('.onboarding-overlay');
+        if (overlay) {
+            overlay.addEventListener('click', closeOnboarding);
+        }
+    }
+
+    // Initialize onboarding
+    function initOnboarding() {
+        if (shouldShowOnboarding()) {
+            initDotNavigation();
+            initSwipeNavigation();
+            initKeyboardNavigation();
+            initOverlayClose();
+
+            // Show after a short delay for better UX
+            setTimeout(showOnboarding, 500);
+        }
+    }
+
+    // Start onboarding check
+    initOnboarding();
 });

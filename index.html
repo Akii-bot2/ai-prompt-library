@@ -125,6 +125,69 @@
 
     <!-- Toastify.js -->
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Onboarding Modal -->
+    <div id="onboarding-modal" class="onboarding-modal">
+        <div class="onboarding-overlay"></div>
+        <div class="onboarding-content">
+            <button class="onboarding-close" onclick="closeOnboarding()" aria-label="閉じる">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="onboarding-slides" id="onboarding-slides">
+                <!-- Slide 1 -->
+                <div class="onboarding-slide active" data-slide="0">
+                    <div class="onboarding-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h2>AIプロンプト集へようこそ！</h2>
+                    <p>Gemini、ChatGPT、Midjourney、Suno AI などで使える<br>プロンプトテンプレートを<strong>100種類以上</strong>収録</p>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="onboarding-slide" data-slide="1">
+                    <div class="onboarding-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h2>カテゴリから探す</h2>
+                    <p>文章生成、画像生成、コーディングなど<br><strong>5つのカテゴリ</strong>からプロンプトを選択</p>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="onboarding-slide" data-slide="2">
+                    <div class="onboarding-icon">
+                        <i class="fa-solid fa-copy"></i>
+                    </div>
+                    <h2>ワンタップでコピー</h2>
+                    <p>気になるプロンプトのコピーボタンをタップ<br>そのまま<strong>AIツールに貼り付け</strong>るだけ！</p>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="onboarding-slide" data-slide="3">
+                    <div class="onboarding-icon">
+                        <i class="fa-solid fa-edit"></i>
+                    </div>
+                    <h2>入力フォームで簡単カスタマイズ</h2>
+                    <p>「✏️ 入力」ボタンがあるプロンプトは<br><strong>フォームに入力するだけ</strong>で最適なプロンプトを生成</p>
+                </div>
+            </div>
+
+            <div class="onboarding-dots" id="onboarding-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+
+            <div class="onboarding-actions">
+                <button class="onboarding-skip" onclick="closeOnboarding()">スキップ</button>
+                <button class="onboarding-next" id="onboarding-next" onclick="nextSlide()">
+                    次へ <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 

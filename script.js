@@ -751,11 +751,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Copy generated prompt
     window.copyGeneratedPrompt = function (promptId) {
-        const generatedText = document.getElementById(`generated - text - ${promptId} `);
+        const generatedText = document.getElementById(`generated-text-${promptId}`);
         const textToCopy = generatedText.textContent;
 
         navigator.clipboard.writeText(textToCopy).then(() => {
-            const btn = document.querySelector(`#generated - ${promptId} .copy - generated - btn`);
+            const btn = document.querySelector(`#generated-${promptId} .copy-generated-btn`);
             const originalHTML = btn.innerHTML;
             btn.innerHTML = '<i class="fa-solid fa-check"></i> コピー完了';
             btn.classList.add('copied');

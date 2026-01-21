@@ -1560,7 +1560,7 @@
   {
     "id": 61,
     "title": "Python: 自動化スクリプト（ファイル操作）",
-    "image": null,
+    "image": "images/prompt_61.png",
     "prompt": "【AIへの役割】\nあなたはPythonエンジニアです。\n\n【目的・背景】\n[例: フォルダ内のファイルを日付別に整理したい]\n\n【入力】\n対象: [例: ~/Downloads内のファイル]\n条件: [例: 拡張子、作成日]\n\n【処理内容】\n[例: 年月フォルダを作成し移動]\n\n【期待するアウトプット】\n・コード（コメント付き）\n・エラーハンドリング\n・ログ出力\n・ドライラン機能",
     "category": "コーディング",
     "tags": [
@@ -1586,7 +1586,7 @@
   {
     "id": 62,
     "title": "Python: API連携",
-    "image": null,
+    "image": "images/prompt_62.png",
     "prompt": "【AIへの役割】\nあなたはバックエンドエンジニアです。\n\n【目的・背景】\n[例: OpenWeather APIから天気情報を取得]\n\n【API情報】\nサービス: [例: OpenWeather]\n認証: [例: APIキー]\n\n【処理内容】\n[例: 指定都市の天気を取得してJSON保存]\n\n【期待するアウトプット】\n・リクエスト処理\n・レスポンスパース\n・エラーハンドリング\n・レート制限考慮",
     "category": "コーディング",
     "tags": [
@@ -1612,7 +1612,7 @@
   {
     "id": 63,
     "title": "JavaScript: DOM操作",
-    "image": null,
+    "image": "images/prompt_63.png",
     "prompt": "【AIへの役割】\nあなたはフロントエンドエンジニアです。\n\n【目的・背景】\n[例: フォームの入力バリデーションを実装]\n\n【要件】\n対象要素: [例: メールアドレス、電話番号]\nバリデーション: [例: 必須、形式チェック]\n\n【UI要件】\nエラー表示: [例: 入力欄下に赤文字]\nリアルタイム: [例: 入力中にチェック]\n\n【期待するアウトプット】\n・バニラJS実装\n・HTML/CSS\n・アクセシビリティ対応",
     "category": "コーディング",
     "tags": [
@@ -1638,7 +1638,7 @@
   {
     "id": 64,
     "title": "React: カスタムフック",
-    "image": null,
+    "image": "images/prompt_64.png",
     "prompt": "【AIへの役割】\nあなたはReact専門家です。\n\n【目的・背景】\n[例: API呼び出しを共通化するカスタムフック]\n\n【フック名】\n[例: useFetch, useLocalStorage]\n\n【機能要件】\n[例: ローディング状態、エラーハンドリング、キャッシュ]\n\n【期待するアウトプット】\n・TypeScript対応フック\n・使用例\n・テストコード\n・ドキュメント",
     "category": "コーディング",
     "tags": [
@@ -1664,7 +1664,7 @@
   {
     "id": 65,
     "title": "CSS: アニメーション",
-    "image": null,
+    "image": "images/prompt_65.png",
     "prompt": "【AIへの役割】\nあなたはCSSアニメーション専門家です。\n\n【目的・背景】\n[例: ボタンホバー時のエフェクト]\n\n【アニメーション種類】\n[例: フェード、スライド、バウンス、モーフィング]\n\n【仕様】\nトリガー: [例: ホバー、クリック、スクロール]\n速度: [例: 0.3秒]\nイージング: [例: ease-out]\n\n【期待するアウトプット】\n・CSS（@keyframes）\n・HTML構造\n・パフォーマンス考慮",
     "category": "コーディング",
     "tags": [
@@ -1690,7 +1690,7 @@
   {
     "id": 66,
     "title": "Node.js: バッチ処理",
-    "image": null,
+    "image": "images/prompt_66.png",
     "prompt": "【AIへの役割】\nあなたはバックエンドエンジニアです。\n\n【目的・背景】\n[例: 毎日深夜にデータベースのバックアップ]\n\n【処理内容】\n[例: DBダンプ、圧縮、S3アップロード]\n\n【スケジュール】\n[例: cron形式で指定]\n\n【期待するアウトプット】\n・スクリプト\n・ログ出力\n・エラー通知（Slack等）\n・リトライ処理",
     "category": "コーディング",
     "tags": [
@@ -1716,7 +1716,7 @@
   {
     "id": 67,
     "title": "SQL: データ移行",
-    "image": null,
+    "image": "images/prompt_67.png",
     "prompt": "【AIへの役割】\nあなたはDBAです。\n\n【目的・背景】\n[例: 旧テーブルから新テーブルへのデータ移行]\n\n【テーブル構造】\n移行元: [例: users_old (id, name, email)]\n移行先: [例: users (id, first_name, last_name, email)]\n\n【変換ルール】\n[例: nameをfirst_nameとlast_nameに分割]\n\n【期待するアウトプット】\n・移行SQL\n・データ検証クエリ\n・ロールバック手順",
     "category": "コーディング",
     "tags": [
@@ -1742,7 +1742,7 @@
   {
     "id": 68,
     "title": "Docker: 開発環境構築",
-    "image": null,
+    "image": "images/prompt_68.png",
     "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: Node.js + PostgreSQL + Redisの開発環境]\n\n【技術スタック】\n言語/FW: [例: Node.js 20]\nDB: [例: PostgreSQL 15]\nその他: [例: Redis, Nginx]\n\n【期待するアウトプット】\n・Dockerfile\n・docker-compose.yml\n・.env.example\n・README（起動手順）",
     "category": "コーディング",
     "tags": [
@@ -1768,7 +1768,7 @@
   {
     "id": 69,
     "title": "テスト: ユニットテスト",
-    "image": null,
+    "image": "images/prompt_69.png",
     "prompt": "【AIへの役割】\nあなたはQAエンジニアです。\n\n【目的・背景】\n[例: ユーティリティ関数のテストを作成]\n\n【テスト対象】\n関数/クラス: [例: formatDate, validateEmail]\n言語: [例: JavaScript/TypeScript]\n\n【フレームワーク】\n[例: Jest, Vitest, pytest]\n\n【期待するアウトプット】\n・正常系テスト\n・異常系テスト\n・エッジケース\n・モック/スタブ使用例",
     "category": "コーディング",
     "tags": [
@@ -1794,7 +1794,7 @@
   {
     "id": 70,
     "title": "GitHub Actions: CI/CD",
-    "image": null,
+    "image": "images/prompt_70.png",
     "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: PRマージ時に自動テスト＆デプロイ]\n\n【パイプライン】\nトリガー: [例: push, pull_request]\nステップ: [例: lint, test, build, deploy]\n\n【デプロイ先】\n[例: Vercel, AWS, GCP]\n\n【期待するアウトプット】\n・.github/workflows/ci.yml\n・シークレット設定手順\n・バッジ埋め込みコード",
     "category": "コーディング",
     "tags": [
@@ -1820,7 +1820,7 @@
   {
     "id": 71,
     "title": "正規表現: パターン作成",
-    "image": null,
+    "image": "images/prompt_71.png",
     "prompt": "【AIへの役割】\nあなたは正規表現の専門家です。\n\n【目的・背景】\n[例: 電話番号を抽出したい]\n\n【マッチ対象】\n形式: [例: 090-1234-5678, 0901234567]\n言語: [例: JavaScript, Python]\n\n【期待するアウトプット】\n・正規表現パターン\n・使用例コード\n・マッチ/非マッチ例\n・解説",
     "category": "コーディング",
     "tags": [
@@ -1846,7 +1846,7 @@
   {
     "id": 72,
     "title": "アルゴリズム: 実装",
-    "image": null,
+    "image": "images/prompt_72.png",
     "prompt": "【AIへの役割】\nあなたはアルゴリズムの専門家です。\n\n【目的・背景】\n[例: 面接対策でソートアルゴリズムを理解したい]\n\n【アルゴリズム】\n[例: クイックソート、二分探索、ダイクストラ]\n\n【言語】\n[例: Python, JavaScript]\n\n【期待するアウトプット】\n・実装コード\n・計算量（時間・空間）\n・動作原理の解説\n・使用場面",
     "category": "コーディング",
     "tags": [
@@ -2048,7 +2048,7 @@
   {
     "id": 81,
     "title": "製品デモ動画",
-    "image": null,
+    "image": "images/prompt_81.png",
     "prompt": "【AIへの役割】\nあなたは動画ディレクターです。\n\n【目的・背景】\n[例: SaaSツールの機能紹介動画]\n\n【製品】\n[例: プロジェクト管理ツール]\n\n【ターゲット】\n[例: IT企業の意思決定者]\n\n【動画仕様】\n長さ: [例: 2分]\nスタイル: [例: 画面録画+アニメーション]\n\n【シーン構成】\n・問題提起\n・ソリューション紹介\n・主要機能デモ\n・ユーザーの声\n・CTA\n\n【サンプルプロンプト】\nproduct demo video, clean UI animation, screen recording style, professional voiceover text overlay, modern transitions",
     "category": "動画生成",
     "tags": [
@@ -2074,7 +2074,7 @@
   {
     "id": 82,
     "title": "インタビュー動画",
-    "image": null,
+    "image": "images/prompt_82.png",
     "prompt": "【目的・背景】\n社員紹介、顧客インタビュー\n\n【インタビュイー】\n[例: CEO、顧客、社員]\n\n【トーン】\n[例: 誠実、親しみやすい、プロフェッショナル]\n\n【撮影スタイル】\n構図: [例: バストアップ、Bロール挿入]\nライティング: [例: 3点照明]\n背景: [例: オフィス、白バック]\n\n【サンプルプロンプト】\ninterview video style, talking head shot, professional lighting, blurred office background, confident speaker, b-roll cutaways",
     "category": "動画生成",
     "tags": [
@@ -2100,7 +2100,7 @@
   {
     "id": 83,
     "title": "説明動画（アニメーション）",
-    "image": null,
+    "image": "images/prompt_83.png",
     "prompt": "【目的・背景】\nサービス説明、コンセプト紹介\n\n【内容】\n[例: 保険商品の仕組み説明]\n\n【アニメーションスタイル】\n[例: 2Dイラスト、モーショングラフィックス、ホワイトボード]\n\n【ナレーション】\n[例: 日本語、男性、落ち着いた声]\n\n【動画仕様】\n長さ: [例: 90秒]\n\n【サンプルプロンプト】\nexplainer video animation, 2D flat design, smooth motion graphics, icon animations, character illustration, corporate color scheme",
     "category": "動画生成",
     "tags": [
@@ -2126,7 +2126,7 @@
   {
     "id": 84,
     "title": "イベント・ハイライト",
-    "image": null,
+    "image": "images/prompt_84.png",
     "prompt": "【目的・背景】\nカンファレンス、セミナーのダイジェスト\n\n【イベント内容】\n[例: 年次カンファレンス、展示会]\n\n【含める要素】\n[例: 基調講演、ブース、参加者インタビュー]\n\n【編集スタイル】\nテンポ: [例: 速いカット]\n音楽: [例: アップビート]\n長さ: [例: 2-3分]\n\n【サンプルプロンプト】\nevent highlight video, dynamic cuts, energetic music sync, crowd shots, speaker presentations, booth interactions, time-lapse, drone shots",
     "category": "動画生成",
     "tags": [

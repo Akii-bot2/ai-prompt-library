@@ -349,7 +349,7 @@
     "id": 14,
     "title": "風景イラスト（都市）",
     "image": "images/prompt_14.png",
-    "prompt": "【目的・背景】\n都市景観のコンセプトアート\n\n【シーン設定】\n都市タイプ: [例: 近未来、現代東京、レトロ欧州]\n時間帯: [例: 夜景、雨の日、霧]\n視点: [例: 俯瞰、ストリートレベル、屋上から]\n\n【ビジュアルスタイル】\n[例: サイバーパンク、写実的、アニメ背景]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k",
+    "prompt": "【目的・背景】\n都市景観のコンセプトアート\n\n【シーン設定】\n都市タイプ: [例: 近未来、現代東京、レトロ欧州]\n時間帯: [例: 夜景、雨の日、霧]\n視点: [例: 俯瞰、ストリートレベル、屋上から]\n\n【ビジュアルスタイル】\n[例: サイバーパンク、写実的、アニメ背景]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "風景",
@@ -375,7 +375,7 @@
     "id": 15,
     "title": "3Dオブジェクトデザイン",
     "image": "images/prompt_15.png",
-    "prompt": "【目的・背景】\nゲームアセット、プロダクトビジュアライゼーション\n\n【オブジェクト】\n種類: [例: 武器、家具、乗り物、食品]\n詳細: [例: 中世の剣、モダンなソファ]\n\n【ビジュアルスタイル】\n[例: フォトリアル3D、ローポリ、スタイライズド]\n\n【ライティング・背景】\n[例: スタジオ照明、透明背景、環境光]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed",
+    "prompt": "【目的・背景】\nゲームアセット、プロダクトビジュアライゼーション\n\n【オブジェクト】\n種類: [例: 武器、家具、乗り物、食品]\n詳細: [例: 中世の剣、モダンなソファ]\n\n【ビジュアルスタイル】\n[例: フォトリアル3D、ローポリ、スタイライズド]\n\n【ライティング・背景】\n[例: スタジオ照明、透明背景、環境光]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "3D",
@@ -401,7 +401,7 @@
     "id": 16,
     "title": "ロゴデザイン",
     "image": "images/prompt_16.png",
-    "prompt": "【目的・背景】\n企業・サービス・イベント用のロゴ\n\n【ブランド情報】\n名前: [例: TechNova]\n業種: [例: ITスタートアップ]\nブランドイメージ: [例: 革新的、信頼性、親しみやすい]\n\n【デザイン希望】\nタイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]\nカラー: [例: 青系、モノクロ、グラデーション]\nスタイル: [例: ミニマル、幾何学的、手書き風]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background",
+    "prompt": "【目的・背景】\n企業・サービス・イベント用のロゴ\n\n【ブランド情報】\n名前: [例: TechNova]\n業種: [例: ITスタートアップ]\nブランドイメージ: [例: 革新的、信頼性、親しみやすい]\n\n【デザイン希望】\nタイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]\nカラー: [例: 青系、モノクロ、グラデーション]\nスタイル: [例: ミニマル、幾何学的、手書き風]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "ロゴ",

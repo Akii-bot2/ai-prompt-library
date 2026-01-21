@@ -743,7 +743,7 @@
     "id": 29,
     "title": "Lo-Fi BGM（作業用）",
     "image": "images/prompt_29_lofi.png",
-    "prompt": "【目的・背景】\n作業・勉強に集中するためのBGM\n\n【ムード・雰囲気】\n[例: 穏やか、ノスタルジック、雨の日]\n\n【楽器・サウンド】\nメイン: [例: ピアノ、ギター]\nサブ: [例: ソフトなドラム、環境音]\n\n【テンポ・長さ】\nBPM: [例: 70-85]\n長さ: [例: 3分]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",
+    "prompt": "【AIへの役割】\nあなたは「Lo-Fi Hip Hopのトラックメイカー」です。\n作業や勉強に集中できるチルアウトなBGMを作曲します。\n\n【楽曲の雰囲気・ムード】\n・ムード: [*ムード（例: 穏やか/ノスタルジック/雨の日/真夜中/カフェの昼下がり）]\n・感情: [感情（例: リラックス/集中/センチメンタル/心地よい孤独）]\n\n【楽器・サウンド構成】\n・メイン楽器: [*メイン楽器（例: ジャズピアノ/エレピ/アコースティックギター/サックス）]\n・ビート・リズム: [ビート（例: ゆったりしたHip Hopビート/ブーンバップ/少しヨレたドラム）]\n・環境音・ノイズ: [環境音（例: レコードノイズ/雨音/ページをめくる音/街の喧騒）]\n\n【楽曲仕様】\n・BPM: [BPM（例: 70-85/60-70/80-90）]\n・長さ: [長さ（例: 3分/2分ループ）]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere",
     "category": "音声・音楽生成",
     "tags": [
       "Lo-Fi",
@@ -759,13 +759,14 @@
         "name": "Udio",
         "url": "https://www.udio.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 30,
     "title": "ゲームBGM（バトル）",
     "image": "images/prompt_30_game.png",
-    "prompt": "【目的・背景】\nゲームのボス戦・バトルシーン用\n\n【ムード・雰囲気】\n[例: 激しい、緊迫感、壮大]\n\n【楽器・サウンド】\nメイン: [例: オーケストラ、エレキギター]\nパーカッション: [例: 激しいドラム、ティンパニ]\n\n【テンポ・長さ】\nBPM: [例: 140-180]\nループ対応: [例: はい]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",
+    "prompt": "【AIへの役割】\nあなたは「ベテランゲームコンポーザー」です。\nプレイヤーの心拍数を上げ、戦闘の緊張感を高めるバトルBGMを作曲します。\n\n【バトルのシチュエーション】\n・ジャンル: [*ジャンル（例: RPG/アクション/FPS/ホラー/格闘ゲーム）]\n・場面: [*場面（例: ボス戦/ラストバトル/雑魚敵との戦闘/タイムリミット）]\n・雰囲気: [雰囲気（例: 壮大/激しい/絶望的/疾走感/神秘的）]\n\n【楽器・サウンド構成】\n・メイン楽器: [*メイン楽器（例: フルオーケストラ/エレキギター/シンセサイザー/和楽器）]\n・リズム隊: [リズム（例: 激しいドラム/ティンパニ/高速ブレイクビーツ）]\n\n【楽曲仕様】\n・BPM: [BPM（例: 140-160/180以上/120）]\n・ループ対応: [ループ（選択: はい/いいえ）]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready",
     "category": "音声・音楽生成",
     "tags": [
       "ゲーム",
@@ -781,7 +782,8 @@
         "name": "Udio",
         "url": "https://www.udio.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 31,
@@ -1923,7 +1925,7 @@
     "id": 75,
     "title": "効果音（UI）",
     "image": "https://placehold.co/600x400/6366f1/ffffff?text=UI+SFX",
-    "prompt": "【目的・背景】\nアプリ、ゲームのUI操作音\n\n【効果音種類】\n[例: ボタンクリック、通知、成功、エラー]\n\n【スタイル】\n[例: ミニマル、ゲーム風、高級感]\n\n【仕様】\n長さ: [例: 0.1-0.5秒]\nフォーマット: [例: WAV, MP3]\n\n【サンプルプロンプト】\nUI click sound effect, soft click, modern app style, short crisp sound, satisfying feedback, high quality audio",
+    "prompt": "【AIへの役割】\nあなたは「アプリ/ゲームのUXサウンドデザイナー」です。\nユーザー体験を向上させる心地よいフィードバック音（効果音）を作成します。\n\n【効果音の用途・アクション】\n・アクション: [*アクション（例: ボタンクリック/決定音/キャンセル音/通知音/エラー音/スワイプ音/レベルアップ）]\n・システムの種類: [システム（例: モバイルアプリ/モダンWeb/レトロゲーム/SFインターフェース）]\n\n【サウンドの質感・スタイル】\n・スタイル: [*スタイル（例: デジタル/アナログ/木製/金属音/水滴/バブル/8bit）]\n・印象: [印象（例: 軽快/重厚/未来的/かわいい/警告的）]\n\n【仕様】\n・長さ: [長さ（例: 0.1秒(極短)/0.5秒/1秒内）]\n・音質: [音質（例: 高音質/ローファイ/ASMR的）]\n\n【サンプルプロンプト】\nUI click sound effect, soft click, modern app style, short crisp sound, satisfying feedback, high quality audio",
     "category": "音声・音楽生成",
     "tags": [
       "効果音",
@@ -1939,7 +1941,8 @@
         "name": "Udio",
         "url": "https://www.udio.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 76,
@@ -2444,7 +2447,7 @@
     "id": 96,
     "title": "ボーカル入り楽曲",
     "image": "https://placehold.co/600x400/EC4899/ffffff?text=Vocal+Song",
-    "prompt": "【目的・背景】\nオリジナル楽曲制作\n\n【ジャンル】\n[例: J-POP、R&B、ロック、アニソン]\n\n【テーマ・歌詞内容】\n[例: 恋愛、友情、応援歌、季節]\n\n【ボーカルスタイル】\n[例: 女性ボーカル、男性ボーカル、デュエット]\n\n【仕様】\nBPM: [例: 120-140]\nキー: [例: Cメジャー]\n\n【サンプルプロンプト】\nJ-pop song with female vocals, upbeat tempo 130bpm, catchy chorus, electronic instrumentation, emotional lyrics about new beginnings, radio-friendly production",
+    "prompt": "【AIへの役割】\nあなたは「ヒットメーカーの音楽プロデューサー」です。\nリスナーの心に響く、キャッチーで感動的なボーカル楽曲を制作します。\n\n【楽曲コンセプト】\n・ジャンル: [*ジャンル（例: J-Pop/K-Pop/R&B/ロック/アニソン/バラード）]\n・テーマ/歌詞の内容: [*テーマ（例: 青春の輝き/失恋の痛み/夢への挑戦/夏の思い出/未来への希望）]\n\n【ボーカルスタイル】\n・声質: [*声質（例: 透明感のある女性ボーカル/力強い男性ボーカル/オートチューンボイス/デュエット）]\n・歌い方: [歌い方（例: 感情豊かに/ウィスパーボイス/シャウト/ラップパートあり）]\n\n【楽曲仕様】\n・テンポ/BPM: [BPM（例: アップテンポ(130-150)/ミディアム(100-120)/スロー(70-90)）]\n・雰囲気: [雰囲気（例: 爽やか/切ない/エモーショナル/ダーク/未来的）]\n\n【サンプルプロンプト】\nJ-pop song with female vocals, upbeat tempo 130bpm, catchy chorus, electronic instrumentation, emotional lyrics about new beginnings, radio-friendly production",
     "category": "音声・音楽生成",
     "tags": [
       "楽曲",
@@ -2460,7 +2463,8 @@
         "name": "Udio",
         "url": "https://www.udio.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 97,

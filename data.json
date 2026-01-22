@@ -349,7 +349,7 @@
     "id": 14,
     "title": "風景イラスト（都市）",
     "image": "images/prompt_14.png",
-    "prompt": "【目的・背景】\n都市景観のコンセプトアート\n\n【シーン設定】\n都市タイプ: [例: 近未来、現代東京、レトロ欧州]\n時間帯: [例: 夜景、雨の日、霧]\n視点: [例: 俯瞰、ストリートレベル、屋上から]\n\n【ビジュアルスタイル】\n[例: サイバーパンク、写実的、アニメ背景]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【AIへの役割】\nあなたは「近未来から歴史的な街並みまで描き分けるコンセプトアーティスト」です。\n設定に基づき、物語の舞台となるような没入感のある都市景観を描きます。\n\n【シーン設定】\n・都市タイプ: [*都市タイプ（例: ネオン輝くサイバーパンク/霧に包まれたヴィクトリア朝/緑と融合した未来都市）]\n・時間帯・天気: [*時間帯（例: 雨の降る真夜中/夕暮れのマジックアワー/快晴の昼下がり）]\n・視点: [視点（選択: 上空からの俯瞰/ストリートレベル/超高層ビルの屋上から/ドローン視点）]\n\n【ビジュアルスタイル】\n・画風: [*スタイル（選択: 写実的(フォトリアル)/油絵風/アニメ背景風/水彩画風/3Dレンダリング）]\n・雰囲気: [雰囲気（例: 退廃的/希望に満ちた/不気味/活気ある）]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "風景",
@@ -369,13 +369,14 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 15,
     "title": "3Dオブジェクトデザイン",
     "image": "images/prompt_15.png",
-    "prompt": "【目的・背景】\nゲームアセット、プロダクトビジュアライゼーション\n\n【オブジェクト】\n種類: [例: 武器、家具、乗り物、食品]\n詳細: [例: 中世の剣、モダンなソファ]\n\n【ビジュアルスタイル】\n[例: フォトリアル3D、ローポリ、スタイライズド]\n\n【ライティング・背景】\n[例: スタジオ照明、透明背景、環境光]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【AIへの役割】\nあなたは「ハイエンドなゲームアセットやプロダクトを手がける3Dモデラー」です。\nディテールまでこだわった、実在感のある3Dオブジェクトデザインを生成します。\n\n【オブジェクト情報】\n・種類: [*オブジェクト種類（例: 伝説の聖剣/最新型ドローン/アンティークな宝箱/魔法のポーション）]\n・詳細・特徴: [*詳細（例: 黄金の装飾と青い宝石/錆びついた金属の質感/流線型の未来的デザイン）]\n\n【ビジュアル・レンダリング】\n・スタイル: [*スタイル（選択: フォトリアル/ローポリゴン/スタイライズド(ゲーム風)/手描きテクスチャ）]\n・ライティング: [ライティング（例: スタジオ照明/ドラマチックな陰影/自然光/発光エフェクト）]\n・背景: [背景（選択: 透明背景/単色背景/ぼかした背景/使用シーン）]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "3D",
@@ -395,13 +396,14 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 16,
     "title": "ロゴデザイン",
     "image": "images/prompt_16.png",
-    "prompt": "【目的・背景】\n企業・サービス・イベント用のロゴ\n\n【ブランド情報】\n名前: [例: TechNova]\n業種: [例: ITスタートアップ]\nブランドイメージ: [例: 革新的、信頼性、親しみやすい]\n\n【デザイン希望】\nタイプ: [例: シンボルマーク、ロゴタイプ、コンビネーション]\nカラー: [例: 青系、モノクロ、グラデーション]\nスタイル: [例: ミニマル、幾何学的、手書き風]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【AIへの役割】\nあなたは「ブランドの価値を形にするロゴデザイナー」です。\n記憶に残り、ブランドイメージを的確に伝えるプロフェッショナルなロゴを制作します。\n\n【ブランド情報】\n・名前: [*ブランド名（例: TechNova / Cafe Sakura / EcoLife）]\n・業種: [*業種（例:ITスタートアップ/オーガニックカフェ/環境保護団体）]\n・ブランドイメージ: [*イメージ（例: 革新的でクール/親しみやすく温かい/信頼感と伝統）]\n\n【デザイン要望】\n・ロゴタイプ: [タイプ（選択: シンボルマーク＋文字/文字のみ(ロゴタイプ)/抽象的なシンボル/マスコット）]\n・カラスタイル: [カラー（例: ブルーのグラデーション/モノクロ/パステルカラー/ゴールドと黒）]\n・デザインスタイル: [スタイル（選択: ミニマル・フラット/手書き風・ヴィンテージ/未来的・幾何学的）]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "ロゴ",
@@ -421,7 +423,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 17,
@@ -2088,7 +2091,7 @@
     "id": 82,
     "title": "インタビュー動画",
     "image": "images/prompt_82.png",
-    "prompt": "【目的・背景】\n社員紹介、顧客インタビュー\n\n【インタビュイー】\n[例: CEO、顧客、社員]\n\n【トーン】\n[例: 誠実、親しみやすい、プロフェッショナル]\n\n【撮影スタイル】\n構図: [例: バストアップ、Bロール挿入]\nライティング: [例: 3点照明]\n背景: [例: オフィス、白バック]\n\n【サンプルプロンプト】\ninterview video style, talking head shot, professional lighting, blurred office background, confident speaker, b-roll cutaways",
+    "prompt": "【AIへの役割】\nあなたは「企業の魅力を伝えるプロモーションビデオ制作のエキスパート」です。\n信頼感と親近感を両立させた、高品質なインタビュー動画を制作します。\n\n【インタビュイー情報】\n・人物属性: [*属性（例: 熱意ある若手社員/ビジョンを語るCEO/満足している長年の顧客）]\n・表情・態度: [*態度（例: 自信に満ちた笑顔/真剣な眼差し/リラックスした様子）]\n\n【撮影・演出スタイル】\n・構図: [構図（選択: バストアップ/膝上ショット/Bロール(インサート映像)交互）]\n・背景: [背景（例: ぼかしたモダンなオフィス/自然光が入る窓辺/シンプルなスタジオ白背景）]\n・ライティング: [ライティング（例: ソフトな3点照明/ドラマチックなサイドライト/明るい自然光）]\n\n【サンプルプロンプト】\ninterview video style, talking head shot, professional lighting, blurred office background, confident speaker, b-roll cutaways\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "インタビュー",
@@ -2108,7 +2111,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 83,
@@ -2475,7 +2479,7 @@
     "id": 97,
     "title": "ウェディング動画",
     "image": null,
-    "prompt": "【目的・背景】\n結婚式のオープニング/プロフィール動画\n\n【スタイル】\n[例: ロマンチック、ポップ、シネマティック]\n\n【含める要素】\n[例: 写真スライドショー、テキスト、BGM]\n\n【動画仕様】\n長さ: [例: 3-5分]\n解像度: [例: 1080p]\n\n【トーン】\n[例: 感動的、明るい、おしゃれ]\n\n【サンプルプロンプト】\nwedding video style, romantic slow motion, soft warm color grading, lens flares, couple footage, nature backgrounds, cinematic transitions, emotional atmosphere",
+    "prompt": "【AIへの役割】\nあなたは「一生に一度の瞬間を彩るウェディングムービーディレクター」です。\n新郎新婦とゲストの心に残る、感動的で美しい結婚式動画を制作します。\n\n【動画の用途・スタイル】\n・用途: [*用途（選択: オープニングムービー/プロフィール紹介/エンドロール/サプライズ動画）]\n・雰囲気: [*雰囲気（例: 映画のようにロマンチック/明るくポップ/感謝を伝える感動系/シンプルでおしゃれ）]\n\n【構成要素】\n・ビジュアル要素: [要素（例: 二人の思い出の写真スライド/前撮りの実写映像/手書きのアニメーション）]\n・色彩・トーン: [トーン（例: 柔らかいピンクとホワイト/温かみのあるセピア/鮮やかなナチュラルカラー）]\n・BGMイメージ: [BGM（例: 壮大なバラード/アップテンポな洋楽/優しいピアノソロ）]\n\n【サンプルプロンプト】\nwedding video style, romantic slow motion, soft warm color grading, lens flares, couple footage, nature backgrounds, cinematic transitions, emotional atmosphere\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "ウェディング",
@@ -2495,7 +2499,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 98,
@@ -2554,7 +2559,7 @@
     "id": 100,
     "title": "ゲームトレーラー",
     "image": null,
-    "prompt": "【目的・背景】\nゲーム発売前の告知映像\n\n【ゲームジャンル】\n[例: RPG、アクション、パズル]\n\n【トレーラー種類】\n[例: ティザー、ゲームプレイ、ストーリー]\n\n【含める要素】\n[例: カットシーン、ゲームプレイ映像、ロゴ]\n\n【トーン】\n[例: 壮大、ダーク、ポップ]\n\n【サンプルプロンプト】\ngame trailer style, epic cinematic shots, dramatic lighting, action sequences, logo reveal, title card, fast-paced editing, bass-heavy music sync, release date overlay",
+    "prompt": "【AIへの役割】\nあなたは「超大作ゲームの発売を盛り上げるシネマティックトレーラー制作者」です。\nゲーマーの期待感を最高潮に高める、迫力あるゲーム告知映像を制作します。\n\n【ゲーム情報】\n・ゲームジャンル: [*ジャンル（例: オープンワールドRPG/緊迫のFPS/探索型ホラー/爽快アクションゲーム）]\n・トレーラーの種類: [*種類（選択: 謎めいたティザー予告/迫力のゲームプレイ映像/世界観を伝えるストーリー編/発売直前のローンチトレーラー）]\n\n【映像演出】\n・見せ場となる要素: [*シチュエーション（例: 巨大ボスとの死闘/広大なマップの探索/感動的なイベントシーン/スキル発動のエフェクト）]\n・トーン: [トーン（例: ダークで重厚/鮮やかでポップ/謎めいたミステリアス/スピード感MAX）]\n・BGM同期: [BGM（例: 荘厳なオーケストラ/激しいメタル/不気味なアンビエント）]\n\n【サンプルプロンプト】\ngame trailer style, epic cinematic shots, dramatic lighting, action sequences, logo reveal, title card, fast-paced editing, bass-heavy music sync, release date overlay\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "ゲーム",
@@ -2574,6 +2579,7 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   }
 ]

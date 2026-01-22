@@ -454,7 +454,7 @@
     "id": 18,
     "title": "食品・料理写真風",
     "image": "images/prompt_18.png",
-    "prompt": "【目的・背景】\nメニュー、広告、SNS投稿用の料理ビジュアル\n\n【料理情報】\n料理名: [例: パスタ、寿司、ケーキ]\nスタイル: [例: 和食、洋食、デザート]\n\n【撮影スタイル】\nアングル: [例: 真上(フラットレイ)、45度、接写]\nライティング: [例: 自然光、バックライト、ムーディ]\n背景・小物: [例: 木のテーブル、白皿、ハーブ添え]\n\n【サンプルプロンプト】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k",
+    "prompt": "【AIへの役割】\nあなたは「シズル感のある料理写真を撮影するプロのフードフォトグラファー」です。\nメニューやSNSで映える、食欲をそそる高品質な料理画像を生成します。\n\n【料理情報】\n・料理名: [*料理名（例: 新鮮な寿司の盛り合わせ/焼きたてのマルゲリータピザ/ベリーのパンケーキ）]\n・スタイル: [*スタイル（例: 本格和食/エレガントなフレンチ/家庭的な洋食/カフェスイーツ）]\n\n【撮影スタイル】\n・アングル: [アングル（選択: 真上(フラットレイ)/斜め45度/接写(マクロ)/ローアングル）]\n・ライティング: [ライティング（例: 自然光/窓際の間接光/スタジオライティング/ムーディな暗め）]\n・背景・演出: [背景（例: 木のテーブル/白い皿/リネンクロス/ハーブを添えて）]\n\n【サンプルプロンプト】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "食品",
@@ -474,13 +474,14 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 19,
     "title": "インテリアデザイン",
     "image": "images/prompt_19.png",
-    "prompt": "【目的・背景】\n住宅、オフィス、店舗のインテリア提案\n\n【空間情報】\n部屋タイプ: [例: リビング、寝室、オフィス]\nスタイル: [例: モダン、北欧、和モダン]\n広さ: [例: 20畳、コンパクト]\n\n【要素】\n家具: [例: ソファ、デスク、ベッド]\nカラーパレット: [例: ナチュラル、モノトーン、アクセントカラー]\n素材: [例: 木、コンクリート、ファブリック]\n\n【サンプルプロンプト】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k",
+    "prompt": "【AIへの役割】\nあなたは「洗練された空間を提案するインテリアデザイナー」です。\n住む人の理想を叶える、おしゃれで快適な空間デザインを視覚化します。\n\n【空間情報】\n・部屋タイプ: [*部屋タイプ（例: リラックスできるリビング/集中できる書斎/モダンなキッチン/寝室）]\n・デザインスタイル: [*スタイル（選択: モダン/北欧風/和モダン/インダストリアル/ミニマリスト）]\n・広さ・開放感: [広さ（例: 20畳の広々とした空間/コンパクトで機能的/高い天井）]\n\n【インテリア要素】\n・主な家具: [家具（例: グレーのソファ/無垢材のデスク/キングサイズベッド）]\n・カラーパレット: [カラー（例: ホワイトとベージュ基調/モノトーン/アースカラー）]\n・素材感: [素材（例: 木材/コンクリート/ベルベット/観葉植物多め）]\n\n【サンプルプロンプト】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "インテリア",
@@ -500,13 +501,14 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 20,
     "title": "アニメ風イラスト",
     "image": "images/prompt_20.png",
-    "prompt": "【目的・背景】\n同人誌、グッズ、アイコン用イラスト\n\n【キャラクター】\nタイプ: [例: 美少女、少年、デフォルメ]\n表情: [例: 笑顔、クール、照れ]\n服装: [例: 制服、ファンタジー衣装、私服]\n\n【スタイル・作画】\n参考作風: [例: 京アニ風、ufotable風、萌え系]\n塗り: [例: アニメ塗り、厚塗り、水彩]\n\n【サンプルプロンプト】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed",
+    "prompt": "【AIへの役割】\nあなたは「人気のアニメやライトノベルを手がけるイラストレーター」です。\nキャラクターの魅力を最大限に引き出した、高品質なアニメ風イラストを作成します。\n\n【キャラクター設定】\n・キャラクタータイプ: [*キャラ（例: 制服を着た魔法少女/サイバーパンクな少年/ファンタジーの姫/ちびキャラ）]\n・表情: [*表情（例: 満面の笑顔/クールな流し目/照れた顔/泣き顔）]\n・髪型・色: [髪（例: ピンクのロングヘア/黒髪ショート/銀髪）]\n\n【ビジュアル詳細】\n・服装: [服装（例: 学校の制服/バトルスーツ/私服パーカー/着物）]\n・ポーズ・構図: [ポーズ（例: ピースサイン/武器を構える/振り返り/バストアップ）]\n・背景: [背景（例: 桜並木/放課後の教室/異世界の森/抽象的なグラデーション）]\n\n【アートスタイル】\n・作画スタイル: [*スタイル（選択: 京アニ風/ufotable風/水彩画風/厚塗り/90年代セル画風）]\n\n【サンプルプロンプト】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
     "category": "画像生成",
     "tags": [
       "アニメ",
@@ -526,7 +528,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 21,
@@ -2165,7 +2168,7 @@
     "id": 85,
     "title": "料理・レシピ動画",
     "image": null,
-    "prompt": "【目的・背景】\nYouTube、SNS用のレシピ紹介\n\n【料理】\n[例: パスタ、スイーツ、和食]\n\n【撮影スタイル】\nアングル: [例: 俯瞰、横から]\nテンポ: [例: 早送り、リアルタイム]\n\n【編集】\nテキスト: [例: 分量、手順のテロップ]\nBGM: [例: 軽快、落ち着いた]\n\n【サンプルプロンプト】\ncooking video, overhead shot, hands preparing food, ingredient close-ups, satisfying cutting sounds, text overlays with measurements, warm lighting",
+    "prompt": "【AIへの役割】\nあなたは「人気の料理系YouTuber/インフルエンサー」です。\n視聴者が真似したくなる、分かりやすくて美味しそうな料理レシピ動画を制作します。\n\n【料理・レシピ情報】\n・料理名: [*料理名（例: 本格カルボナーラ/10分でできる弁当おかず/究極のパンケーキ）]\n・難易度: [難易度（例: 初心者向け/プロ級/ズボラ飯）]\n\n【撮影・編集スタイル】\n・アングル: [*アングル（選択: 真上(俯瞰)/横からの手元アップ/ダイナミックな視点切り替え）]\n・テンポ: [テンポ（例: リズミカルな早送り/ASMR重視でゆったり/解説重視）]\n・演出要素: [演出（例: 分量テロップ表示/完成時の湯気エフェクト/調理音強調）]\n\n【サンプルプロンプト】\ncooking video, overhead shot, hands preparing food, ingredient close-ups, satisfying cutting sounds, text overlays with measurements, warm lighting\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "料理",
@@ -2185,7 +2188,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 86,
@@ -2217,7 +2221,7 @@
     "id": 87,
     "title": "ミュージックビデオ風",
     "image": null,
-    "prompt": "【目的・背景】\n楽曲のビジュアル化\n\n【楽曲ジャンル】\n[例: ポップ、ロック、ヒップホップ、EDM]\n\n【ビジュアルスタイル】\n[例: パフォーマンス、ストーリー、抽象]\n\n【演出】\n[例: ダンス、風景カット、VFX]\n\n【サンプルプロンプト】\nmusic video style, artist performance, dramatic lighting, slow motion shots, dynamic camera movement, visual effects, beat-synced editing",
+    "prompt": "【AIへの役割】\nあなたは「世界的アーティストのMVを手がける映像ディレクター」です。\n楽曲の世界観を増幅させ、視聴者を釘付けにするミュージックビデオを制作します。\n\n【楽曲情報】\n・楽曲ジャンル: [*ジャンル（例: エモーショナルなバラード/激しいロック/サイバーパンクなEDM/チルなLo-Fi）]\n・曲のテーマ: [*テーマ（例: 失恋と再生/未来都市への逃避行/真夏の青春）]\n\n【ビジュアル・演出】\n・映像スタイル: [*スタイル（選択: 実写ドラマ風/3Dアニメーション/抽象的なモーショングラフィックス）]\n・色彩設計: [カラー（例: ネオンカラー/モノクロに赤のアクセント/フィルム調の淡い色）]\n・カメラワーク: [カメラ（例: ドローン空撮/スローモーション多用/手持ちカメラの臨場感）]\n\n【サンプルプロンプト】\nmusic video style, artist performance, dramatic lighting, slow motion shots, dynamic camera movement, visual effects, beat-synced editing\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "MV",
@@ -2237,7 +2241,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 88,
@@ -2522,7 +2527,7 @@
     "id": 99,
     "title": "旅行・観光PR動画",
     "image": null,
-    "prompt": "【目的・背景】\n観光地、ホテル、旅行商品のPR\n\n【対象エリア】\n[例: 京都、沖縄、北海道]\n\n【ターゲット】\n[例: 国内旅行者、インバウンド]\n\n【含める要素】\n[例: 風景、食事、アクティビティ、宿泊施設]\n\n【スタイル】\n[例: シネマティック、ドローン空撮]\n\n【サンプルプロンプト】\ntravel promotional video, stunning aerial drone shots, local cuisine close-ups, cultural experiences, happy travelers, cinematic color grading, inspiring music sync",
+    "prompt": "【AIへの役割】\nあなたは「観光地やリゾートの魅力を伝えるトラベルビデオグラファー」です。\n見る人が今すぐ旅に出たくなるような、美しく感動的な観光PR動画を制作します。\n\n【観光地情報】\n・対象エリア/スポット: [*エリア（例: 京都の古刹/沖縄のビーチ/雪景色の北海道/ニューヨークの街並み）]\n・ターゲット: [*ターゲット（例: 20代女子旅/家族連れ/ラグジュアリー志向の富裕層/バックパッカー）]\n\n【映像の魅力づけ】\n・紹介要素: [要素（例: 絶景スポット/地元グルメ/伝統文化体験/高級ホテルの滞在）]\n・撮影スタイル: [*スタイル（選択: ドローンによる空撮/POV(主観)視点での街歩き/シネマティックなBロール）]\n・雰囲気: [雰囲気（例: 癒やし/ワクワク感/ノスタルジック/洗練された）]\n\n【サンプルプロンプト】\ntravel promotional video, stunning aerial drone shots, local cuisine close-ups, cultural experiences, happy travelers, cinematic color grading, inspiring music sync\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
     "category": "動画生成",
     "tags": [
       "旅行",
@@ -2542,7 +2547,8 @@
         "name": "Gemini",
         "url": "https://gemini.google.com/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 100,

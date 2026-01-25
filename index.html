@@ -141,6 +141,24 @@
     <!-- Toastify.js -->
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
+    <!-- Initial Language Selection Modal -->
+    <div id="first-visit-lang-modal" class="onboarding-modal">
+        <div class="lang-selection-overlay"></div>
+        <div class="onboarding-content lang-selection-content">
+            <h2 class="lang-selection-title">Select Language / 言語を選択してください</h2>
+            <div class="lang-selection-options">
+                <button class="lang-selection-btn" onclick="selectInitialLang('ja')">
+                    <span class="lang-flag">🇯🇵</span>
+                    <span class="lang-name">日本語</span>
+                </button>
+                <button class="lang-selection-btn" onclick="selectInitialLang('en')">
+                    <span class="lang-flag">🇺🇸</span>
+                    <span class="lang-name">English</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Onboarding Modal -->
     <div id="onboarding-modal" class="onboarding-modal">
         <div class="onboarding-overlay"></div>

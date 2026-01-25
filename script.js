@@ -1323,11 +1323,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Update button text on last slide
+        const t = translations[currentLang];
         if (index === totalSlides - 1) {
-            nextBtn.innerHTML = 'はじめる <i class="fa-solid fa-check"></i>';
+            nextBtn.innerHTML = `${currentLang === 'ja' ? 'はじめる' : 'Start'} <i class="fa-solid fa-check"></i>`;
             nextBtn.classList.add('finish');
         } else {
-            nextBtn.innerHTML = '次へ <i class="fa-solid fa-chevron-right"></i>';
+            nextBtn.innerHTML = `${t.onboarding.next} <i class="fa-solid fa-chevron-right"></i>`;
             nextBtn.classList.remove('finish');
         }
     }
@@ -1418,7 +1419,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize onboarding
     function initOnboarding() {
-        if (shouldShowOnboarding()) {
+        const LANG_SELECTED_KEY = 'ai_prompt_library_lang_selected';
+        const modal = document.getElementById('first-visit-lang-modal');
+
+        if (!localStorage.getItem(LANG_SELECTED_KEY)) {
+            // If language not selected yet, show language selection modal
+            setTimeout(() => {
+                if (modal) {
+                    modal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                }
+            }, 500);
+        } else if (shouldShowOnboarding()) {
             initDotNavigation();
             initSwipeNavigation();
             initKeyboardNavigation();
@@ -1428,6 +1440,46 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(showOnboarding, 500);
         }
     }
+
+    // Handle initial language selection
+    window.selectInitialLang = function (lang) {
+        const LANG_SELECTED_KEY = 'ai_prompt_library_lang_selected';
+        localStorage.setItem(LANG_SELECTED_KEY, 'true');
+
+        // Update language state
+        currentLang = lang;
+        localStorage.setItem('siteLang', lang);
+
+        // Update UI
+        updateLanguageUI(lang);
+        fetchData(lang);
+
+        // Update lang switcher active state
+        const dropdown = document.getElementById('lang-dropdown');
+        if (dropdown) {
+            const options = dropdown.querySelectorAll('.lang-option');
+            const currentLangSpan = document.getElementById('current-lang');
+            currentLangSpan.textContent = lang === 'ja' ? 'JP' : 'EN';
+            options.forEach(opt => {
+                opt.classList.toggle('active', opt.dataset.lang === lang);
+            });
+        }
+
+        // Close lang selection modal
+        const langModal = document.getElementById('first-visit-lang-modal');
+        if (langModal) {
+            langModal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Proceed to onboarding
+        initDotNavigation();
+        initSwipeNavigation();
+        initKeyboardNavigation();
+        initOverlayClose();
+        showOnboarding();
+        goToSlide(0); // Ensure it starts from first slide with correct language
+    };
 
     // Start onboarding check
     initOnboarding();

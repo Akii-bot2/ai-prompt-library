@@ -252,6 +252,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update UI Text based on Language
     function updateLanguageUI(lang) {
+        // Validation: fallback to 'ja' if lang is not found in translations
+        if (!translations[lang]) {
+            console.warn(`Language '${lang}' not found, falling back to 'ja'`);
+            lang = 'ja';
+            // Update state so other functions use the correct lang
+            currentLang = 'ja';
+            localStorage.setItem('siteLang', 'ja');
+        }
+
         const t = translations[lang];
 
         // Update data-i18n elements
@@ -270,10 +279,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update placeholders
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-            const keys = el.dataset.i18nplaceholder.split('.');
-            let value = t;
-            keys.forEach(k => { value = value ? value[k] : null; });
-            if (value) el.placeholder = value;
+            // data-i18n-placeholder converts to dataset.i18nPlaceholder (camelCase)
+            const keyStr = el.dataset.i18nPlaceholder;
+            if (keyStr) {
+                const keys = keyStr.split('.');
+                let value = t;
+                keys.forEach(k => { value = value ? value[k] : null; });
+                if (value) el.placeholder = value;
+            }
         });
 
         // Update html lang attribute

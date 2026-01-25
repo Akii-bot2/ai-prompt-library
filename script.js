@@ -265,21 +265,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update data-i18n elements
         document.querySelectorAll('[data-i18n]').forEach(el => {
-            const keys = el.dataset.i18n.split('.');
-            let value = t;
-            keys.forEach(k => { value = value ? value[k] : null; });
-            if (value) {
-                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-                    // Skip inputs, handled by placeholder
-                } else {
-                    el.innerHTML = value;
+            const keyStr = el.dataset.i18n;
+            if (keyStr) {
+                const keys = keyStr.split('.');
+                let value = t;
+                keys.forEach(k => { value = value ? value[k] : null; });
+                if (value) {
+                    if (el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') {
+                        el.innerHTML = value;
+                    }
                 }
             }
         });
 
         // Update placeholders
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-            // data-i18n-placeholder converts to dataset.i18nPlaceholder (camelCase)
             const keyStr = el.dataset.i18nPlaceholder;
             if (keyStr) {
                 const keys = keyStr.split('.');

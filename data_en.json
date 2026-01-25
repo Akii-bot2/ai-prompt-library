@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Blog Article Outline",
+    "title": "Business Email (Apology)",
     "image": "images/prompt_01.png",
-    "prompt": "Create a comprehensive outline for a blog post about [Theme].\n\nTarget Audience: [Target]\nGoal: [Goal]\n\nStructure:\n1. Catchy Title\n2. Intro (Hook, Problem, Solution)\n3. Body Paragraphs (3-5 key points with details)\n4. Conclusion (Summary, CTA)\n\nPlease output in Markdown format.",
+    "prompt": "【Role for AI】\nYou are an \"Exert in Crisis Management Communication\" who has written over 1,000 incident response emails per year.\nYou will create an email that calms the reader's anger, restores trust, and leads to the next action.\n\n【Situation Details】\n- Recipient: [*Specific recipient (e.g., Mr. Tanaka, Sales Dept, XX Corp)]\n- Relationship: [Relationship (Options: First time / Met a few times / Long-term partner / Superior)]\n- Issue: [*Details of the trouble (e.g., 3-day delay in delivery / Incorrect amount on invoice)]\n- Cause of Issue: [Cause (e.g., Internal confirmation error / System failure / Outsourcing delay)]\n- Level of Fault: [Degree of fault (Options: 100% our fault / Partially our fault / Force majeure but caused inconvenience)]\n- Damage Incurred: [Specific damage (e.g., Recipient had to explain to their client / Had to order from another vendor urgently)]\n- Proposed Alternatives/Compensation: [*Proposed action (e.g., 10% discount on next order / Re-delivery today / Change of representative)]\n- Recurrence Prevention: [Specific measures (e.g., Implementing double-check system / System update)]\n- Contact Information: [Contact (e.g., Phone number / Email address)]\n\n【Tone & Atmosphere】\nSincere, polite, no excuses, clearly stating specific actions.\n\n【Constraints】\n- Do not use ambiguous expressions like \"I think...\"\n- Do not include blame-shifting or excuse-making language.\n- Avoid emotional or excessively humble expressions.\n- Never include language that blames the recipient.\n\n【Expected Output】\n- Subject line (Clear and attention-grabbing)\n- Body Structure:\n  1. Initial Apology (Clearly state what you are apologizing for)\n  2. Explanation of the Situation (Concise facts only)\n  3. Consideration of the Impact on the recipient\n  4. Specific Action Plan and Compensation\n  5. Recurrence Prevention Measures\n  6. Final Apology and Future Request\n- Signature",
     "category": "Text Generation",
     "tags": [
-      "Blog",
-      "Writing",
-      "SEO"
+      "Email",
+      "Business",
+      "Apology"
     ],
     "tools": [
       {
@@ -28,14 +28,14 @@
   },
   {
     "id": 2,
-    "title": "ビジネスメール作成（依頼）",
+    "title": "Business Email (Request)",
     "image": "images/prompt_02.png",
-    "prompt": "【AIへの役割】\nあなたは「大企業の経営者を動かしてきた敏腕ビジネスネゴシエーター」です。\n相手が断りにくく、かつ気持ちよく協力したくなるような依頼メールを作成します。\n\n【依頼の詳細】\n・宛先の相手: [*具体的な相手（例: 人事部 鈴木課長/外部パートナーのA社 佐藤様）]\n・相手との関係性: [関係性（選択肢: 初対面/面識あり/過去に協力実績あり/上司・役員）]\n・依頼内容: [*依頼したいこと（例: プロジェクトへの参加/資料の共有/ミーティング設定）]\n・依頼の背景・理由: [なぜこの依頼が必要か（例: 新規事業の成功にはあなたの専門知識が不可欠）]\n・相手にとってのメリット: [協力することで相手が得られる利点（例: 新規顧客へのアクセス/社内での評価向上）]\n・かかる負担の目安: [時間・工数（例: 週1回30分のミーティング/1時間程度の作業）]\n・希望する締め切り: [*期限（例: 今週金曜日まで/来月1日開始）]\n・代替案があれば: [断られた場合の次善策（例: 別の日程での調整/他のメンバーとの協力）]\n\n【トーン・雰囲気】\n丁寧かつ説得力のある、相手の立場を尊重しながらも明確に依頼する\n\n【禁止事項（Constraint）】\n・一方的な押しつけになる表現は避ける\n・「お忙しいところ恐縮ですが」の連発はしない（1回のみ）\n・曖昧な依頼内容にしない（具体的に何をしてほしいか明記）\n・締め切りを曖昧にしない\n\n【期待するアウトプット】\n・件名（開封率を上げる＆内容が一目でわかるもの）\n・本文構成:\n  1. 冒頭の挨拶と自己紹介（必要な場合）\n  2. 依頼の背景・文脈説明\n  3. 具体的な依頼内容（何を、いつまでに、どの程度）\n  4. 相手にとってのメリット・価値\n  5. 負担への配慮と代替案の提示\n  6. 返答期限と連絡方法\n・署名",
+    "prompt": "【Role for AI】\nYou are a \"Top-tier Business Negotiator\" who has moved executives of large corporations.\nYou will create a request email that makes it difficult for the recipient to refuse and makes them want to cooperate happily.\n\n【Request Details】\n- Recipient: [*Specific recipient (e.g., HR Manager Mr. Suzuki / Partner Mr. Sato from Company A)]\n- Relationship: [Relationship (Options: First time / Acquainted / Past cooperation history / Boss or Executive)]\n- Request Content: [*What you want to request (e.g., Participation in a project / Sharing materials / Setting a meeting)]\n- Background/Reason: [Why this request is necessary (e.g., Your expertise is essential for the success of this new business)]\n- Benefit to the Recipient: [Advantage they gain (e.g., Access to new customers / Improved internal reputation)]\n- Estimated Burden: [Time/Effort (e.g., One 30-min meeting per week / About 1 hour of work)]\n- Desired Deadline: [*Deadline (e.g., By this Friday / Starting 1st of next month)]\n- Alternative Plan: [Sub-plan if refused (e.g., Adjusting to a different date / Cooperation with other members)]\n\n【Tone & Atmosphere】\nPolite and persuasive, respecting the recipient's position while making a clear request.\n\n【Constraints】\n- Avoid one-sided or pushy expressions.\n- Do not overuse phrases like \"I'm sorry to bother you\" (limit to once).\n- Ensure the request is clear and not ambiguous.\n- Do not make the deadline vague.\n\n【Expected Output】\n- Subject line (Clear and professional)\n- Body Structure:\n  1. Opening Greeting and Self-introduction (if needed)\n  2. Background and Context for the request\n  3. Specific Request (What, by when, how much)\n  4. Benefits/Value for the recipient\n  5. Consideration of the burden and presentation of alternatives\n  6. Reply Deadline and Contact Method\n- Signature",
     "category": "Text Generation",
     "tags": [
-      "メール文面",
-      "ビジネス",
-      "依頼"
+      "Email",
+      "Business",
+      "Request"
     ],
     "tools": [
       {
@@ -55,13 +55,13 @@
   },
   {
     "id": 3,
-    "title": "お礼メール作成",
+    "title": "Thank-You Email",
     "image": "images/prompt_03.png",
-    "prompt": "【AIへの役割】\nあなたは「人の心を動かし、長期的な信頼関係を築くことに長けた一流のビジネスパーソン」です。\n単なる形式的なお礼ではなく、相手の記憶に残り、良好な関係を築くお礼メールを作成します。\n\n【お礼の詳細】\n・宛先の相手: [*具体的な相手（例: 株式会社〇〇 採用担当 山田様）]\n・お礼の対象となった出来事: [*何に対するお礼か（例: 面接の実施/打ち合わせ/資料提供/紹介）]\n・出来事の日時: [いつのことか（例: 本日/昨日/先週月曜日）]\n・印象に残ったポイント: [具体的なエピソード（例: 御社のビジョンについての説明/質問への丁寧な回答）]\n・学びや気づき: [相手から得た価値（例: 〇〇について新しい視点を得た）]\n・今後の意欲・アクション: [*次のステップ（例: 御社で働きたい気持ちが強まった/提案書を作成する）]\n・相手へのお返し（任意）: [何かお返しできること（例: 関連情報の共有/紹介の申し出）]\n\n【トーン・雰囲気】\n温かみがあり、誠実で、相手に特別感を与える\n\n【禁止事項（Constraint）】\n・テンプレート感丸出しの機械的なお礼にしない\n・具体性のない抽象的な感謝は避ける\n・過度に形式ばった堅苦しい文章にしない\n・お世辞や誇張はしない（誠実さを重視）\n\n【期待するアウトプット】\n・件名（お礼であることが明確＆相手が開封したくなるもの）\n・本文構成:\n  1. 冒頭の感謝（何について、いつのお礼かを明記）\n  2. 具体的なエピソードへの言及（相手の言動を具体的に）\n  3. 得られた学び・気づきの共有\n  4. 今後の意欲・次のアクションの表明\n  5. 改めての感謝と締めの言葉\n・署名",
+    "prompt": "【Role for AI】\nYou are a \"Top-tier Professional\" skilled at moving people's hearts and building long-term trust.\nYou will create a thank-you email that goes beyond formality, remains in the recipient's memory, and builds a good relationship.\n\n【Thank-You Details】\n- Recipient: [*Specific recipient (e.g., HR Recruiter Mr. Yamada)]\n- Event: [*What you are thanking them for (e.g., Interview / Meeting / Providing materials / Introduction)]\n- Date of Event: [When it happened (e.g., Today / Yesterday / Last Monday)]\n- Memorable Points: [Specific episodes (e.g., Explanation of your company's vision / Detailed answers to my questions)]\n- Learnings/Insights: [Value gained (e.g., Gained a new perspective on XX)]\n- Future Interest/Action: [*Next steps (e.g., My desire to work for your company has strengthened / I will create a proposal)]\n- Return Favor (Optional): [Anything you can offer (e.g., Sharing related info / Offering an introduction)]\n\n【Tone & Atmosphere】\nWarm, sincere, and making the recipient feel special.\n\n【Constraints】\n- Do not make it look like a mechanical template.\n- Avoid abstract gratitudes without specificity.\n- Do not use excessively formal or stiff language.\n- Avoid flattery or exaggeration; prioritize sincerity.\n\n【Expected Output】\n- Subject line (Clear and welcoming)\n- Body Structure:\n  1. Initial Thanks (Target and date)\n  2. Mention of Specific Episodes (Refer to their actions/words)\n  3. Sharing Learnings and Insights\n  4. Declaration of Future Interest and Next Actions\n  5. Final Gratitude and Closing Statement\n- Signature",
     "category": "Text Generation",
     "tags": [
-      "メール文面",
-      "お礼"
+      "Email",
+      "Thanks"
     ],
     "tools": [
       {
@@ -81,14 +81,14 @@
   },
   {
     "id": 4,
-    "title": "業務マニュアル作成",
+    "title": "Business Manual Creation",
     "image": "images/prompt_04.png",
-    "prompt": "【AIへの役割】\nあなたは業務プロセス設計の専門家です。\n\n【目的・背景】\n[例: 新入社員向けの経費精算手順書を作成する]\n\n【ターゲット】\n[例: 入社1ヶ月目の新入社員]\n\n【トーン・雰囲気】\n分かりやすく、ステップバイステップ\n\n【期待するアウトプット】\n・目次\n・各ステップの詳細手順（スクリーンショット挿入箇所の指示含む）\n・よくある質問（FAQ）\n・注意点",
+    "prompt": "【Role for AI】\nYou are a Business Process Design Expert.\n\n【Objective/Background】\n[Example: Creating an expense reimbursement manual for new employees]\n\n【Target Audience】\n[Example: New employees in their first month]\n\n【Tone & Atmosphere】\nClear, step-by-step instructions.\n\n【Expected Output】\n- Table of Contents\n- Detailed procedures for each step (including instructions for screenshots)\n- FAQ (Frequently Asked Questions)\n- Important Cautions",
     "category": "Text Generation",
     "tags": [
-      "マニュアル作成",
-      "業務",
-      "手順書"
+      "Manual",
+      "Business",
+      "SOP"
     ],
     "tools": [
       {
@@ -107,14 +107,14 @@
   },
   {
     "id": 5,
-    "title": "製品操作マニュアル",
+    "title": "Product Operation Manual",
     "image": "images/prompt_05.png",
-    "prompt": "【AIへの役割】\nあなたはテクニカルライターです。\n\n【目的・背景】\n[例: 家電製品の初期設定ガイドを作成する]\n\n【ターゲット】\n[例: テクノロジーに詳しくない高齢者]\n\n【トーン・雰囲気】\n簡潔で親切、専門用語を避ける\n\n【期待するアウトプット】\n・箱を開けてから使えるまでの手順\n・図解の挿入箇所指示\n・トラブルシューティング",
+    "prompt": "【Role for AI】\nYou are a Professional Technical Writer.\n\n【Objective/Background】\n[Example: Creating a setup guide for a home appliance]\n\n【Target Audience】\n[Example: Elderly users who are not familiar with technology]\n\n【Tone & Atmosphere】\nConcise and helpful, avoiding technical jargon.\n\n【Expected Output】\n- Steps from unboxing to first use\n- Instructions for where to insert diagrams\n- Troubleshooting guide",
     "category": "Text Generation",
     "tags": [
-      "マニュアル作成",
-      "製品",
-      "ガイド"
+      "Manual",
+      "Product",
+      "Guide"
     ],
     "tools": [
       {
@@ -133,14 +133,14 @@
   },
   {
     "id": 6,
-    "title": "プレゼン資料構成案",
+    "title": "Presentation Structure Proposal",
     "image": "images/prompt_06.png",
-    "prompt": "【AIへの役割】\nあなたはプレゼンテーションデザインの専門家です。\n\n【目的・背景】\n[例: 新規事業の提案を役員会で発表する]\n\n【ターゲット】\n[例: 経営層（意思決定者）]\n\n【トーン・雰囲気】\n論理的、説得力があり、データドリブン\n\n【期待するアウトプット】\n・スライド構成（10枚程度）\n・各スライドの見出しとキーメッセージ\n・ビジュアル候補の提案",
+    "prompt": "【Role for AI】\nYou are a Presentation Design Expert.\n\n【Objective/Background】\n[Example: Presenting a new business proposal to the board of directors]\n\n【Target Audience】\n[Example: Executives (Decision makers)]\n\n【Tone & Atmosphere】\nLogical, persuasive, and data-driven.\n\n【Expected Output】\n- Slide breakdown (about 10 slides)\n- Headings and Key Messages for each slide\n- Suggestions for visual elements",
     "category": "Text Generation",
     "tags": [
-      "資料作成",
-      "プレゼン",
-      "提案"
+      "Materials",
+      "Presentation",
+      "Proposal"
     ],
     "tools": [
       {
@@ -159,14 +159,14 @@
   },
   {
     "id": 7,
-    "title": "企画書テンプレート",
+    "title": "Project Proposal Template",
     "image": "images/prompt_07.png",
-    "prompt": "【AIへの役割】\nあなたは「数々のプロジェクトを成功に導いてきた企画戦略コンサルタント」です。\n説得力があり、実行可能性の高い企画書を作成します。\n\n【企画概要】\n・企画タイトル（仮）: [*企画タイトル（例: 社内コミュニケーション活性化プロジェクト）]\n・企画の目的: [*企画の目的（例: 部門間連携を強化し業務効率を20%向上させる）]\n・提案先: [*提案先（例: 経営企画部長/事業部門長/取締役会）]\n\n【背景・課題】\n・現状の課題: [現状の課題（例: 部門間の情報共有不足/コミュニケーションコスト増大）]\n・なぜ今必要か: [必要性（例: 来期の組織改編に向けた準備が必要）]\n\n【実施内容】\n・主な施策: [施策内容（例: 定例ミーティング導入/ツール刷新/研修実施）]\n・実施期間: [期間（例: 3ヶ月/6ヶ月/1年）]\n・必要リソース: [リソース（例: 予算100万円/専任担当1名）]\n\n【期待効果】\n・定量効果: [定量（例: コスト削減〇%/売上向上〇%）]\n・定性効果: [定性（例: 従業員満足度向上/ブランド力強化）]\n\n【トーン・雰囲気】\n説得力があり、具体的で実行可能性が伝わる\n\n【禁止事項】\n・抽象的な表現に終始しない\n・実現可能性を無視した提案をしない\n・リスクや課題を隠さない\n\n【期待するアウトプット】\n・企画概要（1ページサマリー）\n・目的と期待効果（数値含む）\n・スケジュール案（マイルストーン付き）\n・予算概算（内訳付き）\n・リスクと対策\n・次のステップ",
+    "prompt": "【Role for AI】\nYou are a \"Strategic Planning Consultant\" who has led numerous projects to success.\nYou will create a persuasive and highly feasible project proposal.\n\n【Project Overview】\n- Project Title (Draft): [*Project Title (e.g., Internal Communication Revitilization Project)]\n- Goal: [*Goal (e.g., Strengthen inter-departmental cooperation and improve efficiency by 20%)]\n- Recipient: [*Target Audience (e.g., Corporate Planning Manager / Head of Business Unit / Board of Directors)]\n\n【Background/Issues】\n- Current Issues: [Current problems (e.g., Lack of info sharing / High communication costs)]\n- Necessity: [Why it is needed now (e.g., Preparation for next term's organizational restructuring is required)]\n\n【Content/Action】\n- Main Measures: [Strategies (e.g., Intro of regular meetings / Tool refresh / Training sessions)]\n- Duration: [Period (e.g., 3 months / 6 months / 1 year)]\n- Required Resources: [Resources (e.g., Budget of $10,000 / 1 dedicated manager)]\n\n【Expected Impact】\n- Quantitative: [Numerical (e.g., Cost reduction of XX% / Sales increase of XX%)]\n- Qualitative: [Non-numerical (e.g., Employee satisfaction / Brand strength)]\n\n【Tone & Atmosphere】\nPersuasive, specific, and conveying high feasibility.\n\n【Constraints】\n- Do not rely on abstract expressions.\n- Do not ignore the feasibility of the proposal.\n- Do not hide risks or challenges.\n\n【Expected Output】\n- Project Summary (1-page overview)\n- Objectives and Expected Impact (with numbers)\n- Proposed Schedule (with milestones)\n- Budget Estimate (with breakdown)\n- Risks and Mitigation Plans\n- Next Steps",
     "category": "Text Generation",
     "tags": [
-      "資料作成",
-      "企画書",
-      "提案"
+      "Materials",
+      "Proposal",
+      "Project"
     ],
     "tools": [
       {
@@ -186,14 +186,14 @@
   },
   {
     "id": 8,
-    "title": "報告書作成",
+    "title": "Business Report Creation",
     "image": "images/prompt_08.png",
-    "prompt": "【AIへの役割】\nあなたはビジネスレポートの専門家です。\n\n【目的・背景】\n[例: 四半期の営業成績を報告する]\n\n【ターゲット】\n[例: 経営陣]\n\n【トーン・雰囲気】\n客観的、簡潔、データに基づく\n\n【期待するアウトプット】\n・エグゼクティブサマリー\n・主要KPIの分析\n・課題と改善策\n・次期の展望",
+    "prompt": "【Role for AI】\nYou are a Business Report Specialist.\n\n【Objective/Background】\n[Example: Reporting quarterly sales performance]\n\n【Target Audience】\n[Example: Management team]\n\n【Tone & Atmosphere】\nObjective, concise, and data-driven.\n\n【Expected Output】\n- Executive Summary\n- Analysis of Key KPIs\n- Issues and Improvement Plans\n- Outlook for the Next Term",
     "category": "Text Generation",
     "tags": [
-      "資料作成",
-      "報告書",
-      "分析"
+      "Materials",
+      "Report",
+      "Analysis"
     ],
     "tools": [
       {
@@ -212,14 +212,14 @@
   },
   {
     "id": 9,
-    "title": "SEOブログ記事",
+    "title": "SEO Blog Post",
     "image": "images/prompt_09.png",
-    "prompt": "【AIへの役割】\nあなたは「月間100万PVを達成した経験を持つSEOコンテンツストラテジスト」です。\n検索上位を獲得し、読者の課題を解決する高品質なブログ記事を作成します。\n\n【ターゲットキーワード】\n・メインキーワード: [*メインキーワード（例: 在宅ワーク 効率化）]\n・関連キーワード: [関連KW（例: テレワーク/集中力/時間管理）]\n・検索意図: [*検索意図（例: 在宅ワークの生産性を上げる方法を知りたい）]\n\n【ターゲット読者】\n・ペルソナ: [*ターゲット（例: 在宅勤務を始めたばかりの30代会社員）]\n・読者の悩み: [悩み（例: 家だと集中できない/仕事とプライベートの境界が曖昧）]\n・読者が得たい結果: [望む結果（例: 自宅でもオフィス並みの集中力を発揮したい）]\n\n【記事仕様】\n・想定文字数: [文字数（選択: 1500-2000字/2000-3000字/3000-5000字）]\n・トーン: [トーン（選択: 親しみやすい/専門的/権威的）]\n・独自性: [差別化ポイント（例: 実体験ベース/データ引用/専門家監修）]\n\n【競合との差別化】\n・参考にする競合記事: [競合URL（任意）]\n・差別化ポイント: [差別化（例: より具体的なステップ/最新情報/図解付き）]\n\n【トーン・雰囲気】\n親しみやすく実用的、読者の悩みに寄り添う\n\n【禁止事項】\n・キーワードの過剰使用をしない\n・根拠のない主張をしない\n・検索意図を無視した内容にしない\n\n【期待するアウトプット】\n・SEO最適化されたタイトル（H1）\n・メタディスクリプション（120-160字）\n・見出し構成（H2, H3）\n・本文（指定文字数）\n・CTAの提案\n・内部リンク候補",
+    "prompt": "【Role for AI】\nYou are an \"SEO Content Strategist\" with experience in achieving 1 million monthly PVs.\nYou will create a high-quality blog post that ranks high in search results and solves user problems.\n\n【Target Keywords】\n- Main Keyword: [*Main Keyword (e.g., Improving Work from Home Efficiency)]\n- Related Keywords: [Related KWs (e.g., Remote work / Concentration / Time management)]\n- Search Intent: [*Search Intent (e.g., Wants to know how to increase productivity at home)]\n\n【Target Reader】\n- Persona: [*Target (e.g., 30s office worker who just started working from home)]\n- Problems: [Pain points (e.g., Cannot focus at home / Line between work and private life is blurred)]\n- Desired Result: [Desired outcome (e.g., Want to achieve office-level concentration at home)]\n\n【Article Specs】\n- Expected Length: [Length (Options: 1500-2000 words / 2000-3000 words / 3000-5000 words)]\n- Tone: [Tone (Options: Friendly / Professional / Authoritative)]\n- Uniqueness: [Differentiation (e.g., Based on real experience / Data citations / Expert supervision)]\n\n【Competitive Advantage】\n- Competitor Reference: [Competitor URL (Optional)]\n- Differentiation Points: [Differentiation (e.g., More specific steps / Latest info / With diagrams)]\n\n【Tone & Atmosphere】\nFriendly and practical, empathizing with the reader's problems.\n\n【Constraints】\n- Do not overuse keywords.\n- Do not make groundless claims.\n- Do not ignore the search intent.\n\n【Expected Output】\n- SEO Optimized Title (H1)\n- Meta Description (120-160 characters)\n- Outline (H2, H3 headings)\n- Body Text (Specified length)\n- Proposed Call to Action (CTA)\n- Internal Linking Suggestions",
     "category": "Text Generation",
     "tags": [
-      "ブログ",
+      "Blog",
       "SEO",
-      "コンテンツ"
+      "Content"
     ],
     "tools": [
       {
@@ -239,14 +239,14 @@
   },
   {
     "id": 10,
-    "title": "SNS投稿文作成",
+    "title": "Social Media Post Creation",
     "image": "images/prompt_10.png",
-    "prompt": "【AIへの役割】\nあなたは「フォロワー10万人以上のアカウントを複数運用してきたSNSマーケティング専門家」です。\nエンゲージメントを最大化し、目的達成に直結するSNS投稿文を作成します。\n\n【投稿目的】\n・目的: [*投稿目的（例: 新製品の認知拡大/イベント集客/ブランディング/キャンペーン告知）]\n・投稿するプラットフォーム: [*プラットフォーム（選択: Instagram/X(Twitter)/Facebook/LinkedIn/TikTok）]\n・ゴール: [ゴール（例: サイト訪問/フォロー増加/エンゲージメント獲得）]\n\n【商品/サービス情報】\n・名前: [*商品サービス名（例: AIプロンプト集/オンライン講座/新作コスメ）]\n・特徴・強み: [特徴（例: 業界初/限定100名/送料無料）]\n・URL: [リンクURL（任意）]\n\n【ターゲット】\n・ターゲット層: [ターゲット（例: 20-30代女性/ビジネスパーソン/クリエイター）]\n・ターゲットの興味関心: [興味関心（例: 美容/副業/効率化）]\n\n【トーン・スタイル】\n・トーン: [トーン（選択: カジュアル/フォーマル/ユーモア/インスピレーショナル）]\n・絵文字使用: [絵文字（選択: 多め/適度/控えめ/なし）]\n・ハッシュタグ数: [ハッシュタグ数（選択: 5個以内/10個程度/最大限）]\n\n【禁止事項】\n・過度な売り込み感を出さない\n・プラットフォームのガイドライン違反をしない\n・読みにくい長文にしない\n\n【期待するアウトプット】\n・投稿本文（プラットフォーム最適化済み）\n・ハッシュタグ（関連性・人気度考慮）\n・投稿最適時間の提案\n・画像/動画の構成アイデア\n・リプライ用テンプレート",
+    "prompt": "【Role for AI】\nYou are an \"SNS Marketing Specialist\" who has managed multiple accounts with over 100k followers.\nYou will create social media posts that maximize engagement and directly lead to goal achievement.\n\n【Post Objective】\n- Objective: [*Objective (e.g., Brand awareness for new product / Event recruitment / Campaign announcement)]\n- Platform: [*Platform (Options: Instagram / X(Twitter) / Facebook / LinkedIn / TikTok)]\n- Goal: [Goal (e.g., Site visits / Follower growth / Engagement)]\n\n【Product/Service Info】\n- Name: [*Product/Service Name (e.g., AI Prompt Collection / Online Course / New Cosmetics)]\n- Features/Strengths: [Features (e.g., Industry-first / Limited to 100 people / Free shipping)]\n- URL: [Link URL (Optional)]\n\n【Target Audience】\n- Target Demographic: [Target (e.g., 20s-30s women / Business professionals / Creators)]\n- Interests: [Interests (e.g., Beauty / Side hustle / Efficiency)]\n\n【Tone & Style】\n- Tone: [Tone (Options: Casual / Formal / Humorous / Inspirational)]\n- Emoji Usage: [Emojis (Options: Many / Moderate / Low / None)]\n- Hashtags: [Count (Options: Within 5 / About 10 / Maximum)]\n\n【Constraints】\n- Do not make it look too salesy.\n- Do not violate platform guidelines.\n- Do not write excessively long, unreadable text.\n\n【Expected Output】\n- Post Body (Platform-optimized)\n- Hashtags (Considering relevance and popularity)\n- Suggested Posting Time\n- Image/Video Composition Ideas\n- Templates for Replies",
     "category": "Text Generation",
     "tags": [
       "SNS",
-      "マーケティング",
-      "投稿"
+      "Marketing",
+      "Post"
     ],
     "tools": [
       {
@@ -266,14 +266,14 @@
   },
   {
     "id": 11,
-    "title": "キャラクターデザイン（ファンタジー）",
+    "title": "Character Design (Fantasy)",
     "image": "images/prompt_11.png",
-    "prompt": "【AIへの役割】\nあなたは「ゲーム・アニメ業界で活躍するコンセプトアーティスト」です。\n魅力的でオリジナリティ溢れるファンタジーキャラクターをデザインします。\n\n【キャラクター基本設定】\n・種族: [*種族（例: エルフ/人間/獣人/ドワーフ/ドラゴン人）]\n・職業/クラス: [*職業（例: 魔法使い/戦士/盗賊/聖職者/錬金術師）]\n・性別・年齢: [*性別年齢（例: 女性・20代/男性・30代/中性的・不詳）]\n\n【性格・背景】\n・性格: [性格（例: 勇敢/神秘的/陽気/冷徹/優しい）]\n・背景ストーリー: [背景（例: 王国を追われた姫/古代魔法の継承者）]\n\n【ビジュアル詳細】\n・髪色/髪型: [髪（例: 銀髪ロング/黒髪ショート/赤髪編み込み）]\n・目の色/特徴: [目（例: 青く輝く瞳/異眼/傷跡）]\n・服装/装備: [服装（例: 華やかなローブ/重厚な鎧/軽装レザー）]\n\n【アートスタイル】\n・スタイル: [*スタイル（選択: アニメ風/写実的/セルシェード/水彩風/ピクセルアート）]\n・構図: [構図（例: 全身立ち絵/バストアップ/アクションポーズ）]\n\n【サンプルプロンプト】\nfemale elf mage, long silver hair, glowing blue eyes, ornate robe, holding magical staff, forest background, fantasy art style, highly detailed, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"Concept Artist\" active in the game and anime industry.\nYou will design attractive and highly original fantasy characters.\n\n【Basic Character Setup】\n- Race: [*Race (e.g., Elf / Human / Beastkin / Dwarf / Dragonkin)]\n- Class: [*Class (e.g., Mage / Warrior / Thief / Priest / Alchemist)]\n- Gender/Age: [*Gender/Age (e.g., Female, 20s / Male, 30s / Non-binary, unknown)]\n\n【Personality/Background】\n- Personality: [Personality (e.g., Brave / Mysterious / Cheerful / Cold / Kind)]\n- Background Story: [Background (e.g., Princess exiled from kingdom / Inheritor of ancient magic)]\n\n【Visual Details】\n- Hair Color/Style: [Hair (e.g., Long silver hair / Short black hair / Red braided hair)]\n- Eye Color/Feature: [Eyes (e.g., Glowing blue eyes / Heterochromia / Scar)]\n- Clothing/Equipment: [Outfit (e.g., Ornate robe / Heavy armor / Light leather gear)]\n\n【Art Style】\n- Style: [*Style (Options: Anime / Realistic / Cell-shaded / Watercolor / Pixel Art)]\n- Composition: [Composition (e.g., Full-body standing / Bust-up / Action pose)]\n\n【Sample Prompt】\nfemale elf mage, long silver hair, glowing blue eyes, ornate robe, holding magical staff, forest background, fantasy art style, highly detailed, 8k\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "キャラクター",
-      "ファンタジー",
-      "ゲーム"
+      "Character",
+      "Fantasy",
+      "Game"
     ],
     "tools": [
       {
@@ -293,14 +293,14 @@
   },
   {
     "id": 12,
-    "title": "キャラクターデザイン（現代）",
+    "title": "Character Design (Modern)",
     "image": "images/prompt_12.png",
-    "prompt": "【AIへの役割】\nあなたは「広告・ゲーム業界で活躍するキャラクターデザイナー」です。\n現代設定の魅力的なオリジナルキャラクターをデザインします。\n\n【キャラクター基本設定】\n・職業/役割: [*職業（例: 学生/会社員/アーティスト/起業家/インフルエンサー）]\n・性別・年齢: [*性別年齢（例: 女性・20代/男性・30代）]\n・国籍/民族: [国籍（例: 日本人/多国籍/アジア系）]\n\n【ファッション・スタイル】\n・服装スタイル: [*ファッション（選択: カジュアル/ストリート/フォーマル/スポーティ/モード）]\n・特徴的なアイテム: [アイテム（例: メガネ/腕時計/ヘッドホン/バッグ）]\n・カラーパレット: [カラー（例: モノトーン/パステル/ビビッド）]\n\n【表情・ポーズ】\n・表情: [表情（例: 自信満々の笑顔/クールな表情/優しい微笑み）]\n・ポーズ: [ポーズ（例: 腕組み/歩いている/スマホを見ている）]\n\n【アートスタイル】\n・スタイル: [*スタイル（選択: リアル調/イラスト調/漫画風/3DCG風）]\n・背景: [背景（例: 都会の街並み/オフィス/カフェ/白バック）]\n\n【サンプルプロンプト】\nyoung japanese businessman, modern suit, confident smile, city background, professional photograph style, cinematic lighting\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"Character Designer\" active in the advertising and game industry.\nYou will design attractive original characters with a modern setting.\n\n【Basic Character Setup】\n- Occupation/Role: [*Occupation (e.g., Student / Office worker / Artist / Entrepreneur / Influencer)]\n- Gender/Age: [*Gender/Age (e.g., Female, 20s / Male, 30s)]\n- Nationality/Ethnicity: [Nationality (e.g., Japanese / Multi-national / Asian)]\n\n【Fashion & Style】\n- Fashion Style: [*Fashion (Options: Casual / Street / Formal / Sporty / Mode)]\n- Signature Item: [Item (e.g., Glasses / Wristwatch / Headphones / Bag)]\n- Color Palette: [Colors (e.g., Monotone / Pastel / Vivid)]\n\n【Expression & Pose】\n- Expression: [Expression (e.g., Confident smile / Cool expression / Gentle smile)]\n- Pose: [Pose (e.g., Crossing arms / Walking / Looking at smartphone)]\n\n【Art Style】\n- Style: [*Style (Options: Realistic / Illustration / Manga / 3DCG)]\n- Background: [Background (e.g., Urban cityscape / Office / Cafe / White background)]\n\n【Sample Prompt】\nyoung japanese businessman, modern suit, confident smile, city background, professional photograph style, cinematic lighting\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "キャラクター",
-      "現代",
-      "リアル"
+      "Character",
+      "Modern",
+      "Realistic"
     ],
     "tools": [
       {
@@ -320,14 +320,14 @@
   },
   {
     "id": 13,
-    "title": "風景イラスト（自然）",
+    "title": "Landscape Illustration (Nature)",
     "image": "images/prompt_13.png",
-    "prompt": "【AIへの役割】\nあなたは「自然風景を専門とするデジタルアーティスト」です。\n壮大で美しい自然風景のイラストや背景素材を作成します。\n\n【シーン設定】\n・場所: [*場所（例: 山岳/海岸/森林/草原/湖/砂漠/滝）]\n・時間帯: [*時間帯（選択: 朝焼け/昼間/夕暮れ/夜/マジックアワー）]\n・季節: [季節（選択: 春/夏/秋/冬）]\n・天気: [天気（選択: 晴れ/曇り/雨/雪/霧/嵐）]\n\n【ビジュアルスタイル】\n・アートスタイル: [*スタイル（選択: 写真リアル/油絵風/ジブリ風/印象派/水彩画風）]\n・カラートーン: [トーン（例: 暖色系/寒色系/パステル/ビビッド）]\n・ライティング: [光（例: ゴールデンアワー/月光/神秘的な光/ドラマティック）]\n\n【構図・詳細】\n・視点: [視点（例: パノラマ/見下ろし/見上げ/目線の高さ）]\n・アスペクト比: [比率（選択: 16:9/4:3/1:1/縦長）]\n\n【サンプルプロンプト】\nbreathtaking mountain landscape, sunset, golden hour lighting, snow-capped peaks, pine forest, lake reflection, oil painting style, 8k resolution",
+    "prompt": "【Role for AI】\nYou are a \"Digital Artist\" specializing in natural landscapes.\nYou will create grand and beautiful natural landscape illustrations or background assets.\n\n【Scene Setup】\n- Location: [*Location (e.g., Mountains / Beach / Forest / Meadow / Lake / Desert / Waterfall)]\n- Time of Day: [*Time (Options: Sunrise / Daytime / Sunset / Night / Magic Hour)]\n- Season: [Season (Options: Spring / Summer / Autumn / Winter)]\n- Weather: [Weather (Options: Sunny / Cloudy / Rainy / Snowy / Foggy / Stormy)]\n\n【Visual Style】\n- Art Style: [*Style (Options: Photorealistic / Oil painting / Ghibli-esque / Impressionist / Watercolor)]\n- Color Tone: [Tone (e.g., Warm / Cool / Pastel / Vivid)]\n- Lighting: [Lighting (e.g., Golden hour / Moonlight / Ethereal light / Dramatic)]\n\n【Composition & Details】\n- Perspective: [Perspective (e.g., Panorama / Bird's-eye view / Low-angle / Eye-level)]\n- Aspect Ratio: [Ratio (Options: 16:9 / 4:3 / 1:1 / Vertical)]\n\n【Sample Prompt】\nbreathtaking mountain landscape, sunset, golden hour lighting, snow-capped peaks, pine forest, lake reflection, oil painting style, 8k resolution",
     "category": "Image Generation",
     "tags": [
-      "風景",
-      "自然",
-      "背景"
+      "Landscape",
+      "Nature",
+      "Background"
     ],
     "tools": [
       {
@@ -347,14 +347,14 @@
   },
   {
     "id": 14,
-    "title": "風景イラスト（都市）",
+    "title": "Landscape Illustration (Urban)",
     "image": "images/prompt_14.png",
-    "prompt": "【AIへの役割】\nあなたは「近未来から歴史的な街並みまで描き分けるコンセプトアーティスト」です。\n設定に基づき、物語の舞台となるような没入感のある都市景観を描きます。\n\n【シーン設定】\n・都市タイプ: [*都市タイプ（例: ネオン輝くサイバーパンク/霧に包まれたヴィクトリア朝/緑と融合した未来都市）]\n・時間帯・天気: [*時間帯（例: 雨の降る真夜中/夕暮れのマジックアワー/快晴の昼下がり）]\n・視点: [視点（選択: 上空からの俯瞰/ストリートレベル/超高層ビルの屋上から/ドローン視点）]\n\n【ビジュアルスタイル】\n・画風: [*スタイル（選択: 写実的(フォトリアル)/油絵風/アニメ背景風/水彩画風/3Dレンダリング）]\n・雰囲気: [雰囲気（例: 退廃的/希望に満ちた/不気味/活気ある）]\n\n【サンプルプロンプト】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"Concept Artist\" capable of depicting everything from futuristic to historical cityscapes.\nYou will paint immersive urban landscapes that serve as settings for stories.\n\n【Scene Setup】\n- City Type: [*Type (e.g., Neon-lit cyberpunk / Foggy Victorian / Futuristic city integrated with nature)]\n- Time/Weather: [*Time (e.g., Rainy midnight / Magic hour at dusk / Sunny afternoon)]\n- Perspective: [Perspective (Options: Bird's-eye view / Street level / From high-rise rooftop / Drone view)]\n\n【Visual Style】\n- Art Style: [*Style (Options: Photorealistic / Oil painting / Anime background / Watercolor / 3D render)]\n- Atmosphere: [Vibe (e.g., Decadent / Hopeful / Eerie / Vibrant)]\n\n【Sample Prompt】\nfuturistic tokyo cityscape, neon lights, rain, reflections on wet streets, cyberpunk aesthetic, flying cars, holographic advertisements, cinematic lighting, 8k\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "風景",
-      "都市",
-      "SF"
+      "Landscape",
+      "Urban",
+      "Sci-Fi"
     ],
     "tools": [
       {
@@ -374,14 +374,14 @@
   },
   {
     "id": 15,
-    "title": "3Dオブジェクトデザイン",
+    "title": "3D Object Design",
     "image": "images/prompt_15.png",
-    "prompt": "【AIへの役割】\nあなたは「ハイエンドなゲームアセットやプロダクトを手がける3Dモデラー」です。\nディテールまでこだわった、実在感のある3Dオブジェクトデザインを生成します。\n\n【オブジェクト情報】\n・種類: [*オブジェクト種類（例: 伝説の聖剣/最新型ドローン/アンティークな宝箱/魔法のポーション）]\n・詳細・特徴: [*詳細（例: 黄金の装飾と青い宝石/錆びついた金属の質感/流線型の未来的デザイン）]\n\n【ビジュアル・レンダリング】\n・スタイル: [*スタイル（選択: フォトリアル/ローポリゴン/スタイライズド(ゲーム風)/手描きテクスチャ）]\n・ライティング: [ライティング（例: スタジオ照明/ドラマチックな陰影/自然光/発光エフェクト）]\n・背景: [背景（選択: 透明背景/単色背景/ぼかした背景/使用シーン）]\n\n【サンプルプロンプト】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"3D Modeler\" creating high-end game assets and products.\nYou will generate realistic 3D object designs with attention to detail.\n\n【Object Info】\n- Type: [*Object Type (e.g., Legendary Holy Sword / Latest model drone / Antique treasure chest / Magic potion)]\n- Details/Features: [*Details (e.g., Gold ornaments and blue gems / Rusted metal texture / Streamlined futuristic design)]\n\n【Visual & Rendering】\n- Style: [*Style (Options: Photorealistic / Low-poly / Stylized (Game-like) / Hand-painted texture)]\n- Lighting: [Lighting (e.g., Studio lighting / Dramatic shadows / Natural light / Glow effects)]\n- Background: [Background (Options: Transparent / Solid color / Blurred / In-use scene)]\n\n【Sample Prompt】\nmedieval fantasy sword, intricate gold handle design, glowing blue runes, 3D render, studio lighting, transparent background, octane render, highly detailed\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
       "3D",
-      "オブジェクト",
-      "ゲーム"
+      "Object",
+      "Game"
     ],
     "tools": [
       {
@@ -401,14 +401,14 @@
   },
   {
     "id": 16,
-    "title": "ロゴデザイン",
+    "title": "Logo Design",
     "image": "images/prompt_16.png",
-    "prompt": "【AIへの役割】\nあなたは「ブランドの価値を形にするロゴデザイナー」です。\n記憶に残り、ブランドイメージを的確に伝えるプロフェッショナルなロゴを制作します。\n\n【ブランド情報】\n・名前: [*ブランド名（例: TechNova / Cafe Sakura / EcoLife）]\n・業種: [*業種（例:ITスタートアップ/オーガニックカフェ/環境保護団体）]\n・ブランドイメージ: [*イメージ（例: 革新的でクール/親しみやすく温かい/信頼感と伝統）]\n\n【デザイン要望】\n・ロゴタイプ: [タイプ（選択: シンボルマーク＋文字/文字のみ(ロゴタイプ)/抽象的なシンボル/マスコット）]\n・カラスタイル: [カラー（例: ブルーのグラデーション/モノクロ/パステルカラー/ゴールドと黒）]\n・デザインスタイル: [スタイル（選択: ミニマル・フラット/手書き風・ヴィンテージ/未来的・幾何学的）]\n\n【サンプルプロンプト】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"Logo Designer\" who shapes brand value.\nYou will create professional logos that are memorable and accurately convey the brand image.\n\n【Brand Information】\n- Name: [*Brand Name (e.g., TechNova / Cafe Sakura / EcoLife)]\n- Industry: [*Industry (e.g., IT startup / Organic cafe / Environmental NGO)]\n- Brand Image: [*Image (e.g., Innovative and cool / Friendly and warm / Trust and tradition)]\n\n【Design Requests】\n- Logo Type: [Type (Options: Symbol + Text / Logotype only / Abstract symbol / Mascot)]\n- Color Style: [Color (e.g., Blue gradient / Monochrome / Pastel / Gold and black)]\n- Design Style: [Style (Options: Minimalist & Flat / Vintage & Handwritten / Futuristic & Geometric)]\n\n【Sample Prompt】\nminimalist tech company logo, abstract geometric shape, blue gradient, modern typography, clean lines, vector style, white background\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "ロゴ",
-      "デザイン",
-      "ブランディング"
+      "Logo",
+      "Design",
+      "Branding"
     ],
     "tools": [
       {
@@ -428,14 +428,14 @@
   },
   {
     "id": 17,
-    "title": "アイコンセット",
+    "title": "Icon Set",
     "image": "images/prompt_17.png",
-    "prompt": "【AIへの役割】\nあなたは「Fortune 500企業のUI/UXデザインを手がけてきた、アイコン・ビジュアルシステムの専門家」です。\n統一感があり、視認性が高く、ブランドアイデンティティを強化するアイコンセットを作成するためのプロンプトを生成します。\n\n【プロジェクト概要】\n・使用用途: [*使用用途（例: モバイルアプリ/Webサイト/プレゼン資料/社内ツール）]\n・テーマ・業界: [*テーマ（例: ヘルスケア/金融/教育/ECサイト/テック系）]\n・必要なアイコン: [*必要なアイコン（例: ホーム、設定、ユーザー、検索、通知、カート）]\n\n【デザイン仕様】\n・スタイル: [スタイル（選択: 線画アウトライン/塗りつぶしソリッド/デュオトーン/グラデーション/3D風）]\n・線の太さ: [線の太さ（選択: 細い（1px）/標準（2px）/太い（3px以上））]\n・角の処理: [角の処理（選択: 丸角/直角/混合）]\n・サイズ展開: [サイズ（例: 24px, 48px, 96px）]\n\n【カラー設定】\n・メインカラー: [メインカラー（例: #3B82F6/ブランドブルー）]\n・使用カラー数: [カラー数（選択: 単色/2色/多色）]\n・背景対応: [背景（選択: 透明/白背景/ダーク対応）]\n\n【出力形式】\n・ファイル形式: [形式（選択: SVG/PNG/両方）]\n・表現形式: [表現（選択: 個別アイコン/グリッド一覧/両方）]\n\n【トーン・雰囲気】\nプロフェッショナルで統一感があり、直感的に理解できるデザイン\n\n【禁止事項】\n・アイコン間でスタイルがバラバラにならない\n・装飾過多で視認性を損なわない\n・サイズ変更時に崩れるデザインは避ける\n\n【期待するアウトプット】\n・Midjourney / Stable Diffusion用プロンプト\n・スタイルガイドの要点\n・カラーバリエーションの提案\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are an \"Icon & Visual System Specialist\" who has worked on UI/UX designs for Fortune 500 companies.\nYou will generate prompts for creating icon sets that are consistent, highly visible, and strengthen brand identity.\n\n【Project Overview】\n- Usage: [*Usage (e.g., Mobile app / Website / Presentation materials / Internal tool)]\n- Theme/Industry: [*Theme (e.g., Healthcare / Finance / Education / E-commerce / Tech)]\n- Required Icons: [*Icons (e.g., Home, Settings, User, Search, Notification, Cart)]\n\n【Design Specs】\n- Style: [Style (Options: Outline / Solid / Duotone / Gradient / 3D-like)]\n- Stroke Width: [Stroke (Options: Thin (1px) / Standard (2px) / Thick (3px+))]\n- Corner Style: [Corners (Options: Rounded / Sharp / Mixed)]\n- Sizes: [Sizes (e.g., 24px, 48px, 96px)]\n\n【Color Settings】\n- Main Color: [Color (e.g., #3B82F6 / Brand Blue)]\n- Number of Colors: [Color count (Options: Single / Duo-tone / Multi-color)]\n- Background: [Background (Options: Transparent / White / Dark mode compatible)]\n\n【Expected Output】\n- Prompts for Midjourney / Stable Diffusion\n- Style guide key points\n- Color variation suggestions\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "アイコン",
+      "Icon",
       "UI",
-      "Webデザイン"
+      "Web Design"
     ],
     "tools": [
       {
@@ -455,14 +455,14 @@
   },
   {
     "id": 18,
-    "title": "食品・料理写真風",
+    "title": "Food & Culinary Photography",
     "image": "images/prompt_18.png",
-    "prompt": "【AIへの役割】\nあなたは「シズル感のある料理写真を撮影するプロのフードフォトグラファー」です。\nメニューやSNSで映える、食欲をそそる高品質な料理画像を生成します。\n\n【料理情報】\n・料理名: [*料理名（例: 新鮮な寿司の盛り合わせ/焼きたてのマルゲリータピザ/ベリーのパンケーキ）]\n・スタイル: [*スタイル（例: 本格和食/エレガントなフレンチ/家庭的な洋食/カフェスイーツ）]\n\n【撮影スタイル】\n・アングル: [アングル（選択: 真上(フラットレイ)/斜め45度/接写(マクロ)/ローアングル）]\n・ライティング: [ライティング（例: 自然光/窓際の間接光/スタジオライティング/ムーディな暗め）]\n・背景・演出: [背景（例: 木のテーブル/白い皿/リネンクロス/ハーブを添えて）]\n\n【サンプルプロンプト】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are a \"Professional Food Photographer\" who shoots mouth-watering culinary photos.\nYou will generate high-quality food images that look great on menus or social media.\n\n【Culinary Info】\n- Dish Name: [*Dish (e.g., Fresh sushi platter / Freshly baked Margherita pizza / Berry pancakes)]\n- Style: [*Style (e.g., Authentic Japanese / Elegant French / Homey Western / Cafe Sweets)]\n\n【Photography Style】\n- Angle: [Angle (Options: Top-down (Flat lay) / 45-degree angle / Close-up (Macro) / Low-angle)]\n- Lighting: [Lighting (e.g., Natural light / Indirect window light / Studio lighting / Moody and dark)]\n- Background/Props: [Background (e.g., Wooden table / White plate / Linen cloth / Garnished with herbs)]\n\n【Sample Prompt】\nprofessional food photography, fresh sushi platter, wooden board, chopsticks, natural lighting, shallow depth of field, magazine quality, 8k\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "食品",
-      "写真",
-      "広告"
+      "Food",
+      "Photography",
+      "Advertising"
     ],
     "tools": [
       {
@@ -482,14 +482,14 @@
   },
   {
     "id": 19,
-    "title": "インテリアデザイン",
+    "title": "Interior Design",
     "image": "images/prompt_19.png",
-    "prompt": "【AIへの役割】\nあなたは「洗練された空間を提案するインテリアデザイナー」です。\n住む人の理想を叶える、おしゃれで快適な空間デザインを視覚化します。\n\n【空間情報】\n・部屋タイプ: [*部屋タイプ（例: リラックスできるリビング/集中できる書斎/モダンなキッチン/寝室）]\n・デザインスタイル: [*スタイル（選択: モダン/北欧風/和モダン/インダストリアル/ミニマリスト）]\n・広さ・開放感: [広さ（例: 20畳の広々とした空間/コンパクトで機能的/高い天井）]\n\n【インテリア要素】\n・主な家具: [家具（例: グレーのソファ/無垢材のデスク/キングサイズベッド）]\n・カラーパレット: [カラー（例: ホワイトとベージュ基調/モノトーン/アースカラー）]\n・素材感: [素材（例: 木材/コンクリート/ベルベット/観葉植物多め）]\n\n【サンプルプロンプト】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are an \"Interior Designer\" proposing sophisticated spaces.\nYou will visualize stylish and comfortable space designs that fulfill the ideal living situation.\n\n【Space Info】\n- Room Type: [*Room (e.g., Relaxing living room / Focused study / Modern kitchen / Bedroom)]\n- Design Style: [*Style (Options: Modern / Scandinavian / Japanese-Modern / Industrial / Minimalist)]\n- Area/Spaciousness: [Spaciousness (e.g., 20 tatami wide open space / Compact and functional / High ceilings)]\n\n【Interior Elements】\n- Main Furniture: [Furniture (e.g., Grey sofa / Solid wood desk / King size bed)]\n- Color Palette: [Colors (e.g., White and beige base / Monotone / Earth colors)]\n- Textures/Materials: [Materials (e.g., Wood / Concrete / Velvet / Plenty of indoor plants)]\n\n【Sample Prompt】\nmodern japanese living room interior, minimalist design, natural wood furniture, large windows, indoor plants, warm lighting, architectural photography, 8k\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "インテリア",
-      "建築",
-      "デザイン"
+      "Interior",
+      "Architecture",
+      "Design"
     ],
     "tools": [
       {
@@ -509,14 +509,14 @@
   },
   {
     "id": 20,
-    "title": "アニメ風イラスト",
+    "title": "Anime Style Illustration",
     "image": "images/prompt_20.png",
-    "prompt": "【AIへの役割】\nあなたは「人気のアニメやライトノベルを手がけるイラストレーター」です。\nキャラクターの魅力を最大限に引き出した、高品質なアニメ風イラストを作成します。\n\n【キャラクター設定】\n・キャラクタータイプ: [*キャラ（例: 制服を着た魔法少女/サイバーパンクな少年/ファンタジーの姫/ちびキャラ）]\n・表情: [*表情（例: 満面の笑顔/クールな流し目/照れた顔/泣き顔）]\n・髪型・色: [髪（例: ピンクのロングヘア/黒髪ショート/銀髪）]\n\n【ビジュアル詳細】\n・服装: [服装（例: 学校の制服/バトルスーツ/私服パーカー/着物）]\n・ポーズ・構図: [ポーズ（例: ピースサイン/武器を構える/振り返り/バストアップ）]\n・背景: [背景（例: 桜並木/放課後の教室/異世界の森/抽象的なグラデーション）]\n\n【アートスタイル】\n・作画スタイル: [*スタイル（選択: 京アニ風/ufotable風/水彩画風/厚塗り/90年代セル画風）]\n\n【サンプルプロンプト】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed\n\n【命令】\n上記の設定に基づいて、高品質な画像を生成してください。",
+    "prompt": "【Role for AI】\nYou are an \"Illustrator\" working on popular anime and light novels.\nYou will create high-quality anime-style illustrations that maximize the character's charm.\n\n【Character Setup】\n- Character Type: [*Character (e.g., Magical girl in uniform / Cyberpunk boy / Fantasy princess / Chibi character)]\n- Expression: [*Expression (e.g., Broad smile / Cool sidelong glance / Blushing / Crying)]\n- Hair Style/Color: [Hair (e.g., Long pink hair / Short black hair / Silver hair)]\n\n【Visual Details】\n- Outfit: [Outfit (e.g., School uniform / Battle suit / Casual hoodie / Kimono)]\n- Pose/Composition: [Pose (e.g., Peace sign / Wielding a weapon / Looking back / Bust-up)]\n- Background: [Background (e.g., Stroll under cherry blossoms / After-school classroom / Otherworldly forest / Abstract gradient)]\n\n【Art Style】\n- Art Style: [*Style (Options: Kyoto Animation style / ufotable style / Watercolor style / Painted / 90s Cel-shaded style)]\n\n【Sample Prompt】\nanime girl illustration, long pink hair, school uniform, cherry blossom background, cute smile, soft lighting, nijijourney style, high quality, detailed\n\n【Command】\nPlease generate a high-quality image based on the settings above.",
     "category": "Image Generation",
     "tags": [
-      "アニメ",
-      "イラスト",
-      "キャラクター"
+      "Anime",
+      "Illustration",
+      "Character"
     ],
     "tools": [
       {
@@ -536,14 +536,14 @@
   },
   {
     "id": 21,
-    "title": "Python: データ分析スクリプト",
+    "title": "Python: Data Analysis Script",
     "image": "images/prompt_21.png",
-    "prompt": "【AIへの役割】\nあなたは経験豊富なPythonエンジニアです。\n\n【目的・背景】\n[例: CSVファイルの売上データを分析し、月次レポートを自動生成したい]\n\n【開発環境】\nPython: [例: 3.11]\n使用ライブラリ: [例: pandas, matplotlib]\n\n【入力データ】\n[例: sales.csv - 日付、商品名、売上金額、個数のカラムを含む]\n\n【期待するアウトプット】\n・コード全体（コメント付き）\n・月別売上集計\n・グラフ出力（棒グラフ、折れ線グラフ）\n・エラーハンドリング",
+    "prompt": "【Role for AI】\nYou are an experienced Python Engineer.\n\n【Objective/Background】\n[Example: Analyze sales data from a CSV file and automatically generate a monthly report]\n\n【Development Environment】\nPython: [Example: 3.11]\nLibraries: [Example: pandas, matplotlib]\n\n【Input Data】\n[Example: sales.csv - including columns for date, product name, sales amount, and quantity]\n\n【Expected Output】\n- Complete code (with comments)\n- Monthly sales aggregation\n- Graph output (Bar chart, line chart)\n- Error handling",
     "category": "Coding",
     "tags": [
       "Python",
-      "データ分析",
-      "自動化"
+      "Data Analysis",
+      "Automation"
     ],
     "tools": [
       {
@@ -562,14 +562,14 @@
   },
   {
     "id": 22,
-    "title": "Python: Webスクレイピング",
+    "title": "Python: Web Scraping",
     "image": "images/prompt_22.png",
-    "prompt": "【AIへの役割】\nあなたはWebスクレイピングの専門家です。\n\n【目的・背景】\n[例: ニュースサイトから最新記事のタイトルとURLを取得したい]\n\n【対象サイト】\n[例: 一般的なニュースサイト（robots.txtを遵守）]\n\n【技術要件】\nライブラリ: [例: requests, BeautifulSoup]\n注意点: [例: レート制限、User-Agent設定]\n\n【期待するアウトプット】\n・スクレイピングコード\n・データ保存（CSV/JSON）\n・エラー処理\n・法的注意事項のコメント",
+    "prompt": "【Role for AI】\nYou are a Web Scraping Expert.\n\n【Objective/Background】\n[Example: Retrieve latest article titles and URLs from a news site]\n\n【Target Site】\n[Example: A general news site (adhering to robots.txt)]\n\n【Technical Requirements】\nLibraries: [Example: requests, BeautifulSoup]\nConsiderations: [Example: Rate limiting, User-Agent settings]\n\n【Expected Output】\n- Scraping code\n- Data storage (CSV/JSON)\n- Error handling\n- Legal notice comments",
     "category": "Coding",
     "tags": [
       "Python",
-      "スクレイピング",
-      "自動化"
+      "Scraping",
+      "Automation"
     ],
     "tools": [
       {
@@ -588,14 +588,14 @@
   },
   {
     "id": 23,
-    "title": "JavaScript: REST API実装",
+    "title": "JavaScript: REST API Implementation",
     "image": "images/prompt_23.png",
-    "prompt": "【AIへの役割】\nあなたはNode.js/Express開発者です。\n\n【目的・背景】\n[例: ユーザー管理のCRUD APIを構築したい]\n\n【技術スタック】\nフレームワーク: [例: Express.js]\nデータベース: [例: MongoDB, PostgreSQL]\n\n【エンドポイント】\n[例: GET /users, POST /users, PUT /users/:id, DELETE /users/:id]\n\n【期待するアウトプット】\n・ルーティング設定\n・コントローラー\n・バリデーション\n・エラーハンドリング\n・Swagger/OpenAPIドキュメント",
+    "prompt": "【Role for AI】\nYou are a Node.js/Express Developer.\n\n【Objective/Background】\n[Example: Build a CRUD API for user management]\n\n【Tech Stack】\nFramework: [Example: Express.js]\nDatabase: [Example: MongoDB, PostgreSQL]\n\n【Endpoints】\n[Example: GET /users, POST /users, PUT /users/:id, DELETE /users/:id]\n\n【Expected Output】\n- Routing setup\n- Controllers\n- Validation\n- Error handling\n- Swagger/OpenAPI documentation",
     "category": "Coding",
     "tags": [
       "JavaScript",
       "API",
-      "バックエンド"
+      "Backend"
     ],
     "tools": [
       {
@@ -614,13 +614,13 @@
   },
   {
     "id": 24,
-    "title": "React: UIコンポーネント",
+    "title": "React: UI Components",
     "image": "images/prompt_24.png",
-    "prompt": "【AIへの役割】\nあなたはReactのフロントエンド専門家です。\n\n【目的・背景】\n[例: 再利用可能なモーダルコンポーネントを作成したい]\n\n【技術スタック】\nReact: [例: 18.x]\nスタイリング: [例: CSS Modules, Tailwind]\n状態管理: [例: useState, Zustand]\n\n【コンポーネント要件】\nprops: [例: isOpen, onClose, title, children]\n機能: [例: ESCキーで閉じる、外側クリックで閉じる]\n\n【期待するアウトプット】\n・TypeScript対応のコンポーネント\n・スタイル\n・使用例（ストーリー）\n・アクセシビリティ対応",
+    "prompt": "【Role for AI】\nYou are a React Frontend Specialist.\n\n【Objective/Background】\n[Example: Create a reusable modal component]\n\n【Tech Stack】\nReact: [Example: 18.x]\nStyling: [Example: CSS Modules, Tailwind]\nState Management: [Example: useState, Zustand]\n\n【Component Requirements】\nProps: [Example: isOpen, onClose, title, children]\nFeatures: [Example: Close on ESC key, Close on backdrop click]\n\n【Expected Output】\n- TypeScript-supported component\n- Styling lines\n- Usage example (Story)\n- Accessibility considerations",
     "category": "Coding",
     "tags": [
       "React",
-      "フロントエンド",
+      "Frontend",
       "UI"
     ],
     "tools": [
@@ -640,14 +640,14 @@
   },
   {
     "id": 25,
-    "title": "SQL: 複雑なクエリ作成",
+    "title": "SQL: Complex Query Creation",
     "image": "images/prompt_25.png",
-    "prompt": "【AIへの役割】\nあなたは「大規模データベースのパフォーマンスチューニングを専門とするシニアデータベースエンジニア」です。\n効率的で可読性が高く、パフォーマンスを考慮したSQLクエリを作成します。\n\n【データベース情報】\n・DBMS: [*DBMS（選択: PostgreSQL/MySQL/SQL Server/Oracle/SQLite）]\n・テーブル構造: [*テーブル構造（例: customers(id, name, email, created_at) / orders(id, customer_id, total, order_date)）]\n・データ量目安: [データ量（例: customers: 10万件、orders: 100万件）]\n\n【クエリ目的】\n・やりたいこと: [*クエリ目的（例: 過去1年で10万円以上購入した顧客を抽出/月別売上集計/リピート率算出）]\n・抽出条件: [条件（例: 期間/金額/ステータス）]\n・並び順: [並び順（例: 金額降順/日付新しい順）]\n\n【出力要件】\n・必要な列: [出力列（例: 顧客名、累計購入金額、最終購入日）]\n・グループ化: [グループ化（例: 顧客別/月別/カテゴリ別）]\n・集計関数: [集計（例: SUM/COUNT/AVG/MAX）]\n\n【パフォーマンス要件】\n・想定実行時間: [実行時間（例: 1秒以内/数秒OK/バッチ処理）]\n・インデックス考慮: [インデックス（選択: 提案必要/既存インデックス情報あり）]\n\n【禁止事項】\n・N+1問題を発生させない\n・不要なカラムをSELECTしない\n・パフォーマンスを無視したクエリにしない\n\n【期待するアウトプット】\n・SQLクエリ（コメント付き）\n・インデックス推奨\n・実行計画の解説\n・パフォーマンス最適化のヒント\n・代替アプローチ（該当する場合）\n\n【命令】\n上記の設定に基づいて、実行可能なコードを出力してください。",
+    "prompt": "【Role for AI】\nYou are a \"Senior Database Engineer\" specializing in performance tuning for large-scale databases.\nYou will create efficient, readable, and performance-conscious SQL queries.\n\n【Database Information】\n- DBMS: [*DBMS (Options: PostgreSQL / MySQL / SQL Server / Oracle / SQLite)]\n- Table Structure: [*Structure (e.g., customers(id, name, email, created_at) / orders(id, customer_id, total, order_date))]\n- Data Scale Estimate: [Scale (e.g., 100k customers, 1M orders)]\n\n【Query Objective】\n- Goal: [*Objective (e.g., Extract customers who purchased over $1,000 in the last year / Monthly sales aggregation / Repeat rate calculation)]\n- Criteria: [Criteria (e.g., Period / Amount / Status)]\n- Order: [Order (e.g., Amount descending / Newest first)]\n\n【Output Requirements】\n- Required Columns: [Output columns (e.g., Customer name, cumulative purchase amount, last purchase date)]\n- Grouping: [Grouping (e.g., By customer / By month / By category)]\n- Aggregations: [Functions (e.g., SUM / COUNT / AVG / MAX)]\n\n【Performance Requirements】\n- Expected Execution Time: [Time (e.g., Within 1s / A few seconds / Batch processing)]\n- Index Considerations: [Index (Options: Suggestions needed / Existing index info provided)]\n\n【Constraints】\n- Do not cause N+1 problems.\n- Do not SELECT unnecessary columns.\n- Do not provide queries that ignore performance.\n\n【Expected Output】\n- SQL query (with comments)\n- Recommended indexes\n- Explanation of the execution plan\n- Performance optimization tips\n- Alternative approaches (if applicable)\n\n【Command】\nPlease output executable code based on the settings above.",
     "category": "Coding",
     "tags": [
       "SQL",
-      "データベース",
-      "分析"
+      "Database",
+      "Analysis"
     ],
     "tools": [
       {
@@ -667,14 +667,14 @@
   },
   {
     "id": 26,
-    "title": "HTML/CSS: レスポンシブレイアウト",
+    "title": "HTML/CSS: Responsive Layout",
     "image": "images/prompt_26.png",
-    "prompt": "【AIへの役割】\nあなたは「数百のWebサイトを手がけてきたシニアフロントエンドエンジニア」です。\nモダンで保守性が高く、アクセシブルなレスポンシブレイアウトを設計します。\n\n【ページ概要】\n・ページの種類: [*ページ種類（例: ランディングページ/コーポレートサイト/ブログ/ECサイト）]\n・目的: [*目的（例: サービス紹介/商品販売/リード獲得）]\n・参考サイト: [参考URL（任意）]\n\n【レイアウト構成】\n・セクション構成: [*セクション構成（例: ヘッダー/ヒーロー/特徴セクション/料金表/FAQ/フッター）]\n・カード数/カラム数: [カラム（例: 3カラム→2カラム→1カラム）]\n\n【レスポンシブ設定】\n・ブレイクポイント: [BP（選択: 768px,1024px/576px,768px,992px/カスタム）]\n・モバイルファースト: [MF（選択: はい/いいえ）]\n\n【デザイン仕様】\n・プライマリカラー: [プライマリ（例: #3B82F6）]\n・セカンダリカラー: [セカンダリ（例: #10B981）]\n・フォント: [フォント（例: Noto Sans JP/Inter）]\n・角丸: [角丸（選択: なし/小(4px)/中(8px)/大(16px)）]\n\n【技術要件】\n・CSS手法: [CSS手法（選択: Vanilla CSS/CSS Modules/Tailwind/Sass）]\n・レイアウト技術: [レイアウト（選択: Flexbox/CSS Grid/組み合わせ）]\n\n【禁止事項】\n・非セマンティックなHTMLを使わない\n・アクセシビリティを無視しない\n・ハードコーディングされた幅を使わない\n\n【期待するアウトプット】\n・セマンティックHTML\n・モダンCSS（Flexbox/Grid）\n・レスポンシブ対応\n・コメント付きコード\n・アクセシビリティ考慮（ARIA属性等）\n\n【命令】\n上記の設定に基づいて、実行可能なコードを出力してください。",
+    "prompt": "【Role for AI】\nYou are a \"Senior Frontend Engineer\" who has worked on hundreds of websites.\nYou will design modern, maintainable, and accessible responsive layouts.\n\n【Page Overview】\n- Page Type: [*Type (e.g., Landing page / Corporate site / Blog / E-commerce)]\n- Objective: [*Objective (e.g., Service intro / Product sales / Lead generation)]\n- Reference Site: [Reference URL (Optional)]\n\n【Layout Structure】\n- Section Composition: [*Composition (e.g., Header / Hero / Features / Pricing / FAQ / Footer)]\n- Card/Column Count: [Columns (e.g., 3 cols -> 2 cols -> 1 col)]\n\n【Responsive Settings】\n- Breakpoints: [BP (Options: 768px, 1024px / 576px, 768px, 992px / Custom)]\n- Mobile First: [MF (Options: Yes / No)]\n\n【Design Specs】\n- Primary Color: [Primary (e.g., #3B82F6)]\n- Secondary Color: [Secondary (e.g., #10B981)]\n- Font: [Font (e.g., Noto Sans JP / Inter)]\n- Corner Radius: [Radius (Options: None / Small (4px) / Medium (8px) / Large (16px))]\n\n【Technical Requirements】\n- CSS Approach: [Approach (Options: Vanilla CSS / CSS Modules / Tailwind / Sass)]\n- Layout Tech: [Layout (Options: Flexbox / CSS Grid / Both)]\n\n【Constraints】\n- Do not use non-semantic HTML.\n- Do not ignore accessibility.\n- Do not use hard-coded widths.\n\n【Expected Output】\n- Semantic HTML\n- Modern CSS (Flexbox/Grid)\n- Responsive behavior\n- Code with comments\n- Accessibility considerations (ARIA attributes, etc.)\n\n【Command】\nPlease output executable code based on the settings above.",
     "category": "Coding",
     "tags": [
       "HTML",
       "CSS",
-      "Webサイト"
+      "Website"
     ],
     "tools": [
       {
@@ -694,14 +694,14 @@
   },
   {
     "id": 27,
-    "title": "TypeScript: 型定義設計",
+    "title": "TypeScript: Type Definition Design",
     "image": "images/prompt_27.png",
-    "prompt": "【AIへの役割】\nあなたは「大規模TypeScriptプロジェクトのアーキテクチャ設計を専門とする型システムエキスパート」です。\n型安全性が高く、保守性と拡張性に優れた型定義を設計します。\n\n【プロジェクト概要】\n・ドメイン: [*ドメイン（例: ECサイト/SNS/管理画面/API/ライブラリ）]\n・主要エンティティ: [*主要エンティティ（例: User, Product, Order, Cart, Payment）]\n・エンティティ間の関係: [関係性（例: UserはOrdersを持つ/OrderはProductsを含む）]\n\n【技術要件】\n・TypeScriptバージョン: [TSバージョン（例: 5.x/4.x）]\n・フレームワーク: [*フレームワーク（例: React/Next.js/Node.js/Express/NestJS）]\n・スキーマ検証: [スキーマ検証（選択: Zod/Yup/io-ts/不要）]\n\n【型設計要件】\n・ユーティリティ型活用: [ユーティリティ型（例: Partial/Pick/Omit/Record）]\n・ジェネリクス: [ジェネリクス（例: APIレスポンス型/Pagination型）]\n・Union/Intersection: [Union使用（例: ステータス管理/エラー型）]\n\n【ユースケース】\n・主な操作: [操作（例: CRUD/検索/認証/決済）]\n・APIとの連携: [API連携（選択: REST/GraphQL/tRPC）]\n\n【禁止事項】\n・anyを使用しない\n・過度に複雑な型にしない\n・型定義の重複を避ける\n\n【期待するアウトプット】\n・interface/type定義（コメント付き）\n・型ガード関数\n・Zodスキーマ（必要な場合）\n・使用例（コンポーネント/API呼び出し）\n・型定義のベストプラクティス解説\n\n【命令】\n上記の設定に基づいて、実行可能なコードを出力してください。",
+    "prompt": "【Role for AI】\nYou are a \"Type System Expert\" specializing in architectural design for large-scale TypeScript projects.\nYou will design type definitions with high type safety, maintainability, and extensibility.\n\n【Project Overview】\n- Domain: [*Domain (e.g., E-commerce / SNS / Admin panel / API / Library)]\n- Main Entities: [*Entities (e.g., User, Product, Order, Cart, Payment)]\n- Entity Relationships: [Relationships (e.g., User has Orders / Order contains Products)]\n\n【Technical Requirements】\n- TypeScript Version: [TS version (e.g., 5.x / 4.x)]\n- Framework: [*Framework (e.g., React / Next.js / Node.js / Express / NestJS)]\n- Schema Validation: [Validation (Options: Zod / Yup / io-ts / None)]\n\n【Type Design Requirements】\n- Utility Types Usage: [Utility (e.g., Partial / Pick / Omit / Record)]\n- Generics: [Generics (e.g., API response types / Pagination types)]\n- Union/Intersection: [Unions (e.g., Status management / Error types)]\n\n【Use Cases】\n- Main Operations: [Operations (e.g., CRUD / Search / Auth / Payment)]\n- API Integration: [Integration (Options: REST / GraphQL / tRPC)]\n\n【Constraints】\n- Do not use 'any'.\n- Do not make types overly complex.\n- Avoid duplicate type definitions.\n\n【Expected Output】\n- Interface/Type definitions (with comments)\n- Type guard functions\n- Zod schemas (if needed)\n- Usage examples (Components / API calls)\n- Explanation of type definition best practices\n\n【Command】\nPlease output executable code based on the settings above.",
     "category": "Coding",
     "tags": [
       "TypeScript",
-      "型定義",
-      "設計"
+      "Type Definition",
+      "Design"
     ],
     "tools": [
       {
@@ -721,14 +721,14 @@
   },
   {
     "id": 28,
-    "title": "Git: ワークフロー設計",
+    "title": "Git: Workflow Design",
     "image": "images/prompt_28.png",
-    "prompt": "【AIへの役割】\nあなたはDevOpsエンジニアです。\n\n【目的・背景】\n[例: チーム開発のブランチ戦略を確立したい]\n\n【チーム規模】\n人数: [例: 5名]\nリリース頻度: [例: 週1回]\n\n【要件】\nブランチモデル: [例: Git Flow, GitHub Flow]\nCI/CD: [例: GitHub Actions連携]\n\n【期待するアウトプット】\n・ブランチ命名規則\n・マージ戦略\n・コミットメッセージ規約\n・プルリクエストテンプレート",
+    "prompt": "【Role for AI】\nYou are a DevOps Engineer.\n\n【Objective/Background】\n[Example: Establish a branch strategy for team development]\n\n【Team Scale】\nPersonnel: [Example: 5 people]\nRelease Frequency: [Example: Once per week]\n\n【Requirements】\nBranching Model: [Example: Git Flow, GitHub Flow]\nCI/CD: [Example: GitHub Actions integration]\n\n【Expected Output】\n- Branch naming conventions\n- Merge strategies\n- Commit message conventions\n- Pull request templates",
     "category": "Coding",
     "tags": [
       "Git",
       "DevOps",
-      "チーム開発"
+      "Team Development"
     ],
     "tools": [
       {
@@ -747,14 +747,14 @@
   },
   {
     "id": 29,
-    "title": "Lo-Fi BGM（作業用）",
+    "title": "Lo-Fi BGM (For Work/Study)",
     "image": "images/prompt_29_lofi.png",
-    "prompt": "【AIへの役割】\nあなたは「Lo-Fi Hip Hopのトラックメイカー」です。\n作業や勉強に集中できるチルアウトなBGMを作曲します。\n\n【楽曲の雰囲気・ムード】\n・ムード: [*ムード（例: 穏やか/ノスタルジック/雨の日/真夜中/カフェの昼下がり）]\n・感情: [感情（例: リラックス/集中/センチメンタル/心地よい孤独）]\n\n【楽器・サウンド構成】\n・メイン楽器: [*メイン楽器（例: ジャズピアノ/エレピ/アコースティックギター/サックス）]\n・ビート・リズム: [ビート（例: ゆったりしたHip Hopビート/ブーンバップ/少しヨレたドラム）]\n・環境音・ノイズ: [環境音（例: レコードノイズ/雨音/ページをめくる音/街の喧騒）]\n\n【楽曲仕様】\n・BPM: [BPM（例: 70-85/60-70/80-90）]\n・長さ: [長さ（例: 3分/2分ループ）]\n\n【サンプルプロンプト】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere\n\n【命令】\n上記の設定に基づいて、楽曲（または音声）を生成してください。（音楽生成機能がない場合は、音楽生成AI用の詳細なプロンプトを出力してください）",
+    "prompt": "【Role for AI】\nYou are a \"Lo-Fi Hip Hop Trackmaker.\"\nYou will compose chillout BGM that helps focus on work or study.\n\n【Mood & Atmosphere】\n- Mood: [*Mood (e.g., Calm / Nostalgic / Rainy day / Midnight / Cafe afternoon)]\n- Emotion: [Emotion (e.g., Relaxed / Focused / Sentimental / Pleasant solitude)]\n\n【Instrument & Sound Composition】\n- Main Instrument: [*Main instrument (e.g., Jazz piano / Electric piano / Acoustic guitar / Saxophone)]\n- Beat & Rhythm: [Beat (e.g., Chill Hip Hop beat / Boom bap / Slightly swung drums)]\n- Ambience & Noise: [Ambience (e.g., Vinyl crackle / Rain sound / Page turning / City bustle)]\n\n【Music Specs】\n- BPM: [BPM (e.g., 70-85 / 60-70 / 80-90)]\n- Length: [Length (e.g., 3 minutes / 2-minute loop)]\n\n【Sample Prompt】\nlo-fi hip hop, chill piano melody, soft vinyl crackle, rain ambience, slow tempo 75bpm, study focus, warm atmosphere\n\n【Command】\nPlease generate music (or audio) based on the settings above. (If the tool has no music generation feature, please output a detailed prompt for music generation AI.)",
     "category": "Audio/Music Generation",
     "tags": [
       "Lo-Fi",
-      "作業用",
-      "BGM"
+      "Work BGM",
+      "Focus"
     ],
     "tools": [
       {
@@ -770,13 +770,13 @@
   },
   {
     "id": 30,
-    "title": "ゲームBGM（バトル）",
+    "title": "Game BGM (Battle)",
     "image": "images/prompt_30_game.png",
-    "prompt": "【AIへの役割】\nあなたは「ベテランゲームコンポーザー」です。\nプレイヤーの心拍数を上げ、戦闘の緊張感を高めるバトルBGMを作曲します。\n\n【バトルのシチュエーション】\n・ジャンル: [*ジャンル（例: RPG/アクション/FPS/ホラー/格闘ゲーム）]\n・場面: [*場面（例: ボス戦/ラストバトル/雑魚敵との戦闘/タイムリミット）]\n・雰囲気: [雰囲気（例: 壮大/激しい/絶望的/疾走感/神秘的）]\n\n【楽器・サウンド構成】\n・メイン楽器: [*メイン楽器（例: フルオーケストラ/エレキギター/シンセサイザー/和楽器）]\n・リズム隊: [リズム（例: 激しいドラム/ティンパニ/高速ブレイクビーツ）]\n\n【楽曲仕様】\n・BPM: [BPM（例: 140-160/180以上/120）]\n・ループ対応: [ループ（選択: はい/いいえ）]\n\n【サンプルプロンプト】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready\n\n【命令】\n上記の設定に基づいて、楽曲（または音声）を生成してください。（音楽生成機能がない場合は、音楽生成AI用の詳細なプロンプトを出力してください）",
+    "prompt": "【Role for AI】\nYou are a \"Veteran Game Composer.\"\nYou will compose battle BGM that increases the player's heart rate and heightens the tension of combat.\n\n【Battle Situation】\n- Genre: [*Genre (e.g., RPG / Action / FPS / Horror / Fighting game)]\n- Scene: [*Scene (e.g., Boss fight / Final battle / Regular enemy encounter / Time limit)]\n- Atmosphere: [Mood (e.g., Epic / Intense / Desperate / Fast-paced / Mysterious)]\n\n【Instrument & Sound Composition】\n- Main Instrument: [*Main instrument (e.g., Full orchestra / Electric guitar / Synthesizer / Traditional Japanese instruments)]\n- Rhythm Section: [Rhythm (e.g., Intense drums / Timpani / Fast breakbeats)]\n\n【Music Specs】\n- BPM: [BPM (e.g., 140-160 / 180+ / 120)]\n- Loop: [Loop (Options: Yes / No)]\n\n【Sample Prompt】\nepic orchestral battle music, intense percussion, brass fanfare, electric guitar riffs, fast tempo 160bpm, boss fight theme, loop ready\n\n【Command】\nPlease generate music (or audio) based on the settings above. (If the tool has no music generation feature, please output a detailed prompt for music generation AI.)",
     "category": "Audio/Music Generation",
     "tags": [
-      "ゲーム",
-      "バトル",
+      "Game",
+      "Battle",
       "BGM"
     ],
     "tools": [
@@ -793,14 +793,14 @@
   },
   {
     "id": 31,
-    "title": "ポッドキャスト用ジングル",
+    "title": "Podcast Jingle",
     "image": "images/prompt_31_podcast.png",
-    "prompt": "【目的・背景】\n番組のオープニング/エンディング用\n\n【ムード・雰囲気】\n[例: 明るい、プロフェッショナル、カジュアル]\n\n【番組ジャンル】\n[例: ビジネス、エンタメ、教育]\n\n【テンポ・長さ】\n長さ: [例: 5-10秒]\nBPM: [例: 110-130]\n\n【サンプルプロンプト】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
+    "prompt": "【Objective/Background】\nFor opening or ending of a show.\n\n【Mood & Atmosphere】\n[Example: Bright, professional, casual]\n\n【Show Genre】\n[Example: Business, Entertainment, Education]\n\n【Tempo & Length】\nLength: [Example: 5-10 seconds]\nBPM: [Example: 110-130]\n\n【Sample Prompt】\nupbeat podcast intro jingle, modern synth melody, corporate feel, professional, 8 seconds, catchy hook, fade out ready",
     "category": "Audio/Music Generation",
     "tags": [
-      "ポッドキャスト",
-      "ジングル",
-      "短尺"
+      "Podcast",
+      "Jingle",
+      "Show Intro"
     ],
     "tools": [
       {
@@ -815,36 +815,33 @@
   },
   {
     "id": 32,
-    "title": "リラクゼーション音楽",
-    "image": "images/prompt_32_relax.png",
-    "prompt": "【目的・背景】\n瞑想、ヨガ、睡眠導入用\n\n【ムード・雰囲気】\n[例: 穏やか、神秘的、自然]\n\n【楽器・サウンド】\nメイン: [例: シンセパッド、ピアノ]\n環境音: [例: 波の音、鳥の声、風]\n\n【テンポ・長さ】\nBPM: [例: 50-70]\n長さ: [例: 10分]\n\n【サンプルプロンプト】\nambient meditation music, soft synthesizer pads, gentle piano, nature sounds, very slow tempo 55bpm, calming, healing frequencies, 432hz",
+    "title": "Natural Environment Sounds (Healing)",
+    "image": "images/prompt_32_nature.png",
+    "prompt": "【Role for AI】\nYou are a \"Sound Designer\" specializing in high-fidelity environmental recording.\nYou will generate immersive natural ambient sounds for relaxation or healing.\n\n【Scene Setup】\n- Location: [*Location (e.g., Deep forest / Quiet beach / Near a mountain stream / Rainy day balcony)]\n- Time: [Time (e.g., Early morning / Midnight / Sunset)]\n\n【Key Sound Elements】\n- Primary Sound: [*Primary sound (e.g., Birds chirping / Rippling waves / Bubbling stream / Steady rain)]\n- Secondary Sounds: [Background sounds (e.g., Wind whistling through trees / Distant thunder / Crickets chirping)]\n\n【Audio Specs】\n- Sound Quality: [Fidelity (e.g., Binaural / 3D audio feel / High-resolution clean recording)]\n- Duration: [Length (e.g., 30 minutes / Endless loop)]\n\n【Sample Prompt】\nimmersive forest ambience, birds chirping in spring, soft wind rustling leaves, high fidelity, 3D soundscape, binaural recording\n\n【Command】\nPlease generate the audio based on the settings above.",
     "category": "Audio/Music Generation",
     "tags": [
-      "リラクゼーション",
-      "瞑想",
-      "睡眠"
+      "Environment",
+      "Healing",
+      "Ambience"
     ],
     "tools": [
       {
-        "name": "Suno AI",
-        "url": "https://suno.com/"
-      },
-      {
-        "name": "Udio",
-        "url": "https://www.udio.com/"
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io/"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 33,
-    "title": "製品プロモーション動画",
+    "title": "Cinematic Movie Trailer (Video)",
     "image": "images/prompt_33.png",
-    "prompt": "【AIへの役割】\nあなたは「数々のヒット商品CMを手がけてきた動画プロデューサー」です。\n製品の魅力を最大限に引き出すプロモーション動画のコンセプトを作成します。\n\n【製品情報】\n・製品名: [*製品名（例: スマートウォッチ/ワイヤレスイヤホン/美容家電）]\n・主要な特徴: [*特徴（例: 健康管理機能/ノイズキャンセリング/肌に優しい）]\n・価格帯: [価格（例: 3万円台/高価格帯/中価格帯）]\n\n【ターゲット】\n・ターゲット層: [*ターゲット（例: 20-30代の健康志向ビジネスパーソン）]\n・訴求ポイント: [訴求（例: 時短/高品質/コスパ）]\n\n【動画仕様】\n・長さ: [長さ（選択: 15秒/30秒/60秒/90秒）]\n・アスペクト比: [比率（選択: 16:9(横)/9:16(縦)/1:1(正方形)）]\n・配信先: [配信先（選択: Instagram/YouTube/TikTok/TV CM/Web広告）]\n\n【ビジュアルスタイル】\n・トーン: [トーン（選択: クリーン/ミニマル/ダイナミック/高級感/親しみやすい）]\n・カラー: [カラー（例: ブランドカラー/モノトーン/パステル）]\n\n【シーン構成】\n・イントロ: [イントロ（例: 問題提起/日常シーン/製品クローズアップ）]\n・本編: [本編（例: 製品登場/機能紹介/使用シーン）]\n・アウトロ: [アウトロ（例: ロゴ/CTA/キャッチコピー）]\n\n【サンプルプロンプト（シーン別）】\nScene 1: close-up of smartwatch on wrist, morning sunlight, person checking health stats\nScene 2: dynamic transition, product features appearing, sleek animation\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
+    "prompt": "【Role for AI】\nYou are a \"Master Film Director & Cinematographer.\"\nYou will generate a cinematic video that looks like a trailer for a high-budget Hollywood movie.\n\n【Scene Setup】\n- Genre: [*Genre (e.g., Sci-Fi Epic / Dark Fantasy / Action Thriller / Historical Drama)]\n- Scene Details: [*Subject & Action (e.g., A massive spaceship entering a wormhole / A knight facing a dragon on a volcano / A car chase in a neon-lit future city)]\n- Time & Weather: [Conditions (e.g., Rainy night / Golden hour sunset / Stormy desert)]\n\n【Visual Specs】\n- Cinematic Style: [Style (Options: IMAX Photorealistic / Noir style / 35mm film grain / Hyper-realistic 3D render)]\n- Camera Work: [Camera (e.g., Slow tracking shot / Dramatic zoom / Drone flyover / Handheld shaky cam)]\n- Lighting: [Lighting (e.g., Volumetric lighting / High contrast chiaroscuro / Neon glow / Natural sunlight)]\n\n【Technical Details】\n- Resolution: [Resolution (Options: 4K / 8K)]\n- Frame Rate: [FPS (Options: 24fps (Cinematic) / 60fps (Smooth))]\n- Duration: [Length (e.g., 4 seconds / 10 seconds)]\n\n【Sample Prompt】\ncinematic movie trailer, massive futuristic city, flying vehicles, heavy rain, neon lights, slow tracking shot, ultra photorealistic, 8k, Imax style\n\n【Command】\nPlease generate a high-quality video based on the settings above.",
     "category": "Video Generation",
     "tags": [
-      "プロモーション",
-      "広告",
-      "SNS"
+      "Movie",
+      "Trailer",
+      "Cinematic"
     ],
     "tools": [
       {
@@ -852,26 +849,26 @@
         "url": "https://runwayml.com/"
       },
       {
-        "name": "Sora",
-        "url": "https://openai.com/sora"
+        "name": "Luma Dream Machine",
+        "url": "https://lumalabs.ai/dream-machine"
       },
       {
-        "name": "Gemini",
-        "url": "https://gemini.google.com/"
+        "name": "Pika",
+        "url": "https://pika.art/"
       }
     ],
     "hasForm": true
   },
   {
     "id": 34,
-    "title": "YouTube動画オープニング",
+    "title": "SNS Short Video (Nature/Vertical)",
     "image": "images/prompt_34.png",
-    "prompt": "【AIへの役割】\nあなたは「人気YouTuberのブランディングを手がけてきた映像クリエイター」です。\n印象的で覚えやすいチャンネルイントロ動画を制作します。\n\n【チャンネル情報】\n・チャンネル名/ロゴ: [*チャンネル名（例: TechReview/ゲーム実況ch/料理Vlog）]\n・ジャンル: [*ジャンル（選択: テック系/Vlog/ゲーム実況/料理/美容/ビジネス/エンタメ）]\n・チャンネルカラー: [カラー（例: 青/赤/緑/ブランドカラー）]\n\n【イントロの雰囲気】\n・トーン: [*トーン（選択: クール/ポップ/プロフェッショナル/カジュアル/ミニマル）]\n・テンポ: [テンポ（選択: 速い/普通/ゆっくり）]\n\n【動画仕様】\n・長さ: [長さ（選択: 3秒/5秒/10秒）]\n・解像度: [解像度（選択: 1080p/4K）]\n\n【ビジュアル要素】\n・モーション: [モーション（例: ロゴアニメーション/パーティクル/グリッチ効果）]\n・エフェクト: [エフェクト（例: ネオングロー/3D回転/フェードイン）]\n・サウンド: [サウンド（例: ジングル連動/効果音/ビート）]\n\n【サンプルプロンプト】\ndynamic youtube intro animation, logo reveal, particle effects, tech style, blue neon glow, fast paced, 5 seconds, 4k\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
+    "prompt": "【Role for AI】\nYou are a \"Professional Content Creator\" specializing in viral travel and nature videos.\nYou will generate beautiful vertical videos (9:16) optimized for Instagram Reels, TikTok, or YouTube Shorts.\n\n【Video Concept】\n- Location: [*Location (e.g., Turquoise ocean in Maldives / Lush forest with sunbeams / Snowy mountain peak)]\n- Main Action: [Action (e.g., Slow waves crashing / Walking through a flower field / Camera rising over a cliff)]\n\n【Visual Specs】\n- Style: [*Vibe (Options: Dreamy & Airy / Vibrant & High-saturation / Moody & Cinematic / Documentary style)]\n- Aspect Ratio: [*Ratio (Options: 9:16 (Vertical) / 16:9 (Horizontal))] \n- Speed: [Speed (e.g., Real-time / Slow-motion / Time-lapse)]\n\n【Sample Prompt】\nstunning vertical drone shot of a tropical beach, crystal clear turquoise water, white sand, slow waves, vibrant colors, 4k, cinematic, TikTok style\n\n【Command】\nPlease generate a high-quality vertical video based on the settings above.",
     "category": "Video Generation",
     "tags": [
-      "YouTube",
-      "オープニング",
-      "ブランディング"
+      "SNS",
+      "Reels",
+      "Nature"
     ],
     "tools": [
       {
@@ -879,26 +876,26 @@
         "url": "https://runwayml.com/"
       },
       {
-        "name": "Sora",
-        "url": "https://openai.com/sora"
+        "name": "Luma Dream Machine",
+        "url": "https://lumalabs.ai/dream-machine"
       },
       {
-        "name": "Gemini",
-        "url": "https://gemini.google.com/"
+        "name": "Pika",
+        "url": "https://pika.art/"
       }
     ],
     "hasForm": true
   },
   {
     "id": 35,
-    "title": "ドキュメンタリー風映像",
+    "title": "3D Animation (Character/Cute)",
     "image": "images/prompt_35.png",
-    "prompt": "【目的・背景】\nストーリーテリング、インタビュー素材\n\n【テーマ】\n[例: 職人の仕事、地域の歴史、自然環境]\n\n【ビジュアルスタイル】\nトーン: [例: シネマティック、ノスタルジック]\nカラーグレード: [例: フィルム風、ナチュラル]\n\n【カメラワーク】\n[例: ゆっくりしたパン、クローズアップ、インタビューショット]\n\n【サンプルプロンプト】\ndocumentary style footage, craftsman hands working, warm color grading, shallow depth of field, slow cinematic movements, natural lighting, film grain",
+    "prompt": "【Role for AI】\nYou are a \"Top-tier 3D Animator\" from a studio like Pixar or Disney.\nYou will generate cute, expressive 3D character animations with high-end rendering quality.\n\n【Character Detail】\n- Character: [*Subject (e.g., A fluffy baby dragon / A curious robot / A talking cat wearing a hat)]\n- Action: [*Movement (e.g., Waving at camera / Jumping with joy / Sneaking around / Eating a cookie)]\n\n【Art & Tech Specs】\n- Art Style: [*Style (Options: 3D Pixar-style / Stylized 3DCG / Claymation style / Toy-like texture)]\n- Lighting: [Lighting (e.g., Warm studio lighting / Magical glow / Soft rim lighting)]\n- Background: [Background (e.g., Cozy bedroom / Colorful garden / Simple solid background)]\n\n【Sample Prompt】\ncute fluffy baby dragon, breathing tiny smoke rings, big expressive eyes, 3D Pixar-style animation, warm lighting, highly detailed fur, 4k\n\n【Command】\nPlease generate a high-quality 3D animation based on the settings above.",
     "category": "Video Generation",
     "tags": [
-      "ドキュメンタリー",
-      "撮影",
-      "映像"
+      "Animation",
+      "3D",
+      "Cute"
     ],
     "tools": [
       {
@@ -906,25 +903,22 @@
         "url": "https://runwayml.com/"
       },
       {
-        "name": "Sora",
-        "url": "https://openai.com/sora"
-      },
-      {
-        "name": "Gemini",
-        "url": "https://gemini.google.com/"
+        "name": "Luma Dream Machine",
+        "url": "https://lumalabs.ai/dream-machine"
       }
-    ]
+    ],
+    "hasForm": true
   },
   {
     "id": 36,
-    "title": "SNS用ショート動画",
+    "title": "Product Promotional Video",
     "image": "images/prompt_36.png",
-    "prompt": "【AIへの役割】\nあなたは「バズるショート動画を多数制作してきたSNSクリエイター」です。\nTikTok/Reels/Shortsで高エンゲージメントを獲得する動画を企画します。\n\n【コンテンツ情報】\n・コンテンツタイプ: [*タイプ（選択: ハウツー/Before After/トレンド/商品紹介/日常Vlog/チャレンジ）]\n・テーマ: [*テーマ（例: メイク術/料理レシピ/ライフハック/ファッション）]\n・配信プラットフォーム: [プラットフォーム（選択: TikTok/Instagram Reels/YouTube Shorts）]\n\n【ターゲット】\n・ターゲット層: [ターゲット（選択: Z世代/ミレニアル世代/30代以上）]\n・ペルソナ: [ペルソナ（例: 美容に興味ある20代女性/効率化好きビジネスマン）]\n\n【動画仕様】\n・長さ: [長さ（選択: 15秒/30秒/60秒）]\n・アスペクト比: 9:16（縦動画）\n\n【演出スタイル】\n・フック（最初の3秒）: [*フック（例: 衝撃的な結果を見せる/質問を投げかける/数字を出す）]\n・テンポ: [テンポ（選択: 速いカット/ゆったり/緩急つける）]\n・テキスト: [テキスト（選択: 字幕オーバーレイあり/なし/ポイントのみ）]\n・BGM: [BGM（例: トレンド曲/オリジナル/ボイスオーバー）]\n\n【サンプルプロンプト】\nvertical video, fast cuts, trendy transitions, bright colorful aesthetic, gen-z style, dynamic camera movement, text overlays, engaging hook\n\n【命令】\n上記の設定に基づいて、動画を生成してください。（動画生成機能がない場合は、動画生成AI用の詳細なプロンプトを出力してください）",
+    "prompt": "【Role for AI】\nYou are a \"Professional Product Videographer & Motion Designer.\"\nYou will generate a high-end commercial video that showcases a product's features and beauty.\n\n【Product Details】\n- Product: [*Item (e.g., Premium smartphone / Luxury watch / New model sneakers / High-end perfume)]\n- Visual Highlights: [*Action (e.g., Liquid splashes around the bottle / Close-up of gear movements / Sleek metallic reflections / Exploding into particles)]\n\n【Visual Specs】\n- Aesthetic: [*Style (Options: Minimalist & Clean / High-tech Futurism / Luxury & Elegant / Urban & Edgy)]\n- Lighting: [Lighting (e.g., Cinematic rim light / Dynamic strobe lights / Soft diffuse lighting)]\n- Backround: [Background (e.g., Floating in void / Modern architectural space / Concept studio)]\n\n【Sample Prompt】\nluxury watch commercial video, slow rotation, highlighting mechanical parts, metallic reflections, soft studio lighting, high-end production, 8k\n\n【Command】\nPlease generate a high-quality promotional video based on the settings above.",
     "category": "Video Generation",
     "tags": [
-      "SNS",
-      "ショート",
-      "TikTok"
+      "Commercial",
+      "Product",
+      "Marketing"
     ],
     "tools": [
       {
@@ -932,12 +926,12 @@
         "url": "https://runwayml.com/"
       },
       {
-        "name": "Sora",
-        "url": "https://openai.com/sora"
+        "name": "Luma Dream Machine",
+        "url": "https://lumalabs.ai/dream-machine"
       },
       {
-        "name": "Gemini",
-        "url": "https://gemini.google.com/"
+        "name": "Kling AI",
+        "url": "https://klingai.com/"
       }
     ],
     "hasForm": true

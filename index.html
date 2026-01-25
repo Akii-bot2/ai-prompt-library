@@ -55,6 +55,19 @@
 </head>
 
 <body>
+    <script>
+        window.onerror = function (msg, url, line, col, error) {
+            const errorMsg = `Error: ${msg}\nLine: ${line}:${col}\nURL: ${url}`;
+            alert(errorMsg);
+
+            // Also show in a div on top of everything
+            const div = document.createElement('div');
+            div.style.cssText = 'position:fixed;top:0;left:0;width:100%;background:red;color:white;z-index:9999;padding:20px;font-size:16px;white-space:pre-wrap;';
+            div.textContent = errorMsg;
+            document.body.appendChild(div);
+            return false;
+        };
+    </script>
     <header class="header">
         <div class="container header-content">
             <h1 class="site-title" data-i18n="header.title">AIプロンプトライブラリー</h1>

@@ -57,20 +57,33 @@
 <body>
     <header class="header">
         <div class="container header-content">
-            <h1 class="site-title">AIプロンプトライブラリー</h1>
-            <p class="site-description">AI生成のためのプロンプトコレクション</p>
+            <h1 class="site-title" data-i18n="header.title">AIプロンプトライブラリー</h1>
+            <p class="site-description" data-i18n="header.description">AI生成のためのプロンプトコレクション</p>
+
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="lang-btn" aria-label="Switch Language">
+                        <i class="fa-solid fa-globe"></i> <span id="current-lang">JP</span>
+                    </button>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <button class="lang-option active" data-lang="ja">🇯🇵 日本語</button>
+                        <button class="lang-option" data-lang="en">🇺🇸 English</button>
+                    </div>
+                </div>
+            </div>
 
             <div class="filter-section">
                 <!-- Search Bar -->
                 <div class="search-container">
                     <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                    <input type="text" id="search-input" class="search-input" placeholder="プロンプトを検索...">
+                    <input type="text" id="search-input" class="search-input" placeholder="プロンプトを検索..."
+                        data-i18n-placeholder="search.placeholder">
                 </div>
 
                 <!-- Category Tabs -->
                 <div id="category-filters" class="category-filters">
                     <!-- Categories will be injected here by JS -->
-                    <button class="category-btn active" data-category="all">すべて</button>
+                    <button class="category-btn active" data-category="all" data-i18n="category.all">すべて</button>
                 </div>
 
                 <!-- Tag Pills -->
@@ -87,15 +100,17 @@
             <div class="problem-solver-card">
                 <h2 class="problem-solver-title">
                     <i class="fa-solid fa-lightbulb"></i>
-                    困っていることから探す
+                    <span data-i18n="solver.title">困っていることから探す</span>
                 </h2>
-                <p class="problem-solver-description">あなたのお悩みを入力すると、おすすめのプロンプトを3つ提案します</p>
+                <p class="problem-solver-description" data-i18n="solver.description">あなたのお悩みを入力すると、おすすめのプロンプトを3つ提案します
+                </p>
                 <div class="problem-input-container">
                     <textarea id="problem-input" class="problem-input"
-                        placeholder="例: メールの文章がうまく書けない、SNS用の画像を作りたい、データ分析を自動化したい..."></textarea>
+                        placeholder="例: メールの文章がうまく書けない、SNS用の画像を作りたい、データ分析を自動化したい..."
+                        data-i18n-placeholder="solver.placeholder"></textarea>
                     <button id="solve-btn" class="solve-btn">
                         <i class="fa-solid fa-wand-magic-sparkles"></i>
-                        おすすめを見る
+                        <span data-i18n="solver.button">おすすめを見る</span>
                     </button>
                 </div>
                 <div id="recommendations" class="recommendations-container" style="display: none;">
@@ -130,7 +145,7 @@
     <div id="onboarding-modal" class="onboarding-modal">
         <div class="onboarding-overlay"></div>
         <div class="onboarding-content">
-            <button class="onboarding-close" onclick="closeOnboarding()" aria-label="閉じる">
+            <button class="onboarding-close" onclick="closeOnboarding()" aria-label="Close">
                 <i class="fa-solid fa-xmark"></i>
             </button>
 
@@ -140,8 +155,9 @@
                     <div class="onboarding-icon">
                         <i class="fa-solid fa-wand-magic-sparkles"></i>
                     </div>
-                    <h2>AIプロンプト集へようこそ！</h2>
-                    <p>Gemini、ChatGPT、Midjourney、Suno AI などで使える<br>プロンプトテンプレートを<strong>100種類以上</strong>収録</p>
+                    <h2 data-i18n="onboarding.slide1.title">AIプロンプト集へようこそ！</h2>
+                    <p data-i18n="onboarding.slide1.desc">Gemini、ChatGPT、Midjourney、Suno AI
+                        などで使える<br>プロンプトテンプレートを<strong>100種類以上</strong>収録</p>
                 </div>
 
                 <!-- Slide 2 -->
@@ -149,8 +165,8 @@
                     <div class="onboarding-icon">
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
-                    <h2>カテゴリから探す</h2>
-                    <p>文章生成、画像生成、コーディングなど<br><strong>5つのカテゴリ</strong>からプロンプトを選択</p>
+                    <h2 data-i18n="onboarding.slide2.title">カテゴリから探す</h2>
+                    <p data-i18n="onboarding.slide2.desc">文章生成、画像生成、コーディングなど<br><strong>5つのカテゴリ</strong>からプロンプトを選択</p>
                 </div>
 
                 <!-- Slide 3 -->
@@ -158,8 +174,9 @@
                     <div class="onboarding-icon">
                         <i class="fa-solid fa-copy"></i>
                     </div>
-                    <h2>ワンタップでコピー</h2>
-                    <p>気になるプロンプトのコピーボタンをタップ<br>そのまま<strong>AIツールに貼り付け</strong>るだけ！</p>
+                    <h2 data-i18n="onboarding.slide3.title">ワンタップでコピー</h2>
+                    <p data-i18n="onboarding.slide3.desc">気になるプロンプトのコピーボタンをタップ<br>そのまま<strong>AIツールに貼り付け</strong>るだけ！
+                    </p>
                 </div>
 
                 <!-- Slide 4 -->
@@ -167,8 +184,9 @@
                     <div class="onboarding-icon">
                         <i class="fa-solid fa-edit"></i>
                     </div>
-                    <h2>入力フォームで簡単カスタマイズ</h2>
-                    <p>「✏️ 入力」ボタンがあるプロンプトは<br><strong>フォームに入力するだけ</strong>で最適なプロンプトを生成</p>
+                    <h2 data-i18n="onboarding.slide4.title">入力フォームで簡単カスタマイズ</h2>
+                    <p data-i18n="onboarding.slide4.desc">「✏️
+                        入力」ボタンがあるプロンプトは<br><strong>フォームに入力するだけ</strong>で最適なプロンプトを生成</p>
                 </div>
             </div>
 
@@ -180,9 +198,9 @@
             </div>
 
             <div class="onboarding-actions">
-                <button class="onboarding-skip" onclick="closeOnboarding()">スキップ</button>
+                <button class="onboarding-skip" onclick="closeOnboarding()" data-i18n="onboarding.skip">スキップ</button>
                 <button class="onboarding-next" id="onboarding-next" onclick="nextSlide()">
-                    次へ <i class="fa-solid fa-chevron-right"></i>
+                    <span data-i18n="onboarding.next">次へ</span> <i class="fa-solid fa-chevron-right"></i>
                 </button>
             </div>
         </div>

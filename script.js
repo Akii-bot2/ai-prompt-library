@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let activeTag = null; // null means all tags in valid scope
     let activeKeyword = '';
     let currentLang = localStorage.getItem('siteLang') || (navigator.language.startsWith('ja') ? 'ja' : 'en');
+    let favoriteIds = JSON.parse(localStorage.getItem('favoritePrompts') || '[]');
+    let showOnlyFavorites = false;
 
     // Translation Dictionary
     const translations = {
@@ -67,6 +69,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ad: {
                 toast: '✅ プロンプトをコピーしました！',
                 pr: 'PR'
+            },
+            growth: {
+                share: 'Xでシェア',
+                favorite: 'お気に入り',
+                favoriteShort: '保存',
+                favFilter: 'お気に入り済み',
+                shareText: 'AIプロンプトライブラリーで便利なプロンプトを発見！'
             }
         },
         en: {
@@ -113,6 +122,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ad: {
                 toast: '✅ Prompt copied!',
                 pr: 'Ad'
+            },
+            growth: {
+                share: 'Share on X',
+                favorite: 'Favorite',
+                favoriteShort: 'Save',
+                favFilter: 'Favorites',
+                shareText: 'Discovered a useful prompt in AI Prompt Library!'
             }
         }
     };
@@ -357,6 +373,32 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.onclick = () => handleCategoryFilter(cat, btn);
             categoryFiltersContainer.appendChild(btn);
         });
+
+        // Favorites button
+        const favBtn = document.createElement('button');
+        favBtn.className = 'category-btn fav-filter-btn';
+        if (showOnlyFavorites) favBtn.classList.add('active');
+        favBtn.innerHTML = `<i class="fa-solid fa-heart"></i> ${t.growth.favFilter}`;
+        favBtn.onclick = () => handleFavoriteFilter(favBtn);
+        categoryFiltersContainer.appendChild(favBtn);
+    }
+
+    // Handle Favorite Filter
+    function handleFavoriteFilter(clickedBtn) {
+        showOnlyFavorites = !showOnlyFavorites;
+        
+        // Update UI
+        const catButtons = categoryFiltersContainer.querySelectorAll('.category-btn');
+        catButtons.forEach(btn => btn.classList.remove('active'));
+        
+        if (showOnlyFavorites) {
+            clickedBtn.classList.add('active');
+            activeCategory = 'all'; // Reset category when showing favorites
+        } else {
+            categoryFiltersContainer.querySelector('[data-category="all"]').classList.add('active');
+        }
+
+        filterAndRenderCards();
     }
 
     // 4. Render Tag Filters based on current Category
@@ -394,9 +436,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 5. Handle Category Filter Click
     function handleCategoryFilter(category, clickedBtn) {
-        if (activeCategory === category) return; // No change
+        if (activeCategory === category && !showOnlyFavorites) return; // No change
 
         activeCategory = category;
+        showOnlyFavorites = false; // Reset favorites when category changes
         activeTag = null; // Reset tag selection when category changes
 
         // Update Category UI
@@ -431,6 +474,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 7. Filter and Render Cards logic
     function filterAndRenderCards() {
         let filtered = allPrompts;
+
+        // Apply Favorites Filter
+        if (showOnlyFavorites) {
+            filtered = filtered.filter(item => favoriteIds.includes(item.id));
+        }
 
         // Apply Category Filter
         if (activeCategory !== 'all') {
@@ -591,10 +639,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 formBadgeHtml = `<div class="form-supported-badge"><i class="fa-solid fa-sparkles"></i> ${t.form.badge}</div>`;
             }
 
+            // Growth Actions (Share & Favorite)
+            const isFav = favoriteIds.includes(item.id);
+            const favIconClass = isFav ? 'fa-solid fa-heart' : 'fa-regular fa-heart';
+            
             card.innerHTML = `
                 <div class="card-image-container">
                     ${imageHtml}
                     ${categoryBadge}
+                    <button class="fav-card-btn ${isFav ? 'active' : ''}" aria-label="Favorite" onclick="toggleFavorite(${item.id}, this)">
+                        <i class="${favIconClass}"></i>
+                    </button>
+                    <button class="share-card-btn" aria-label="Share on X" onclick="shareOnX(${item.id})">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </button>
                 </div>
                 <div class="card-content">
                     <div class="card-header">
@@ -621,6 +679,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
         cardGrid.appendChild(fragment);
     }
+
+    // 10. Growth Logic (Share & Favorite)
+    window.toggleFavorite = function(promptId, btn) {
+        const index = favoriteIds.indexOf(promptId);
+        if (index === -1) {
+            favoriteIds.push(promptId);
+            btn.classList.add('active');
+            btn.querySelector('i').className = 'fa-solid fa-heart';
+        } else {
+            favoriteIds.splice(index, 1);
+            btn.classList.remove('active');
+            btn.querySelector('i').className = 'fa-regular fa-heart';
+            
+            // If we are in favorites view, we should re-render to remove it
+            if (showOnlyFavorites) {
+                filterAndRenderCards();
+            }
+        }
+        localStorage.setItem('favoritePrompts', JSON.stringify(favoriteIds));
+
+        if (typeof gtag !== 'undefined') {
+            gtag('event', index === -1 ? 'favorite_add' : 'favorite_remove', {
+                'prompt_id': promptId
+            });
+        }
+    };
+
+    window.shareOnX = function(promptId) {
+        const prompt = allPrompts.find(p => p.id === promptId);
+        if (!prompt) return;
+
+        const t = translations[currentLang];
+        const shareText = `${t.growth.shareText}\n\n「${prompt.title}」\n#AIプロンプトライブラリー #ChatGPT #Midjourney\n`;
+        const shareUrl = window.location.href; // In production this would be deep link
+        const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+        
+        window.open(xUrl, '_blank');
+
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'share_x', {
+                'prompt_id': promptId
+            });
+        }
+    };
 
     // 9. Copy Functionality with Ad Toast
     const getAdToastConfig = (category) => {
